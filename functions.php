@@ -16,3 +16,6 @@ function seal_theme_setup() {
     register_nav_menu('footer', ' Footer Navigation');
 }
 add_action('init', 'seal_theme_setup');
+
+// Add thumbnails images to posts
+add_theme_support('post_thumbnails');
