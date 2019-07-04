@@ -33,9 +33,9 @@
                         'theme_location'  => 'main',
                         'container'       => 'div',
                         'container_id'    => 'bs4navbar',
-                        'container_class' => 'collapse navbar-collapse',
+                        'container_class' => 'collapse navbar-collapse justify-content-end',
                         'menu_id'         => false,
-                        'menu_class'      => 'navbar-nav mr-auto',
+                        'menu_class'      => 'navbar-nav',
                         'depth'           => 2,
                         'fallback_cb'     => 'bs4navwalker::fallback',
                         'walker'          => new bs4navwalker()
