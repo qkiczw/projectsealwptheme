@@ -1,1 +1,44 @@
-   
+/*remove margins and padding from left and right side of site*/
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0
+}
+
+header{
+       background-image: url(../img/header.jpg);
+    // background-attachment: fixed;
+    // background-position: 50% 50%; 
+       background-size: cover;
+       height: 100vh;
+       .nav-logo{
+           max-width: 100px;
+       }
+       .header-text{
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+           .text-boarder{
+            border: 2px solid #ffffff;
+            padding: 15px;
+            h1{
+                background-color: rgba($color: #fff, $alpha: .1);
+                color: #ffffff;
+                text-transform: uppercase;
+                padding: 10px;
+                text-align: center;
+               }
+           }
+           
+       }
+}
+
+nav{
+    background-color: #ffffff;
+}
