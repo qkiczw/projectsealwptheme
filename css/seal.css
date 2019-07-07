@@ -9,7 +9,7 @@
   margin: 0; }
 
 header {
-  background-image: url(../img/header.jpg);
+  background-image: url(../img/header2.jpg);
   background-size: cover;
   height: 100vh; }
   header .nav-logo {
@@ -23,7 +23,6 @@ header {
       border: 2px solid #ffffff;
       padding: 15px; }
       header .header-text .text-boarder h1 {
-        background-color: rgba(255, 255, 255, 0.1);
         color: #ffffff;
         text-transform: uppercase;
         padding: 10px;
