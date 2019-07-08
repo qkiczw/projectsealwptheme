@@ -1,3 +1,4 @@
+
 /*remove margins and padding from left and right side of site*/
 .row{
     margin-left: 0;
@@ -66,3 +67,26 @@ nav{
     font-size: 1.1em;
 }
 
+footer{
+    padding: 20px 20px;
+    background-color: #424242;
+    color: #fffffF;
+    a{
+        color: #ffffff;
+    }
+    a:hover{
+        color: lightgrey;
+        text-decoration: none;
+    }
+    .footer-logo{
+        width: 60px;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+    }
+    .footer-col{
+        display: flex;
+        flex-direction: column;
+    }
+}

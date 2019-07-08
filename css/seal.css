@@ -52,3 +52,21 @@ header {
 nav {
   background-color: #ffffff;
   font-size: 1.1em; }
+
+footer {
+  padding: 20px 20px;
+  background-color: #424242;
+  color: #fffffF; }
+  footer a {
+    color: #ffffff; }
+  footer a:hover {
+    color: lightgrey;
+    text-decoration: none; }
+  footer .footer-logo {
+    width: 60px; }
+  footer ul {
+    list-style: none;
+    padding-left: 0; }
+  footer .footer-col {
+    display: flex;
+    flex-direction: column; }
