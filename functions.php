@@ -2,6 +2,7 @@
 
 function seal_script_enqueue() {
     // adding my css styles
+    wp_enqueue_style( 'custom-google-fonts', 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap', false );
     wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css', array(), '4.3.1', 'all');
     wp_enqueue_style('customstyle', get_template_directory_uri() . '/css/seal.css', array(), '1.0.0', 'all');
     // adding my js scripts

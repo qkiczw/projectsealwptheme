@@ -1,6 +1,63 @@
+<<<<<<< HEAD
 footer {
   background-color: #424242; }
   footer a {
     color: #ffffff; }
   footer .footer-logo {
     width: 200px; }
+=======
+/*remove margins and padding from left and right side of site*/
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Source Sans Pro', sans-serif; }
+
+header {
+  background-image: url(../img/header3.jpg);
+  background-size: cover;
+  height: 650px; }
+  header .nav-logo {
+    max-width: 100px; }
+  header .header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    height: 650px;
+    color: #ffffff;
+    font-weight: 400; }
+    header .header-text h1 {
+      position: relative; }
+    header .header-text h1::after {
+      content: ' ';
+      position: absolute;
+      background: #ffffff;
+      bottom: -10px;
+      left: calc(50% - 50px);
+      width: 100px;
+      height: 1px;
+      margin: auto; }
+    header .header-text .see-more-btn {
+      border: 1px solid #ffffff;
+      padding: 15px 20px;
+      margin-top: 30px;
+      border-radius: 2px;
+      transition: .5s; }
+    header .header-text .see-more-btn:hover {
+      background-color: #fffffF;
+      color: rgba(0, 0, 0, 0.7);
+      cursor: pointer; }
+
+nav {
+  background-color: #ffffff;
+  font-size: 1.1em; }
+>>>>>>> master
