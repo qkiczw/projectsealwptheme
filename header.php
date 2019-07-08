@@ -45,7 +45,7 @@
                                 <h1>Senior Education for Active Living</h1>
                             </div>
                             <div class="see-more-btn">
-                                Dowiedz się więcej...
+                                <a href="#about-us">Dowiedz się więcej...</a>
                             </div>
                         </div>
                     </div>

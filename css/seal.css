@@ -8,6 +8,9 @@
   padding-right: 0;
   margin: 0; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   font-family: 'Source Sans Pro', sans-serif; }
 
@@ -39,15 +42,23 @@ header {
       height: 1px;
       margin: auto; }
     header .header-text .see-more-btn {
-      border: 1px solid #ffffff;
+      color: #89ce40;
+      border: 2px solid #89ce40;
       padding: 15px 20px;
       margin-top: 30px;
       border-radius: 2px;
       transition: .5s; }
+      header .header-text .see-more-btn a {
+        text-decoration: none;
+        color: #89ce40; }
+      header .header-text .see-more-btn a:hover {
+        color: #fffffF; }
     header .header-text .see-more-btn:hover {
-      background-color: #fffffF;
-      color: rgba(0, 0, 0, 0.7);
+      background-color: #89ce40;
+      color: #fffffF;
       cursor: pointer; }
+      header .header-text .see-more-btn:hover a {
+        color: #fffffF; }
 
 nav {
   background-color: #ffffff;
@@ -91,11 +102,23 @@ footer {
 section {
   margin-bottom: 50px; }
   section .section-title {
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 50px;
     text-transform: uppercase; }
+  section .section-title::after {
+    content: ' ';
+    position: absolute;
+    background: green;
+    bottom: -10px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 1px;
+    margin: auto; }
+  section .section-content {
+    padding-top: 50px; }
 
 .seal-logo img {
   max-width: 300px; }
