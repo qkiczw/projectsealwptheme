@@ -43,7 +43,10 @@
                     <div class="row">
                         <div class="col-sm-6 header-text">
                             <div class="text-boarder">
-                                <h1><p>Senior Education </p><p>for</p><p>Active Living</p></h1>
+                                <h1>Senior Education for Active Living</h1>
+                            </div>
+                            <div class="see-more-btn">
+                                Dowiedz się więcej...
                             </div>
                         </div>
                     </div>
