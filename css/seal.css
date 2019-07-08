@@ -71,3 +71,14 @@ footer {
   footer .footer-col {
     display: flex;
     flex-direction: column; }
+
+.post {
+  display: flex;
+  margin-top: 25px; }
+  .post .post-thumbnail {
+    border: 1px solid grey;
+    border-radius: 2px;
+    margin-right: 10px; }
+
+.post:nth-last-child(1) {
+  margin-bottom: 50px; }

@@ -91,3 +91,20 @@ footer{
         flex-direction: column;
     }
 }
+
+
+// unsorted styles
+
+.post{
+    display: flex;
+    margin-top: 25px;
+    .post-thumbnail{
+        border: 1px solid grey;
+        border-radius: 2px;
+        margin-right: 10px;
+    }
+
+}
+.post:nth-last-child(1){
+    margin-bottom: 50px;
+}
