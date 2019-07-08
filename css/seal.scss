@@ -114,3 +114,23 @@ footer{
     flex-direction: column;
     margin-top: 50px;
 }
+section{
+    margin-bottom: 50px;
+    .section-title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        text-transform: uppercase;
+    }
+}
+
+.seal-logo{
+    img{
+        max-width: 300px;
+    }
+    
+}
+.about-us-short-info{
+    text-align: center;
+}

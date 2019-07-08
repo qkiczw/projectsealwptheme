@@ -11,12 +11,23 @@
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
-    <main>
+    
     <div class="container">
+        <main>
         <section class="about-us">
             <div class="row">
                 <div class="col-sm-12">
-                    Tu coś o nas
+                    <div class="section-title">
+                        <h1>o nas</h1>
+                    </div>
+                    <div class="container about-us">
+                        <div class="row">
+                            <div class="seal-logo col-lg-4">
+                                <img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/seal_logo.jpg">
+                            </div>
+                            <div class="about-us-short-info col-lg-8">tu coś o nas czyli krotkie info.</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -34,12 +45,12 @@ if( have_posts() ):
                 </div>
             </div>
         </section>
+        </main>
             
-        
         <?php the_content(); ?>
         <p>To jest template do polskiego fronte pagea</p>
     </div>
-    </main>
+
     
     <?php endwhile;
 endif;
