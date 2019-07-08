@@ -3,7 +3,7 @@
             <footer>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-md-6 col-lg-3 footer-col">
                         <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/img/seal_logo_white.png">
 </a>
                         <p>
@@ -15,11 +15,11 @@
                             going to be created at the project end. 
                         </p>
                         </div>
-                        <div class="col-lg-3"> 
+                        <div class="col-md-6 col-lg-3 footer-col"> 
                             <h5>Menu</h5>
                             <?php wp_nav_menu(array('theme_location_'=>'footer')); ?>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-md-6 col-lg-3 footer-col">
                             <p>Skontaktuj się z nami</p>
                             <p>
                                 <ul>
@@ -35,7 +35,7 @@
                                 </ul> 
                             </p>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-md-6 col-lg-3 footer-col">
                             <p>Przydatne linki</p>
                             <p>
                                 <ul>

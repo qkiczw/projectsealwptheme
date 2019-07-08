@@ -85,4 +85,8 @@ footer{
         list-style: none;
         padding-left: 0;
     }
+    .footer-col{
+        display: flex;
+        flex-direction: column;
+    }
 }
