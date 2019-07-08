@@ -25,7 +25,12 @@ if( have_posts() ):
                             <div class="seal-logo col-lg-4">
                                 <img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/seal_logo.jpg">
                             </div>
-                            <div class="about-us-short-info col-lg-8">tu coś o nas czyli krotkie info.</div>
+                            <div class="about-us-short-info col-lg-8">
+                                <p>SEAL to międzynarodowy projekt, który ma na celu wypracowanie  innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów. W efekcie ma powstać międzynarodowy poradnik aktywizacji i edukacji seniorów. </p>
+                                <div class="see-more-btn">
+                                    <a href="#about-us">Więcej o nas...</a>
+                                </div>    
+                            </div>
                         </div>
                     </div>
                 </div>
