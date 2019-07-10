@@ -17,6 +17,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
         <header>
                 <nav class="navbar navbar-expand-md navbar-light bg-faded">
                     <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
@@ -51,13 +52,7 @@
                     </div>
                 </div>
          </header>
-         <div class="container-fluid">  <!-- start - main div -->
-            <div class="row">   <!-- start - main row -->
-            
 
-            <div class="col-sm-12">
-                
-             </div>
 
             
            
