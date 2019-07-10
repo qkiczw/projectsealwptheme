@@ -84,6 +84,26 @@ nav{
     font-size: 1.1em;
     height: 75px;
 }
+.fp-about-us-content{
+    .seal-logo{
+        img{
+            width: 300px;
+        } 
+    }
+    .seal-short-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .btn-see-more{
+            width: auto;
+            background-color: #89ce40;
+            border-radius: 25px;
+            color: #ffffff;
+            padding: 15px 20px;
+            margin: 20px 0;
+        }
+    }  
+}
 .section-galleries{
     background-color: blue;
     background-image: url(../img/fp_gallery_bg.jpg);
@@ -122,6 +142,7 @@ footer{
 
 // unsorted styles
 
+// Generic post
 .post{
     display: flex;
     margin-top: 25px;
@@ -141,6 +162,8 @@ footer{
     flex-direction: column;
     margin-top: 50px;
 }
+
+// Generic section
 section{
     margin-bottom: 50px;
     .section-title{
@@ -166,12 +189,7 @@ section{
     }
 }
 
-.seal-logo{
-    img{
-        max-width: 300px;
-    }
-    
-}
+
 .about-us-short-info{
     text-align: center;
 }
