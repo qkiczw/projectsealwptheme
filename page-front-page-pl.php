@@ -36,6 +36,26 @@ if( have_posts() ):
                         </div>
                     </div>
                 </div>
+                <div class="row seal-partners-section">  <!-- Partners -->
+                <h3>Nasi partnerzy</h3>
+                    <div class="col-12 seal-partners">
+                        <div class="seal-partner">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-ckusopot.jpg" class="img-fluid">
+                        </div>
+                        <div class="seal-partner">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-glafka.jpg" class="img-fluid">
+                        </div>
+                        <div class="seal-partner">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-istituto.jpg" class="img-fluid">
+                        </div>
+                        <div class="seal-partner">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-prometeo.jpg" class="img-fluid">
+                        </div>
+                        <div class="seal-partner">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-kamramanmaras.jpg" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
             </div> 
         </section>
         <section id="fp-galleries-content" class="section-galleries"> 

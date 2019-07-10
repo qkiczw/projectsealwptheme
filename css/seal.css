@@ -83,6 +83,19 @@ nav {
     padding: 15px 20px;
     margin: 20px 0; }
 
+.fp-about-us-content .seal-partners-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px; }
+  .fp-about-us-content .seal-partners-section .seal-partners {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; }
+    .fp-about-us-content .seal-partners-section .seal-partners .seal-partner img {
+      width: 150px; }
+
 .section-galleries {
   background-color: blue;
   background-image: url(../img/fp_gallery_bg.jpg);
