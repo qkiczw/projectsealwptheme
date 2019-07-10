@@ -50,7 +50,8 @@ header {
       transition: .5s; }
       header .header-text .see-more-btn a {
         text-decoration: none;
-        color: #89ce40; }
+        color: #89ce40;
+        transition: .5s; }
       header .header-text .see-more-btn a:hover {
         color: #fffffF; }
     header .header-text .see-more-btn:hover {
