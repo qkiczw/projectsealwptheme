@@ -7,7 +7,7 @@ if( have_posts() ):
         <div class="row">
             <div class="col-lg-12 post">
                 <div class="post-thumbnail">
-                    <?php the_post_thumbnail(); ?>
+                    <?php the_post_thumbnail('thumbnail'); ?>
                 </div>
                 <div>
                     <div class="post-title">
