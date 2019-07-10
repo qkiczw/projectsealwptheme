@@ -116,9 +116,11 @@ nav{
             justify-content: space-around;
             align-items: center;
             flex-wrap: wrap;
-            .seal-partner img{
-                width: 150px;
-            }
+            .seal-partner{
+                img{
+                    width: 150px;
+                }
+            } 
         } 
     }
      
@@ -132,6 +134,31 @@ nav{
     h1{
         color: #ffffff;
     }
+    .fp-galleries-content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .section-gallery{
+        max-width: 300px;
+        border: 1px solid #ffffff; 
+        padding: 0;
+        margin-bottom: 20px;
+        overflow: hidden;
+        transition-duration: .5s;
+        img{
+            transition-duration: .5s;
+            transition-timing-function: ease-in-out;
+        }
+        
+    }
+    .section-gallery:hover{
+        border: 1px solid #89ce40;
+        img{
+            transform: scale(1.1); 
+        }
+    } 
+    
 }
 
 footer{
@@ -204,7 +231,7 @@ section{
         margin: auto;
     }
     .section-content{
-        padding-top: 50px;
+        padding: 75px 0 100px 0;
     }
 }
 

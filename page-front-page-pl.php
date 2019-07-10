@@ -59,13 +59,27 @@ if( have_posts() ):
             </div> 
         </section>
         <section id="fp-galleries-content" class="section-galleries"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-4">lewa</div>
-                    <div class="col-4">środkowa</div>
-                    <div class="col-4">prawa</div>
+        <div class="container">
+             <div class="row"> <!-- Section title -->
+                <div class="col-12"> 
+                    <div class="section-title"> 
+                        <h1>Galerie</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row section-content fp-galleries-content"> <!-- Section content  -->
+                <div class="col-12 col-md-4 section-gallery">
+                    <div class="gallery-hover"></div>
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid"></a>
+                </div>
+                <div class="col-12 col-md-4 section-gallery">   
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery02.jpg" class="img-fluid"></a>
+                </div>
+                <div class="col-12 col-md-4 section-gallery"> 
+                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery03.jpg" class="img-fluid"></a>
                 </div>
             </div> 
+        </div> 
         </section>
         <section id="fp-contact-content"> 
             <div class="container">
