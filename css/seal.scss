@@ -96,6 +96,7 @@ nav{
     .seal-short-info{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
         .btn-see-more{
             width: auto;
@@ -140,6 +141,7 @@ nav{
         align-items: center;
     }
     .section-gallery{
+        position: relative;
         max-width: 300px;
         border: 1px solid #ffffff; 
         padding: 0;
@@ -150,14 +152,31 @@ nav{
             transition-duration: .5s;
             transition-timing-function: ease-in-out;
         }
-        
     }
     .section-gallery:hover{
         border: 1px solid #89ce40;
         img{
             transform: scale(1.1); 
         }
-    } 
+    }.see-more-galleries{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn-see-more-galleries{
+            width: auto;
+            background-color: #89ce40;
+            border-radius: 25px;
+            color: #ffffff;
+            padding: 15px 20px;
+            margin: 20px 0;
+            text-decoration: none;
+            transition-duration: 0.5s;
+        }
+        .btn-see-more-galleries:hover{
+            background-color: #67ad1b;
+        }
+    }
+    
     
 }
 
@@ -212,6 +231,7 @@ footer{
 // Generic section
 section{
     margin-bottom: 50px;
+    padding-bottom: 50px;
     .section-title{
         position: relative;
         width: 100%;
@@ -231,7 +251,7 @@ section{
         margin: auto;
     }
     .section-content{
-        padding: 75px 0 100px 0;
+        padding-top: 50px;
     }
 }
 

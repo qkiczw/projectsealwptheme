@@ -69,7 +69,6 @@ if( have_posts() ):
             </div>
             <div class="row section-content fp-galleries-content"> <!-- Section content  -->
                 <div class="col-12 col-md-4 section-gallery">
-                    <div class="gallery-hover"></div>
                     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid"></a>
                 </div>
                 <div class="col-12 col-md-4 section-gallery">   
@@ -78,20 +77,13 @@ if( have_posts() ):
                 <div class="col-12 col-md-4 section-gallery"> 
                     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery03.jpg" class="img-fluid"></a>
                 </div>
+            </div>
+            <div class="row see-more-galleries">
+                <a href="#" class="btn-see-more-galleries">Zobacz więcej galerii</a>
             </div> 
         </div> 
-        </section>
-        <section id="fp-contact-content"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">lewa</div>
-                    <div class="col-6">prawa</div>
-                </div>
-            </div> 
-        </section>        
+        </section> 
     </main>
-    
-
     
     <?php endwhile;
 endif;

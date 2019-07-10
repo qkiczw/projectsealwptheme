@@ -75,6 +75,7 @@ nav {
 .fp-about-us-content .seal-short-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center; }
   .fp-about-us-content .seal-short-info .btn-see-more {
     width: auto;
@@ -109,16 +110,13 @@ nav {
     justify-content: space-around;
     align-items: center; }
   .section-galleries .section-gallery {
+    position: relative;
     max-width: 300px;
     border: 1px solid #ffffff;
     padding: 0;
     margin-bottom: 20px;
     overflow: hidden;
     transition-duration: .5s; }
-    .section-galleries .section-gallery .gallery-hover {
-      width: 100%;
-      height: 100%;
-      background-color: red; }
     .section-galleries .section-gallery img {
       transition-duration: .5s;
       transition-timing-function: ease-in-out; }
@@ -126,6 +124,21 @@ nav {
     border: 1px solid #89ce40; }
     .section-galleries .section-gallery:hover img {
       transform: scale(1.1); }
+  .section-galleries .see-more-galleries {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .section-galleries .see-more-galleries .btn-see-more-galleries {
+      width: auto;
+      background-color: #89ce40;
+      border-radius: 25px;
+      color: #ffffff;
+      padding: 15px 20px;
+      margin: 20px 0;
+      text-decoration: none;
+      transition-duration: 0.5s; }
+    .section-galleries .see-more-galleries .btn-see-more-galleries:hover {
+      background-color: #67ad1b; }
 
 footer {
   padding: 20px 20px;
@@ -162,7 +175,8 @@ footer {
   margin-top: 50px; }
 
 section {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  padding-bottom: 50px; }
   section .section-title {
     position: relative;
     width: 100%;
@@ -180,7 +194,7 @@ section {
     height: 1px;
     margin: auto; }
   section .section-content {
-    padding: 75px 0 100px 0; }
+    padding-top: 50px; }
 
 .about-us-short-info {
   text-align: center; }
