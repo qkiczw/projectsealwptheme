@@ -86,6 +86,8 @@ nav{
 }
 .fp-about-us-content{
     .seal-logo{
+        display: flex;
+        justify-content: center;
         img{
             width: 300px;
         } 

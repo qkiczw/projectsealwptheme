@@ -65,8 +65,11 @@ nav {
   font-size: 1.1em;
   height: 75px; }
 
-.fp-about-us-content .seal-logo img {
-  width: 300px; }
+.fp-about-us-content .seal-logo {
+  display: flex;
+  justify-content: center; }
+  .fp-about-us-content .seal-logo img {
+    width: 300px; }
 
 .fp-about-us-content .seal-short-info {
   display: flex;
