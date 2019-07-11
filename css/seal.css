@@ -166,16 +166,16 @@ footer {
     display: flex;
     flex-direction: column; }
 
+.single-page .single-page-content {
+  padding-top: 50px; }
+
 .post {
   display: flex;
-  margin-top: 25px; }
+  margin: 25px 0; }
   .post .post-thumbnail {
     border: 1px solid grey;
     border-radius: 2px;
     margin-right: 10px; }
-
-.post:nth-last-child(1) {
-  margin-bottom: 50px; }
 
 .post-full {
   display: flex;

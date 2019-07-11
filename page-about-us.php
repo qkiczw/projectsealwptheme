@@ -13,10 +13,10 @@ if( have_posts() ):
     while( have_posts() ): the_post(); ?>
 
     <main>
-        <section id="fp-about-us-content" class="fp-about-us-content"> 
+        <section id="single-page" class="single-page"> 
             <div class="container">
-                <div class="row"> <!-- Section title -->
-                    <div class="col-12"> 
+                <div class="row">
+                    <div class="col-12 single-page-content"> 
                         <?php the_content(); ?>
                     </div>
                 </div>
