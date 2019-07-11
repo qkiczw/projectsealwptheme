@@ -79,11 +79,16 @@ nav {
   align-items: center; }
   .fp-about-us-content .seal-short-info .btn-see-more {
     width: auto;
-    background-color: #89ce40;
-    border-radius: 25px;
-    color: #ffffff;
+    border: 1px solid #89ce40;
+    color: #89ce40;
     padding: 15px 20px;
-    margin: 20px 0; }
+    margin: 20px 0;
+    text-decoration: none;
+    transition-duration: 0.5s; }
+  .fp-about-us-content .seal-short-info .btn-see-more:hover {
+    background-color: #67ad1b;
+    color: #ffffff;
+    cursor: pointer; }
 
 .fp-about-us-content .seal-partners-section {
   display: flex;
@@ -100,8 +105,10 @@ nav {
 
 .section-galleries {
   background-color: blue;
-  background-image: url(../img/fp_gallery_bg.jpg);
+  background-image: url(../img/fp_gallery_bg2.jpg);
   background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
   min-height: 500px; }
   .section-galleries h1 {
     color: #ffffff; }
@@ -130,15 +137,16 @@ nav {
     align-items: center; }
     .section-galleries .see-more-galleries .btn-see-more-galleries {
       width: auto;
-      background-color: #89ce40;
-      border-radius: 25px;
-      color: #ffffff;
+      border: 1px solid #89ce40;
+      color: #89ce40;
       padding: 15px 20px;
       margin: 20px 0;
       text-decoration: none;
       transition-duration: 0.5s; }
     .section-galleries .see-more-galleries .btn-see-more-galleries:hover {
-      background-color: #67ad1b; }
+      background-color: #67ad1b;
+      color: #ffffff;
+      cursor: pointer; }
 
 footer {
   padding: 20px 20px;

@@ -100,11 +100,17 @@ nav{
         align-items: center;
         .btn-see-more{
             width: auto;
-            background-color: #89ce40;
-            border-radius: 25px;
-            color: #ffffff;
+            border: 1px solid #89ce40;
+            color: #89ce40;
             padding: 15px 20px;
             margin: 20px 0;
+            text-decoration: none;
+            transition-duration: 0.5s;
+        }
+        .btn-see-more:hover{
+            background-color: #67ad1b;
+            color: #ffffff;
+            cursor: pointer;
         }
     }
     .seal-partners-section{
@@ -128,8 +134,10 @@ nav{
 }
 .section-galleries{
     background-color: blue;
-    background-image: url(../img/fp_gallery_bg.jpg);
+    background-image: url(../img/fp_gallery_bg2.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-position: 50% 50%;
     min-height: 500px;
 
     h1{
@@ -164,9 +172,8 @@ nav{
         align-items: center;
         .btn-see-more-galleries{
             width: auto;
-            background-color: #89ce40;
-            border-radius: 25px;
-            color: #ffffff;
+            border: 1px solid #89ce40;
+            color: #89ce40;
             padding: 15px 20px;
             margin: 20px 0;
             text-decoration: none;
@@ -174,6 +181,8 @@ nav{
         }
         .btn-see-more-galleries:hover{
             background-color: #67ad1b;
+            color: #ffffff;
+            cursor: pointer;
         }
     }
     
