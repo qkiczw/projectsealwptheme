@@ -72,7 +72,7 @@ nav {
   display: flex;
   justify-content: center; }
   .fp-about-us-content .seal-logo img {
-    width: 300px; }
+    width: 200px; }
 
 .fp-about-us-content .seal-short-info {
   display: flex;
@@ -104,6 +104,10 @@ nav {
     flex-wrap: wrap; }
     .fp-about-us-content .seal-partners-section .seal-partners .seal-partner img {
       width: 150px; }
+
+.fp-about-us-content .disclaimer {
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 .section-galleries {
   background-color: blue;

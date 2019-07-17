@@ -35,8 +35,17 @@ if( have_posts() ):
                         </div>
                     </div>
                 </div>
+                <div class="row disclaimer"> <!-- Disclaimer -->
+                    
+                    <div class="col-md-5 col-lg-4 order-md-last disclaimer-logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/erasmus_logo_color.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-7 col-lg-8 order-md-first disclaimer-info">
+                        <p>Strona internetowa została zrealizowana przy wsparciu finansowym Komisji Europejskiej. Treść strony odzwierciedla jedynie stanowisko jej autorów i Komisja Europejska oraz Narodo¬wa Agencja Programu Erasmus+ nie ponoszą odpowiedzialności za jej zawartość mery¬toryczną. </p>
+                    </div>
+                </div>
                 <div class="row seal-partners-section">  <!-- Partners -->
-                <h3>Nasi partnerzy</h3>
+                    <h3>Nasi partnerzy</h3>
                     <div class="col-12 seal-partners">
                         <div class="seal-partner">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-ckusopot.jpg" class="img-fluid">
