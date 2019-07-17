@@ -229,7 +229,7 @@ footer{
 }
 .single-page{
     .single-page-content{
-        padding-top: 50px;
+        padding-top: 100px;
     }
 }
 
@@ -269,7 +269,7 @@ section{
     .section-title::after{
         content: ' ';
         position: absolute;
-        background: green;
+        background: #89ce40;
         bottom: -10px;
         left: calc(50% - 50px);
         width: 100px;

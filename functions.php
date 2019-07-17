@@ -24,5 +24,7 @@ add_action('init', 'seal_theme_setup');
 
 // Add thumbnails images to posts
 add_theme_support( 'post-thumbnails' );
+add_theme_support( 'post-formats' );
+
 // Include custom navwalker
 require_once('bs4navwalker.php');

@@ -46,13 +46,10 @@
                                 <h1>Senior Education for Active Living</h1>
                             </div>
                             <div class="see-more-btn">
-                                <a href="#fp-about-us-content">Dowiedz się więcej</a>
+                                <a href="http://qki.cba.pl/seal/pl/strona-startowa/#fp-about-us-content">Dowiedz się więcej</a>
                             </div>
                         </div>
                     </div>
                 </div>
          </header>
-
-
-            
-           
+          
