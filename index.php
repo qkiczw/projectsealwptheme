@@ -3,7 +3,7 @@
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
-    <div class="container">
+    <div class="container posts-list">
         <div class="row">
             <div class="col-lg-12 post">
                 <div class="post-thumbnail">

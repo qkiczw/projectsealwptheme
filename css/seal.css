@@ -184,6 +184,9 @@ footer {
 .single-page .single-page-content {
   padding-top: 100px; }
 
+.posts-list {
+  padding-top: 25px; }
+
 .post {
   display: flex;
   margin: 25px 0; }
