@@ -48,19 +48,19 @@ if( have_posts() ):
                 <h3>Our Partners</h3>
                     <div class="col-12 seal-partners">
                         <div class="seal-partner">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-ckusopot.jpg" class="img-fluid">
+                            <a href="http://ckusopot.pl" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-ckusopot.jpg" class="img-fluid seal-partner-logo"></a>
                         </div>
                         <div class="seal-partner">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-glafka.jpg" class="img-fluid">
+                            <a href="http://glafka.cz" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-glafka.jpg" class="img-fluid seal-partner-logo"></a>
                         </div>
                         <div class="seal-partner">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-istituto.jpg" class="img-fluid">
+                            <a href="http://www.istitutosorditorino.org/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-istituto.jpg" class="img-fluid seal-partner-logo"></a>
                         </div>
                         <div class="seal-partner">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-prometeo.jpg" class="img-fluid">
+                            <a href="http://asprometeo.altervista.org/prometeo/Home.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-prometeo.jpg" class="img-fluid seal-partner-logo"></a>    
                         </div>
                         <div class="seal-partner">
-                            <img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-kamramanmaras.jpg" class="img-fluid">
+                            <a href="http://kmaras.meb.gov.tr/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-kamramanmaras.jpg" class="img-fluid seal-partner-logo"></a>
                         </div>
                     </div>
                 </div>
@@ -87,7 +87,7 @@ if( have_posts() ):
                 </div>
             </div>
             <div class="row see-more-galleries">
-                <a href="#" class="btn-see-more-galleries">See more galleries</a>
+                <a href="http://qki.cba.pl/seal/pl/galerie-en/" class="btn-see-more-galleries">See more galleries</a>
             </div> 
         </div> 
         </section> 

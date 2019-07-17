@@ -86,7 +86,7 @@ if( have_posts() ):
                 </div>
             </div>
             <div class="row see-more-galleries">
-                <a href="#" class="btn-see-more-galleries">Zobacz więcej galerii</a>
+                <a href="http://qki.cba.pl/seal/pl/galerie/" class="btn-see-more-galleries">Zobacz więcej galerii</a>
             </div> 
         </div> 
         </section> 
