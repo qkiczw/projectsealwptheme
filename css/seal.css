@@ -107,7 +107,7 @@ nav {
       width: 150px; }
 
 .fp-about-us-content .disclaimer {
-  padding-top: 50px;
+  padding-top: 100px;
   padding-bottom: 50px; }
 
 .section-galleries {
@@ -210,6 +210,9 @@ section {
     margin: auto; }
   section .section-content {
     padding-top: 50px; }
+
+section:last-child {
+  margin-bottom: 0; }
 
 .about-us-short-info {
   text-align: center; }

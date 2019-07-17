@@ -26,7 +26,7 @@ if( have_posts() ):
                     <div class="col-12">
                         <div class="row section-content"> 
                             <div class="col-md-5 col-lg-4 seal-logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/seal_logo.jpg" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/seal_logo.png" class="img-fluid">
                             </div>
                             <div class="col-md-7 col-lg-8 seal-short-info">
                                 <p>SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors. An international guide of education and activation of seniors is going to be created at the project end.</p>
@@ -34,6 +34,14 @@ if( have_posts() ):
         
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row disclaimer"> <!-- Disclaimer -->
+                    <div class="col-md-5 col-lg-4 order-md-last disclaimer-logo">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/erasmus_logo_color.png" class="img-fluid">
+                    </div>
+                    <div class="col-md-7 col-lg-8 order-md-first disclaimer-info">
+                        <p>SEAL project has been funded with support from the European Commission within Erasmus+ Programme. However European Commission cannot be held responsible for any use which may be made of the information contained therein.</p>
                     </div>
                 </div>
                 <div class="row seal-partners-section">  <!-- Partners -->
