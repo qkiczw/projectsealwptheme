@@ -41,7 +41,7 @@ if( have_posts() ):
                         <img src="<?php echo get_template_directory_uri(); ?>/img/erasmus_logo_color.png" class="img-fluid">
                     </div>
                     <div class="col-md-7 col-lg-8 order-md-first disclaimer-info">
-                        <p>Strona internetowa została zrealizowana przy wsparciu finansowym Komisji Europejskiej. Treść strony odzwierciedla jedynie stanowisko jej autorów i Komisja Europejska oraz Narodo¬wa Agencja Programu Erasmus+ nie ponoszą odpowiedzialności za jej zawartość mery¬toryczną. </p>
+                        <p>Strona internetowa została zrealizowana przy wsparciu finansowym Komisji Europejskiej. Treść strony odzwierciedla jedynie stanowisko jej autorów i Komisja Europejska oraz Narodowa Agencja Programu Erasmus+ nie ponoszą odpowiedzialności za jej zawartość merytoryczną. </p>
                     </div>
                 </div>
                 <div class="row seal-partners-section">  <!-- Partners -->
