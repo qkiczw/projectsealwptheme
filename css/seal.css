@@ -93,6 +93,10 @@ nav {
     color: #ffffff;
     cursor: pointer; }
 
+.fp-about-us-content .disclaimer {
+  padding-top: 100px;
+  padding-bottom: 50px; }
+
 .fp-about-us-content .seal-partners-section {
   display: flex;
   justify-content: center;
@@ -103,12 +107,13 @@ nav {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap; }
-    .fp-about-us-content .seal-partners-section .seal-partners .seal-partner img {
-      width: 150px; }
-
-.fp-about-us-content .disclaimer {
-  padding-top: 100px;
-  padding-bottom: 50px; }
+    .fp-about-us-content .seal-partners-section .seal-partners .seal-partner .seal-partner-logo {
+      width: 150px;
+      transition-duration: .3s;
+      transition-timing-function: ease-in-out; }
+    .fp-about-us-content .seal-partners-section .seal-partners .seal-partner:hover .seal-partner-logo {
+      transform: scale(1.1);
+      cursor: pointer; }
 
 .section-galleries {
   background-color: blue;

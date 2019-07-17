@@ -117,6 +117,10 @@ nav{
             cursor: pointer;
         }
     }
+    .disclaimer{
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
     .seal-partners-section{
         display: flex;
         justify-content: center;
@@ -128,16 +132,19 @@ nav{
             align-items: center;
             flex-wrap: wrap;
             .seal-partner{
-                img{
-                    width: 150px;
+                .seal-partner-logo{
+                    width:150px;
+                    transition-duration: .3s;
+                    transition-timing-function: ease-in-out;
                 }
-            } 
+            }
+            .seal-partner:hover .seal-partner-logo{
+                transform: scale(1.1);
+                cursor: pointer;
+            }   
         } 
     }
-    .disclaimer{
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
+    
      
 }
 .section-galleries{
