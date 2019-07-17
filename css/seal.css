@@ -54,6 +54,8 @@ header {
         transition: .5s; }
       header .header-text .see-more-btn a:hover {
         color: #fffffF; }
+    header .header-text .btn-see-more a {
+      color: #89ce40; }
     header .header-text .see-more-btn:hover {
       background-color: #89ce40;
       color: #fffffF;

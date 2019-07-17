@@ -14,7 +14,7 @@ if( have_posts() ):
 
     <main>
         <section id="fp-about-us-content" class="fp-about-us-content"> 
-            <div class="container">
+            <div class="container ">
                 <div class="row"> <!-- Section title -->
                     <div class="col-12"> 
                         <div class="section-title"> 
@@ -30,8 +30,7 @@ if( have_posts() ):
                             </div>
                             <div class="col-md-7 col-lg-8 seal-short-info">
                                 <p>SEAL to międzynarodowy projekt, który ma na celu wypracowanie  innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów. W efekcie ma powstać międzynarodowy poradnik aktywizacji i edukacji seniorów. </p>
-                                <div class="btn-see-more">Dowiedz się więcej</div>
-        
+                                <a href="http://qki.cba.pl/seal/pl/o-nas/" class="btn-see-more">Dowiedz się więcej</a>
                             </div>
                         </div>
                     </div>
