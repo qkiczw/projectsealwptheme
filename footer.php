@@ -2,15 +2,8 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 col-lg-3 footer-col">
-                        <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/img/seal_logo_white.png"></a>
-                        <p>
-                            Project SEAL is international initiative 
-                            aimed to a innovative educational 
-                            tools used for education and activation 
-                            of seniors. An international guide of 
-                            education and activation of seniors is 
-                            going to be created at the project end. 
-                        </p>
+                            <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/img/erasmus_logo_white.png"></a>
+                            <p>SEAL project has been funded with support from the European Commission within Erasmus+ Programme. However European Commission cannot be held responsible for any use which may be made of the information contained therein. </p>
                         </div>
                         <div class="col-md-6 col-lg-3 footer-col"> 
                             <h5>Menu</h5>
