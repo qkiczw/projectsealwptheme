@@ -33,15 +33,6 @@ header {
     font-weight: 400; }
     header .header-text h1 {
       position: relative; }
-    header .header-text h1::after {
-      content: ' ';
-      position: absolute;
-      background: #ffffff;
-      bottom: -10px;
-      left: calc(50% - 50px);
-      width: 100px;
-      height: 1px;
-      margin: auto; }
     header .header-text .see-more-btn {
       color: #89ce40;
       border: 2px solid #89ce40;

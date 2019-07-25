@@ -41,16 +41,16 @@ header{
            h1{
                position: relative;
            }
-           h1::after{
-            content: ' ';
-            position: absolute;
-            background: #ffffff;
-            bottom: -10px;
-            left: calc(50% - 50px);
-            width: 100px;
-            height: 1px;
-            margin: auto;
-           }
+        //    h1::after{
+        //     content: ' ';
+        //     position: absolute;
+        //     background: #ffffff;
+        //     bottom: -10px;
+        //     left: calc(50% - 50px);
+        //     width: 100px;
+        //     height: 1px;
+        //     margin: auto;
+        //    }
            .see-more-btn{
             color: #89ce40;
             border: 2px solid #89ce40;
