@@ -242,3 +242,8 @@ section:last-child {
 
 .about-us-short-info {
   text-align: center; }
+
+@media (min-width: 900px) {
+  .navbar-expand-md {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap; } }
