@@ -49,8 +49,11 @@ header {
     left: 50px;
     font-size: 1.3em; }
     header .header-social-icons .header-social-icon {
-      max-width: 40px;
-      padding-left: 10px; }
+      max-width: 50px;
+      padding-left: 20px;
+      transition-duration: 200ms; }
+    header .header-social-icons .header-social-icon:hover {
+      transform: scale(1.1); }
 
 nav {
   background-color: none;
