@@ -59,6 +59,13 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 header-social-icons">
+                        <p>Znajdź nas tutaj</p>
+                        <p>icona fb</p>
+                        <p>iconf insta</p>
+                    </div>
+                </div>
             </div>
         </header>
 

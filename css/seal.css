@@ -16,9 +16,11 @@ body {
   font-size: 18px; }
 
 header {
+  position: relative;
   background-image: url(../img/header04.jpg);
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
   header .nav-logo {
     max-width: 200px;
     padding-left: 50px; }
@@ -37,6 +39,12 @@ header {
       header .header-text .header-text-content .header-project-slogan {
         margin-top: 50px;
         margin-bottom: 50px; }
+  header .header-social-icons {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    bottom: 10px;
+    left: 50px; }
 
 nav {
   background-color: none;
