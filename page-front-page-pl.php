@@ -27,6 +27,42 @@
         <![endif]-->
 
         <header>
+            <nav class="navbar navbar-expand-md navbar-light bg-faded">
+                <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <?php
+                    wp_nav_menu([
+                    'menu'            => 'main',
+                    'theme_location'  => 'main',
+                    'container'       => 'div',
+                    'container_id'    => 'bs4navbar',
+                    'container_class' => 'collapse navbar-collapse justify-content-end',
+                    'menu_id'         => false,
+                    'menu_class'      => 'navbar-nav',
+                    'depth'           => 2,
+                    'fallback_cb'     => 'bs4navwalker::fallback',
+                    'walker'          => new bs4navwalker()
+                    ]);
+                ?>
+            </nav>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6 header-text">
+                        <div class="header-text-content">
+                            <h1 class="header-project-title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
+                            <h5 class="header-project-slogan">
+                            SEAL to międzynarodowy projekt, który ma na celu wypracowanie innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów.
+                            </h5>
+                            <a class="btn-grey" href="#fp-about-us-content">zobacz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- <header>
                 <nav class="navbar navbar-expand-md navbar-light bg-faded">
                     <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +96,7 @@
                         </div>
                     </div>
                 </div>
-         </header>
+         </header> -->
           
 
 <?php 
@@ -73,7 +109,7 @@ if( have_posts() ):
                 <div class="row"> <!-- Section title -->
                     <div class="col-12"> 
                         <div class="section-title"> 
-                            <h1>O nas</h1>
+                            <h2>O nas</h2>
                         </div>
                     </div>
                 </div>
@@ -85,7 +121,7 @@ if( have_posts() ):
                             </div>
                             <div class="col-md-7 col-lg-8 seal-short-info">
                                 <p>SEAL to międzynarodowy projekt, który ma na celu wypracowanie  innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów. W efekcie ma powstać międzynarodowy poradnik aktywizacji i edukacji seniorów. </p>
-                                <a href="http://qki.cba.pl/seal/pl/o-nas/" class="btn-see-more">Dowiedz się więcej</a>
+                                <a href="http://qki.cba.pl/seal/pl/o-nas/" class="btn-grey">Dowiedz się więcej</a>
                             </div>
                         </div>
                     </div>
@@ -124,8 +160,8 @@ if( have_posts() ):
         <div class="container">
              <div class="row"> <!-- Section title -->
                 <div class="col-12"> 
-                    <div class="section-title"> 
-                        <h1>Galerie</h1>
+                    <div class="section-title section-title-alternative"> 
+                        <h2>Galerie</h2>
                     </div>
                 </div>
             </div>

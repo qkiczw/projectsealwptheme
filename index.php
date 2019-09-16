@@ -19,6 +19,29 @@
         <![endif]-->
 
         <header>
+            <nav class="navbar navbar-expand-md navbar-light bg-faded">
+                <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <?php
+                    wp_nav_menu([
+                    'menu'            => 'main',
+                    'theme_location'  => 'main',
+                    'container'       => 'div',
+                    'container_id'    => 'bs4navbar',
+                    'container_class' => 'collapse navbar-collapse justify-content-end',
+                    'menu_id'         => false,
+                    'menu_class'      => 'navbar-nav',
+                    'depth'           => 2,
+                    'fallback_cb'     => 'bs4navwalker::fallback',
+                    'walker'          => new bs4navwalker()
+                    ]);
+                ?>
+            </nav>
+        </header>
+
+        <!-- <header>
                 <nav class="navbar navbar-expand-md navbar-light bg-faded">
                     <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-         </header>
+         </header> -->
 
 <?php 
 if( have_posts() ):
