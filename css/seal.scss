@@ -38,13 +38,15 @@ header{
             display: flex;
             flex-direction: column;
             align-items: center;
-            max-width: 450px;
+            max-width: 550px;
             .header-project-title{
                 font-weight: 700;
+                font-size: 2.8em;
             }
             .header-project-slogan{
-                margin-top: 50px;
+                margin-top: 30px;
                 margin-bottom: 50px;
+                font-size: 1.3em;
             }      
         }    
     }
@@ -54,13 +56,18 @@ header{
         justify-content: flex-start;
         bottom: 10px;
         left: 50px;
+        font-size: 1.3em;
+        .header-social-icon{
+            max-width: 40px;
+            padding-left: 10px;
+        }
     }
 }
 
 
 nav{
     background-color: none;
-    font-size: 1.1em;
+    font-size: 1.3em;
     height: 75px;
     text-transform: uppercase;
 

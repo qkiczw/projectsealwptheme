@@ -62,8 +62,8 @@
                 <div class="row">
                     <div class="col-12 header-social-icons">
                         <p>Znajdź nas tutaj</p>
-                        <p>icona fb</p>
-                        <p>iconf insta</p>
+                        <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
+                        <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon.png"></a></p>
                     </div>
                 </div>
             </div>
