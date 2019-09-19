@@ -78,7 +78,7 @@ if( have_posts() ):
         <section id="about-us" class="about-us"> 
             <div class="container">
                 <div class="triangle-left-side">
-                    
+                    <!-- just for triangle -->
                 </div>
                 <div class="row"> <!-- Section title -->
                     <div class="col-12"> 
@@ -99,20 +99,8 @@ if( have_posts() ):
                             <a href="http://qki.cba.pl/seal/pl/o-nas/" class="btn-grey">Dowiedz się więcej</a>
                         </div>
                     </div>
-
-                    <!-- <div class="col-12">
-                        <div class="row section-content"> 
-                            <div class="col-md-5 col-lg-4 seal-logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/seal_logo.png" class="img-fluid">
-                            </div>
-                            <div class="col-md-7 col-lg-8 seal-short-info">
-                                <p>SEAL to międzynarodowy projekt, który ma na celu wypracowanie  innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów. W efekcie ma powstać międzynarodowy poradnik aktywizacji i edukacji seniorów. </p>
-                                <a href="http://qki.cba.pl/seal/pl/o-nas/" class="btn-grey">Dowiedz się więcej</a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
-                <div class="row disclaimer"> <!-- Disclaimer -->
+                <div class="row disclaimer">
                     <div class="col-md-5 col-lg-4 order-md-last disclaimer-logo">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/erasmus_logo_color.png" class="img-fluid">
                     </div>
@@ -120,27 +108,26 @@ if( have_posts() ):
                         <p>Strona internetowa została zrealizowana przy wsparciu finansowym Komisji Europejskiej. Treść strony odzwierciedla jedynie stanowisko jej autorów i Komisja Europejska oraz Narodowa Agencja Programu Erasmus+ nie ponoszą odpowiedzialności za jej zawartość merytoryczną. </p>
                     </div>
                 </div>
-                <div class="row seal-partners-section">  <!-- Partners -->
-                    <h3>Nasi partnerzy</h3>
-                    <div class="col-12 seal-partners">
-                        <div class="seal-partner">
-                            <a href="http://ckusopot.pl" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-ckusopot.jpg" class="img-fluid seal-partner-logo"></a>
-                        </div>
-                        <div class="seal-partner">
-                            <a href="http://glafka.cz" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-glafka.jpg" class="img-fluid seal-partner-logo"></a>
-                        </div>
-                        <div class="seal-partner">
-                            <a href="http://www.istitutosorditorino.org/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-istituto.jpg" class="img-fluid seal-partner-logo"></a>
-                        </div>
-                        <div class="seal-partner">
-                            <a href="http://asprometeo.altervista.org/prometeo/Home.html" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-prometeo.jpg" class="img-fluid seal-partner-logo"></a>    
-                        </div>
-                        <div class="seal-partner">
-                            <a href="http://kmaras.meb.gov.tr/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/partner-logo-kamramanmaras.jpg" class="img-fluid seal-partner-logo"></a>
+            </div> 
+        </section>
+        <section id="partners" class="partners"> <!-- Partners -->
+            <div class="container">
+                <div class="row"> <!-- Section title -->
+                    <div class="col-12"> 
+                        <div class="section-title"> 
+                            <h2>Partnerzy</h2>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    Bloki z partnerami
+                </div>
+                
             </div> 
+
+
+            
+
         </section>
         <section id="fp-galleries-content" class="section-galleries"> 
         <div class="container">

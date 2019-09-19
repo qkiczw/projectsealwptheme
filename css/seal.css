@@ -82,6 +82,8 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100%; }
+  .about-us .disclaimer {
+    margin-top: 100px; }
 
 .section-galleries {
   background-color: blue;
@@ -193,7 +195,8 @@ section {
     display: flex;
     justify-content: center;
     padding-top: 50px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    margin-bottom: 100px; }
     section .section-title h2 {
       font-weight: 700;
       font-size: 2.1em; }
@@ -222,3 +225,11 @@ section:last-child {
   border-left: 750px solid #eadcc9;
   border-bottom: 500px solid transparent;
   left: 0; }
+
+.triangle-right-side {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 500px solid transparent;
+  border-right: 750px solid #eadcc9;
+  border-bottom: 500px solid transparent; }
