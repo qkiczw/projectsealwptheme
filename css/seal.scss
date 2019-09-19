@@ -82,61 +82,20 @@ nav{
     }
 }
 
-.fp-about-us-content{
-    .seal-logo{
+.about-us{
+    .about-us-logo{
         display: flex;
-        justify-content: center;
-        img{
-            width: 200px;
-        } 
-    }
-    .seal-short-info{
-        display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        .btn-see-more{
-            width: auto;
-            border: 1px solid #89ce40;
-            color: #89ce40;
-            padding: 15px 20px;
-            margin: 20px 0;
-            text-decoration: none;
-            transition-duration: 0.5s;
-        }
-        .btn-see-more:hover{
-            background-color: #67ad1b;
-            color: #ffffff;
-            cursor: pointer;
+        width: 350px;
+        height: 350px;
+        border: 10px solid #424242;
+        border-radius: 50%;
+        .project-logo{
+            max-width: 75%;
+            
         }
     }
-    .disclaimer{
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
-    .seal-partners-section{
-        display: flex;
-        justify-content: center;
-        margin-top: 50px;
-        .seal-partners{
-            margin-top: 30px;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-            .seal-partner{
-                .seal-partner-logo{
-                    width:150px;
-                    transition-duration: .3s;
-                    transition-timing-function: ease-in-out;
-                }
-            }
-            .seal-partner:hover .seal-partner-logo{
-                transform: scale(1.1);
-                cursor: pointer;
-            }   
-        } 
-    }       
 }
 
 .section-galleries{

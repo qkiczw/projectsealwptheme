@@ -75,8 +75,8 @@ if( have_posts() ):
     while( have_posts() ): the_post(); ?>
 
     <main>
-        <section id="fp-about-us-content" class="fp-about-us-content"> 
-            <div class="container ">
+        <section id="about-us" class="about-us"> 
+            <div class="container">
                 <div class="row"> <!-- Section title -->
                     <div class="col-12"> 
                         <div class="section-title"> 
@@ -85,7 +85,16 @@ if( have_posts() ):
                     </div>
                 </div>
                 <div class="row"> <!-- Section content  -->
-                    <div class="col-12">
+                    <div class="col-lg-5">
+                        <figure class=" about-us-logo">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/seal_logo.png" class="img-fluid project-logo">
+                        </figure>
+                    </div>
+                    <div class="col-lg-7">
+                        krótkie info - o projekcie
+                    </div>
+
+                    <!-- <div class="col-12">
                         <div class="row section-content"> 
                             <div class="col-md-5 col-lg-4 seal-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/seal_logo.png" class="img-fluid">
@@ -95,7 +104,7 @@ if( have_posts() ):
                                 <a href="http://qki.cba.pl/seal/pl/o-nas/" class="btn-grey">Dowiedz się więcej</a>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row disclaimer"> <!-- Disclaimer -->
                     <div class="col-md-5 col-lg-4 order-md-last disclaimer-logo">

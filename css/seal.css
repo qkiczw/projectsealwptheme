@@ -63,51 +63,16 @@ nav {
   nav .navbar-nav .menu-item {
     padding-right: 40px; }
 
-.fp-about-us-content .seal-logo {
-  display: flex;
-  justify-content: center; }
-  .fp-about-us-content .seal-logo img {
-    width: 200px; }
-
-.fp-about-us-content .seal-short-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-  .fp-about-us-content .seal-short-info .btn-see-more {
-    width: auto;
-    border: 1px solid #89ce40;
-    color: #89ce40;
-    padding: 15px 20px;
-    margin: 20px 0;
-    text-decoration: none;
-    transition-duration: 0.5s; }
-  .fp-about-us-content .seal-short-info .btn-see-more:hover {
-    background-color: #67ad1b;
-    color: #ffffff;
-    cursor: pointer; }
-
-.fp-about-us-content .disclaimer {
-  padding-top: 100px;
-  padding-bottom: 50px; }
-
-.fp-about-us-content .seal-partners-section {
+.about-us .about-us-logo {
   display: flex;
   justify-content: center;
-  margin-top: 50px; }
-  .fp-about-us-content .seal-partners-section .seal-partners {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap; }
-    .fp-about-us-content .seal-partners-section .seal-partners .seal-partner .seal-partner-logo {
-      width: 150px;
-      transition-duration: .3s;
-      transition-timing-function: ease-in-out; }
-    .fp-about-us-content .seal-partners-section .seal-partners .seal-partner:hover .seal-partner-logo {
-      transform: scale(1.1);
-      cursor: pointer; }
+  align-items: center;
+  width: 350px;
+  height: 350px;
+  border: 10px solid #424242;
+  border-radius: 50%; }
+  .about-us .about-us-logo .project-logo {
+    max-width: 75%; }
 
 .section-galleries {
   background-color: blue;
