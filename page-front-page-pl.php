@@ -129,9 +129,6 @@ if( have_posts() ):
                             <p class="partners-partner-description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
                             </p>
-                            <button class="partners-partner-btn">
-                                Odwiedź
-                            </button>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -139,6 +136,7 @@ if( have_posts() ):
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-glafka.jpg" class="img-fluid">
                             </figure>
+                            <h3 class="partners-partner-name">galfka</h3>
                             <p class="partners-partner-description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
                             </p>
@@ -149,18 +147,49 @@ if( have_posts() ):
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-istituto.jpg" class="img-fluid">
                             </figure>
+                            <h3 class="partners-partner-name">istituto</h3>
                             <p class="partners-partner-description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
                             </p>
                         </div>
                     </div>
                 </div>
-                
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="partners-partner">
+                            <figure class="partners-partner-logo">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-prometeo.jpg" class="img-fluid">
+                            </figure>
+                            <h3 class="partners-partner-name">prometeo</h3>
+                            <p class="partners-partner-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="partners-partner">
+                            <figure class="partners-partner-logo">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-kmem.jpg" class="img-fluid">
+                            </figure>
+                            <h3 class="partners-partner-name">kmem</h3>
+                            <p class="partners-partner-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="partners-partner">
+                            <figure class="partners-partner-logo">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-erasmus.jpg" class="img-fluid">
+                            </figure>
+                            <h3 class="partners-partner-name">erasmus+</h3>
+                            <p class="partners-partner-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div> 
-
-
-            
-
         </section>
         <section id="fp-galleries-content" class="section-galleries"> 
         <div class="container">
