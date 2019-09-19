@@ -112,6 +112,9 @@ if( have_posts() ):
         </section>
         <section id="partners" class="partners"> <!-- Partners -->
             <div class="container">
+                <div class="triangle-right-side">
+                    <!-- just for triangle -->
+                </div> 
                 <div class="row"> <!-- Section title -->
                     <div class="col-12"> 
                         <div class="section-title"> 
@@ -189,7 +192,7 @@ if( have_posts() ):
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </section>
         <section id="fp-galleries-content" class="section-galleries"> 
         <div class="container">

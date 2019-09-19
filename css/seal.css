@@ -86,25 +86,27 @@ nav {
   .about-us .disclaimer {
     margin-top: 100px; }
 
-.partners .partners-partner {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 30px;
-  border: 2px solid #747474;
-  text-align: center;
-  transition-duration: 300ms;
-  overflow: hidden; }
-  .partners .partners-partner .partners-partner-name {
-    text-transform: uppercase;
-    font-weight: 700; }
-  .partners .partners-partner .partners-partner-description {
-    padding: 0 20px; }
-
-.partners .partners-partner:hover {
-  background-color: #bababa;
-  cursor: pointer; }
+.partners {
+  position: relative; }
+  .partners .partners-partner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    border: 2px solid #747474;
+    text-align: center;
+    transition-duration: 300ms;
+    overflow: hidden; }
+    .partners .partners-partner .partners-partner-name {
+      text-transform: uppercase;
+      font-weight: 700; }
+    .partners .partners-partner .partners-partner-description {
+      padding: 0 20px; }
+  .partners .partners-partner:hover {
+    background-color: #bababa;
+    cursor: pointer; }
 
 .section-galleries {
   background-color: blue;
@@ -242,18 +244,20 @@ section:last-child {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 500px solid transparent;
+  border-top: 600px solid transparent;
   border-left: 750px solid #eadcc9;
-  border-bottom: 500px solid transparent;
+  border-bottom: 600px solid transparent;
   left: 0; }
 
 .triangle-right-side {
   position: absolute;
   width: 0;
   height: 0;
-  border-top: 500px solid transparent;
+  border-top: 600px solid transparent;
   border-right: 750px solid #eadcc9;
-  border-bottom: 500px solid transparent; }
+  border-bottom: 600px solid transparent;
+  top: 50px;
+  right: 0; }
 
 .triangle-up {
   width: 0;
