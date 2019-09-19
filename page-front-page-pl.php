@@ -77,6 +77,9 @@ if( have_posts() ):
     <main>
         <section id="about-us" class="about-us"> 
             <div class="container">
+                <div class="triangle-left-side">
+                    
+                </div>
                 <div class="row"> <!-- Section title -->
                     <div class="col-12"> 
                         <div class="section-title"> 

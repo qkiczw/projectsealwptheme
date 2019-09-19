@@ -63,23 +63,25 @@ nav {
   nav .navbar-nav .menu-item {
     padding-right: 40px; }
 
-.about-us .about-us-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 350px;
-  height: 350px;
-  border: 10px solid #424242;
-  border-radius: 50%; }
-  .about-us .about-us-logo .project-logo {
-    max-width: 75%; }
-
-.about-us .about-us-short-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%; }
+.about-us {
+  position: relative; }
+  .about-us .about-us-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 350px;
+    border: 10px solid #424242;
+    border-radius: 50%;
+    background-color: #ffffff; }
+    .about-us .about-us-logo .project-logo {
+      max-width: 75%; }
+  .about-us .about-us-short-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
 
 .section-galleries {
   background-color: blue;
@@ -212,5 +214,11 @@ section {
 section:last-child {
   margin-bottom: 0; }
 
-.triangle {
-  background-color: orange; }
+.triangle-left-side {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 500px solid transparent;
+  border-left: 750px solid #eadcc9;
+  border-bottom: 500px solid transparent;
+  left: 0; }

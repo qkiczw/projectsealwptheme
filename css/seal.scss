@@ -83,6 +83,7 @@ nav{
 }
 
 .about-us{
+    position: relative;
     .about-us-logo{
         display: flex;
         justify-content: center;
@@ -91,6 +92,7 @@ nav{
         height: 350px;
         border: 10px solid #424242;
         border-radius: 50%;
+        background-color: #ffffff;
         .project-logo{
             max-width: 75%;
             
@@ -275,6 +277,20 @@ section:last-child{
     margin-bottom: 0;
 }
 
-.triangle{
-    background-color: orange;
+.triangle-left-side{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 500px solid transparent;
+    border-left: 750px solid #eadcc9;
+    border-bottom: 500px solid transparent;
+    left: 0;
+}
+.triangle-right-side{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 500px solid transparent;
+    border-right: 750px solid #eadcc9;
+    border-bottom: 500px solid transparent;
 }
