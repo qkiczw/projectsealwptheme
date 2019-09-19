@@ -91,7 +91,10 @@ if( have_posts() ):
                         </figure>
                     </div>
                     <div class="col-lg-7">
-                        krótkie info - o projekcie
+                        <div class="about-us-short-info">
+                            <p>SEAL to międzynarodowy projekt, który ma na celu wypracowanie  innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów. W efekcie ma powstać międzynarodowy poradnik aktywizacji i edukacji seniorów. </p>
+                            <a href="http://qki.cba.pl/seal/pl/o-nas/" class="btn-grey">Dowiedz się więcej</a>
+                        </div>
                     </div>
 
                     <!-- <div class="col-12">

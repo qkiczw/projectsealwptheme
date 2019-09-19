@@ -74,6 +74,13 @@ nav {
   .about-us .about-us-logo .project-logo {
     max-width: 75%; }
 
+.about-us .about-us-short-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; }
+
 .section-galleries {
   background-color: blue;
   background-image: url(../img/fp_gallery_bg2.jpg);
@@ -205,5 +212,5 @@ section {
 section:last-child {
   margin-bottom: 0; }
 
-.about-us-short-info {
-  text-align: center; }
+.triangle {
+  background-color: orange; }
