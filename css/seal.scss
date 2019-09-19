@@ -17,6 +17,7 @@ html{
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
+    color: #424242;
 }
 
 header{
@@ -115,14 +116,24 @@ nav{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 1px solid #424242;
+        border: 2px solid #747474;
         text-align: center;
-        padding: 0 20px;
         transition-duration: 300ms;
+        .partners-partner-name{
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        .partners-partner-description{
+            padding: 0 20px;
+        }
     }
     .partners-partner:hover{
         background-color: #bababa;
         cursor: pointer;
+    }.partners-partner-btn{
+        width: 100%;
+        border: 0;
+        background-color: #89ce40;
     }
 }
 

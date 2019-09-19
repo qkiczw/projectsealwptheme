@@ -125,12 +125,35 @@ if( have_posts() ):
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-ckusopot.jpg" class="img-fluid">
                             </figure>
+                            <h3 class="partners-partner-name">cku sopot</h3>
+                            <p class="partners-partner-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                            </p>
+                            <button class="partners-partner-btn">
+                                Odwiedź
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="partners-partner">
+                            <figure class="partners-partner-logo">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-glafka.jpg" class="img-fluid">
+                            </figure>
                             <p class="partners-partner-description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
                             </p>
                         </div>
                     </div>
-                    Bloki z partnerami
+                    <div class="col-lg-4">
+                        <div class="partners-partner">
+                            <figure class="partners-partner-logo">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-istituto.jpg" class="img-fluid">
+                            </figure>
+                            <p class="partners-partner-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                            </p>
+                        </div>
+                    </div>
                 </div>
                 
             </div> 
