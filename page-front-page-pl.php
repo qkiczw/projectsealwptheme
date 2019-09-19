@@ -130,7 +130,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners-partner-name">cku sopot</h3>
                             <p class="partners-partner-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. 
                             </p>
                         </div>
                     </div>
@@ -141,7 +141,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners-partner-name">galfka</h3>
                             <p class="partners-partner-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum.
                             </p>
                         </div>
                     </div>
@@ -152,7 +152,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners-partner-name">istituto</h3>
                             <p class="partners-partner-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. 
                             </p>
                         </div>
                     </div>
@@ -165,7 +165,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners-partner-name">prometeo</h3>
                             <p class="partners-partner-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. 
                             </p>
                         </div>
                     </div>
@@ -176,7 +176,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners-partner-name">kmem</h3>
                             <p class="partners-partner-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. 
                             </p>
                         </div>
                     </div>
@@ -187,7 +187,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners-partner-name">erasmus+</h3>
                             <p class="partners-partner-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum. Mauris porta id augue sed placerat. Proin bibendum nulla urna, posuere consequat sapien tempor in. Proin eget ultrices orci. Nunc ornare finibus semper. In purus justo, tempus et molestie suscipit, blandit ut nulla.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum.
                             </p>
                         </div>
                     </div>
