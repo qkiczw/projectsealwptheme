@@ -109,6 +109,22 @@ nav{
         margin-top: 100px;
     }
 }
+.partners{
+    .partners-partner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #424242;
+        text-align: center;
+        padding: 0 20px;
+        transition-duration: 300ms;
+    }
+    .partners-partner:hover{
+        background-color: #bababa;
+        cursor: pointer;
+    }
+}
 
 .section-galleries{
     background-color: blue;
