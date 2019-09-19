@@ -49,10 +49,10 @@
             </nav>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-6 header-text">
-                        <div class="header-text-content">
-                            <h1 class="header-project-title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
-                            <h5 class="header-project-slogan">
+                    <div class="col-lg-6 hero-text">
+                        <div class="hero-text-content">
+                            <h1 class="hero-text-title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
+                            <h5 class="hero-text-slogan">
                             SEAL to międzynarodowy projekt, który ma na celu wypracowanie innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów.
                             </h5>
                             <a class="btn-grey" href="#fp-about-us-content">zobacz</a>

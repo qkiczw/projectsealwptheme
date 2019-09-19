@@ -24,20 +24,20 @@ header {
   header .nav-logo {
     max-width: 200px;
     padding-left: 50px; }
-  header .header-text {
+  header .hero-text {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center; }
-    header .header-text .header-text-content {
+    header .hero-text .hero-text-content {
       display: flex;
       flex-direction: column;
       align-items: center;
       max-width: 550px; }
-      header .header-text .header-text-content .header-project-title {
+      header .hero-text .hero-text-content .hero-text-title {
         font-weight: 700;
         font-size: 2.8em; }
-      header .header-text .header-text-content .header-project-slogan {
+      header .hero-text .hero-text-content .hero-text-slogan {
         margin-top: 30px;
         margin-bottom: 50px;
         font-size: 1.3em; }
@@ -242,8 +242,3 @@ section:last-child {
 
 .about-us-short-info {
   text-align: center; }
-
-@media (min-width: 900px) {
-  .navbar-expand-md {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap; } }

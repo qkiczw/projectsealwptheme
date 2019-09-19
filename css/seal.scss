@@ -29,21 +29,21 @@ header{
         max-width: 200px;
         padding-left: 50px;
     }
-    .header-text{
+    .hero-text{
         height: 100vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        .header-text-content{
+        .hero-text-content{
             display: flex;
             flex-direction: column;
             align-items: center;
             max-width: 550px;
-            .header-project-title{
+            .hero-text-title{
                 font-weight: 700;
                 font-size: 2.8em;
             }
-            .header-project-slogan{
+            .hero-text-slogan{
                 margin-top: 30px;
                 margin-bottom: 50px;
                 font-size: 1.3em;
@@ -81,6 +81,7 @@ nav{
         }
     }
 }
+
 .fp-about-us-content{
     .seal-logo{
         display: flex;
@@ -135,9 +136,9 @@ nav{
                 cursor: pointer;
             }   
         } 
-    }
-        
+    }       
 }
+
 .section-galleries{
     background-color: blue;
     background-image: url(../img/fp_gallery_bg2.jpg);
@@ -190,9 +191,7 @@ nav{
             color: #ffffff;
             cursor: pointer;
         }
-    }
-    
-    
+    }   
 }
 
 footer{
