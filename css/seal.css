@@ -57,12 +57,9 @@ header {
       transform: scale(1.1); }
 
 nav {
-  background-color: none;
-  font-size: 1.3em;
-  height: 75px;
   text-transform: uppercase; }
-  nav .navbar-nav .menu-item {
-    padding-right: 40px; }
+  nav a {
+    color: #424242; }
 
 .about-us {
   position: relative; }

@@ -27,7 +27,7 @@
         <![endif]-->
 
         <header>
-            <nav class="navbar navbar-expand-md navbar-light bg-faded">
+            <!-- <nav class="navbar navbar-expand-md navbar-light bg-faded">
                 <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,6 +46,11 @@
                     'walker'          => new bs4navwalker()
                     ]);
                 ?>
+            </nav> -->
+            <!-- New menu -->
+            <nav>
+                <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
+                <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
             </nav>
             <div class="container-fluid">
                 <div class="row">

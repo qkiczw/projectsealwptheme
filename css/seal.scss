@@ -70,19 +70,24 @@ header{
     }
 }
 
-nav{
-    background-color: none;
-    font-size: 1.3em;
-    height: 75px;
-    text-transform: uppercase;
+// nav{
+//     background-color: none;
+//     font-size: 1.3em;
+//     height: 75px;
+//     text-transform: uppercase;
 
-    .navbar-nav{
-        .menu-item{
-            padding-right: 40px;
-        }
+//     .navbar-nav{
+//         .menu-item{
+//             padding-right: 40px;
+//         }
+//     }
+// }
+nav{
+    text-transform: uppercase;
+    a{
+        color: #424242;        
     }
 }
-
 .about-us{
     position: relative;
     .about-us-logo{
