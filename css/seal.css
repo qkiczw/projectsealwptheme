@@ -265,3 +265,10 @@ section:last-child {
   border-left: 175px solid transparent;
   border-right: 175px solid transparent;
   border-bottom: 40px solid #89ce40; }
+
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+  header .hero-text .hero-text-content .hero-text-title {
+    font-weight: 700;
+    font-size: 2em; }
+  nav .navbar-nav .menu-item {
+    padding-right: 20px; } }
