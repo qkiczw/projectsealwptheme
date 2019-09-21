@@ -353,10 +353,24 @@ section:last-child{
     header{
         .hero-text{
             .hero-text-content{
+                max-width: 450px;
+                
                 .hero-text-title{
                     font-weight: 700;
                     font-size: 2em;
-                }
+                }.hero-text-slogan{
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    font-size: 1em;
+                }    
+            }
+        }
+        .header-social-icons{
+            font-size: 1em;
+            bottom: 5px;
+            .header-social-icon{
+                max-width: 40px;
+                padding-left: 15px;
             }
         }    
     }

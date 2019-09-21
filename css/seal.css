@@ -267,8 +267,20 @@ section:last-child {
   border-bottom: 40px solid #89ce40; }
 
 @media (min-width: 1200px) and (max-width: 1599.98px) {
-  header .hero-text .hero-text-content .hero-text-title {
-    font-weight: 700;
-    font-size: 2em; }
+  header .hero-text .hero-text-content {
+    max-width: 450px; }
+    header .hero-text .hero-text-content .hero-text-title {
+      font-weight: 700;
+      font-size: 2em; }
+    header .hero-text .hero-text-content .hero-text-slogan {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 1em; }
+  header .header-social-icons {
+    font-size: 1em;
+    bottom: 5px; }
+    header .header-social-icons .header-social-icon {
+      max-width: 40px;
+      padding-left: 15px; }
   nav .navbar-nav .menu-item {
     padding-right: 20px; } }
