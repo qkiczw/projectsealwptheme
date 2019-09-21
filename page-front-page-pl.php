@@ -123,7 +123,7 @@ if( have_posts() ):
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners-partner">
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-ckusopot.png" class="img-fluid">
@@ -134,7 +134,7 @@ if( have_posts() ):
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners-partner">
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-glafka.png" class="img-fluid">
@@ -145,7 +145,7 @@ if( have_posts() ):
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners-partner">
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-istituto.png" class="img-fluid">
@@ -156,9 +156,7 @@ if( have_posts() ):
                             </p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners-partner">
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-prometeo.png" class="img-fluid">
@@ -169,7 +167,7 @@ if( have_posts() ):
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners-partner">
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-kmem.png" class="img-fluid">
@@ -180,7 +178,7 @@ if( have_posts() ):
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners-partner">
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-erasmus.jpg" class="img-fluid">
