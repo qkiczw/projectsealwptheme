@@ -57,9 +57,24 @@ header {
       transform: scale(1.1); }
 
 nav {
-  text-transform: uppercase; }
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 1.5em; }
+  nav .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none; }
+    nav .menu .menu-item {
+      padding-left: 30px; }
   nav a {
     color: #424242; }
+  nav a:hover {
+    text-decoration: none;
+    color: #2c2c2c; }
 
 .about-us {
   position: relative; }
@@ -279,5 +294,5 @@ section:last-child {
     header .header-social-icons .header-social-icon {
       max-width: 40px;
       padding-left: 15px; }
-  nav .navbar-nav .menu-item {
-    padding-right: 20px; } }
+  nav {
+    font-size: 1.2em; } }
