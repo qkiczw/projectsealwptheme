@@ -167,7 +167,7 @@ nav{
         }
     }
     .section-gallery:hover{
-        border: 1px solid #89ce40;
+        border: 1px solid #e0c8ae;
         img{
             transform: scale(1.1); 
         }
@@ -177,16 +177,17 @@ nav{
         align-items: center;
         .btn-see-more-galleries{
             width: auto;
-            border: 1px solid #89ce40;
-            color: #89ce40;
+            border: 1px solid #ffffff;
+            border-radius: 10px;
+            color: #ffffff;
             padding: 15px 20px;
             margin: 20px 0;
             text-decoration: none;
             transition-duration: 0.5s;
         }
         .btn-see-more-galleries:hover{
-            background-color: #67ad1b;
-            color: #ffffff;
+            background-color: #ffffff;
+            color: #424242;
             cursor: pointer;
         }
     }   
