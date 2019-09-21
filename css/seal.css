@@ -232,7 +232,7 @@ section {
     bottom: -10px;
     left: calc(50% - 50px);
     width: 100px;
-    height: 1px;
+    height: 4px;
     margin: auto; }
   section .section-content {
     padding-top: 50px; }
