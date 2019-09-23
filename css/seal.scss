@@ -69,20 +69,7 @@ header{
         }
     }
 }
-
-// nav{
-//     background-color: none;
-//     font-size: 1.3em;
-//     height: 75px;
-//     text-transform: uppercase;
-
-//     .navbar-nav{
-//         .menu-item{
-//             padding-right: 40px;
-//         }
-//     }
-// }
-nav{
+.main-menu{
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -113,7 +100,7 @@ nav{
 
 .hamburger{
     padding: 10px;
-    display: inline-block;
+    display: none; // inline-block in standard
     cursor: pointer;
     background-color: transparent;
     border: 0;
@@ -358,6 +345,17 @@ footer{
     margin-top: 50px;
 }
 
+//Polylang custon styles
+.pll-parent-menu-item{
+    .sub-menu{
+        list-style: none;
+        padding-left: 0;
+        .lang-item{
+            padding-left: 0;
+        }
+    }
+}
+
 // Generic section
 section{
     margin-bottom: 50px;
@@ -426,16 +424,18 @@ section:last-child{
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {  }
+@media (min-width: 320px) {  }
 
 // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {  }
+@media (min-width: 576px) { 
+    
+ }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991.98px) {  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) {  }
+@media (min-width: 992px) {  }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1599.98px) { 

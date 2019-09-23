@@ -48,7 +48,7 @@
                 ?>
             </nav> -->
             <!-- New menu -->
-            <nav>
+            <nav class="main-menu">
                 <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                 <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
                 <button class="hamburger">
@@ -56,7 +56,7 @@
                         <span class="hamburger__inner"></span>
                     </span>
                 </button>
-            </nav>
+            </nav> 
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 hero-text">

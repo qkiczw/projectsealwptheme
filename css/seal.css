@@ -56,31 +56,31 @@ header {
     header .header-social-icons .header-social-icon:hover {
       transform: scale(1.1); }
 
-nav {
+.main-menu {
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-transform: uppercase;
   font-size: 1.5em; }
-  nav .menu {
+  .main-menu .menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     list-style: none; }
-    nav .menu .menu-item {
+    .main-menu .menu .menu-item {
       padding-left: 30px; }
-  nav .menu--hidden {
+  .main-menu .menu--hidden {
     display: none; }
-  nav a {
+  .main-menu a {
     color: #424242; }
-  nav a:hover {
+  .main-menu a:hover {
     text-decoration: none;
     color: #2c2c2c; }
 
 .hamburger {
   padding: 10px;
-  display: inline-block;
+  display: none;
   cursor: pointer;
   background-color: transparent;
   border: 0;
@@ -272,6 +272,12 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 50px; }
+
+.pll-parent-menu-item .sub-menu {
+  list-style: none;
+  padding-left: 0; }
+  .pll-parent-menu-item .sub-menu .lang-item {
+    padding-left: 0; }
 
 section {
   margin-bottom: 50px;
