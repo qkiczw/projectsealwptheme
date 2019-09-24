@@ -65,7 +65,7 @@
                             <h5 class="hero-text-slogan">
                                 SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors.
                             </h5>
-                            <a class="btn-grey" href="#fp-about-us-content">Start Journey</a>
+                            <a class="btn-grey" href="#about-us">Start Journey</a>
                         </div>
                     </div>
                 </div>

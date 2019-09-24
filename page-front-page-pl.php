@@ -65,7 +65,7 @@
                             <h5 class="hero-text-slogan">
                             SEAL to międzynarodowy projekt, który ma na celu wypracowanie innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów.
                             </h5>
-                            <a class="btn-grey" href="#fp-about-us-content">zobacz</a>
+                            <a class="btn-grey" href="#about-us">zobacz</a>
                         </div>
                     </div>
                 </div>
