@@ -85,11 +85,15 @@ if( have_posts() ):
                         <p><?php the_excerpt() ?></p>
                     </div>
                     <div class="view-full-contnet">
-                        <a href="<?php the_permalink() ?>" class="AktuZobacz">More</a>
+                        <a href="<?php the_permalink() ?>" class="AktuZobacz">More...</a>
                     </div>
                 </div>
+            </div>          
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <?php next_posts_link( 'Older Entries »', 0 ); ?>
             </div>
-            
         </div>
     </div>
     

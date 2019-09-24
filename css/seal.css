@@ -262,7 +262,8 @@ footer {
 .post-full {
   display: flex;
   flex-direction: column;
-  margin-top: 50px; }
+  margin-top: 50px;
+  min-height: 500px; }
 
 section {
   margin-bottom: 50px;
