@@ -19,6 +19,14 @@ body{
     font-size: 18px;
     color: #424242;
 }
+a{
+    color: #424242;
+    text-decoration: none;
+}
+a:hover{
+    color: #2c2c2c;
+    text-decoration: none;
+}
 
 header{
     position: relative;
@@ -69,34 +77,34 @@ header{
         }
     }
 }
-.main-menu{
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
-    font-size: 1.5em;
-    .menu{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        list-style: none;
+// .main-menu{
+//     height: 100px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     text-transform: uppercase;
+//     font-size: 1.5em;
+//     .menu{
+//         display: flex;
+//         justify-content: flex-end;
+//         align-items: center;
+//         list-style: none;
 
-        .menu-item{
-            padding-left: 30px;
-        }
-    }
-    .menu--hidden{
-        display: none;
-    }
-    a{
-        color: #424242;        
-    }
-    a:hover{
-        text-decoration: none;
-        color: #2c2c2c
-    }
-}
+//         .menu-item{
+//             padding-right: 30px;
+//         }
+//     }
+//     .menu--hidden{
+//         display: none;
+//     }
+//     a{
+//         color: #424242;        
+//     }
+//     a:hover{
+//         text-decoration: none;
+//         color: #2c2c2c
+//     }
+// }
 
 .hamburger{
     padding: 10px;
@@ -345,16 +353,21 @@ footer{
     margin-top: 50px;
 }
 
-//Polylang custon styles
-.pll-parent-menu-item{
-    .sub-menu{
-        list-style: none;
-        padding-left: 0;
-        .lang-item{
-            padding-left: 0;
-        }
-    }
-}
+// //Polylang custon styles
+// .pll-parent-menu-item{
+//     .sub-menu{
+//         list-style: none;
+//         padding-left: 0;
+//         display: none; // standard is block!
+//         .lang-item{
+//             padding-left: 0;
+//         }
+//     }
+//     .sub-menu-open{
+//         position: absolute;
+//         display: block;
+//     }
+// }
 
 // Generic section
 section{
@@ -463,9 +476,9 @@ section:last-child{
             }
         }    
     }
-    nav{
-        font-size: 1.2em;
-    }
+    // nav{
+    //     font-size: 1.2em;
+    // }
 }
  // FHD Monitor and up
 @media (min-width: 1600px) {  }
