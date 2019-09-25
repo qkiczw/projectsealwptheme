@@ -85,12 +85,14 @@ if( have_posts() ):
                         <article>
                             <h2><?php the_title(); ?></h2>
                             <?php the_content(); ?>
+                            <p>
+                                <a href="#">Wróć do aktualności</a>
+                            </p>
                         </article>
                     </div>
                 </div>
+                
             </div>
-        
-    
     <?php endwhile;
 endif;
     

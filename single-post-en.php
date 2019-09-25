@@ -85,6 +85,9 @@ if( have_posts() ):
                         <article>
                             <h2><?php the_title(); ?></h2>
                             <?php the_content(); ?>
+                            <p>
+                                <a href="#">Back to news list</a>
+                            </p>
                         </article>
                     </div>
                 </div>
