@@ -77,6 +77,18 @@ header{
         }
     }
 }
+// header for any other sub pages
+.header-sub-page{
+    height: 70vh;
+    background-position: 20% 20%;
+    .hero-text{
+        height: 70vh;
+        .header-arrows-icon{
+            max-width: 50px;
+        }
+    }
+
+}
 // .main-menu{
 //     height: 100px;
 //     display: flex;

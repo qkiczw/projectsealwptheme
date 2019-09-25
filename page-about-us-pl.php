@@ -1,7 +1,7 @@
 <?php 
 
     /*
-    Template Name: Basic Single Page
+    Template Name: About Us PL
     */
 
 ?>
@@ -26,7 +26,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header>
+        <header class="header-sub-page">
             <nav class="navbar navbar-expand-md navbar-light bg-faded">
                 <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,11 +61,8 @@
                 <div class="row">
                     <div class="col-lg-6 hero-text">
                         <div class="hero-text-content">
-                            <h1 class="hero-text-title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
-                            <h5 class="hero-text-slogan">
-                            SEAL to międzynarodowy projekt, który ma na celu wypracowanie innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów.
-                            </h5>
-                            <a class="btn-grey" href="#about-us">zobacz</a>
+                            <h1 class="hero-text-title">Dowiedz się o nas więcej</h1>
+                            <a href="#"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
                 </div>

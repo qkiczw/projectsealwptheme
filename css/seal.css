@@ -64,6 +64,14 @@ header {
     header .header-social-icons .header-social-icon:hover {
       transform: scale(1.1); }
 
+.header-sub-page {
+  height: 70vh;
+  background-position: 20% 20%; }
+  .header-sub-page .hero-text {
+    height: 70vh; }
+    .header-sub-page .hero-text .header-arrows-icon {
+      max-width: 50px; }
+
 .hamburger {
   padding: 10px;
   display: none;
