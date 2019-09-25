@@ -62,7 +62,7 @@
                     <div class="col-lg-6 hero-text">
                     <div class="hero-text-content">
                             <h1 class="hero-text-title">Wyniki naszysz działań</h1>
-                            <a href="#"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
+                            <a href="https://www.facebook.com/seal.erasmusproject"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
                 </div>

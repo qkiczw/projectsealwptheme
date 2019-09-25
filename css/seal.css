@@ -85,6 +85,10 @@ header {
   100% {
     transform: translateY(0px); } }
 
+.navbar {
+  font-size: 1.2em;
+  text-transform: uppercase; }
+
 .hamburger {
   padding: 10px;
   display: none;

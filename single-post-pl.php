@@ -68,7 +68,7 @@
                 <div class="row">
                     <div class="col-12 header-social-icons">
                         <p>Tutaj nas znajdziesz</p>
-                        <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
+                        <p><a href="https://www.facebook.com/seal.erasmusproject"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
                         <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon.png"></a></p>
                     </div>
                 </div>
