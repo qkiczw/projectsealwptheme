@@ -1,7 +1,7 @@
 <?php 
 
     /*
-    Template Name: Results EN
+    Template Name: Gelleries PL
     */
 
 ?>
@@ -60,15 +60,15 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 hero-text">
-                        <div class="hero-text-content">
-                            <h1 class="hero-text-title">Results of our work</h1>
-                            <a href="#main-content"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
+                    <div class="hero-text-content">
+                            <h1 class="hero-text-title">Galerie projektu SEAL</h1>
+                            <a href="#"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 header-social-icons">
-                        <p>Znajdź nas tutaj</p>
+                        <p>Tutaj nas znajdziesz</p>
                         <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
                         <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon.png"></a></p>
                     </div>
@@ -82,7 +82,7 @@
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
 
-    <main id="main-content">
+    <main>
         <section id="single-page" class="single-page"> 
             <div class="container">
                 <div class="row">
@@ -94,8 +94,7 @@ if( have_posts() ):
     </main>
     
     <?php endwhile;
-endif;
-    
+endif; 
 ?>
 
 <footer>
@@ -103,14 +102,14 @@ endif;
         <div class="row">
             <div class="col-md-6 col-lg-3 footer-col">
                 <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/img/erasmus_logo_white.png"></a>
-                <p>SEAL project has been funded with support from the European Commission within Erasmus+ Programme. However European Commission cannot be held responsible for any use which may be made of the information contained therein.</p>
+                <p>Strona internetowa została zrealizowana przy wsparciu finansowym Komisji Europejskiej. Treść strony odzwierciedla jedynie stanowisko jej autorów i Komisja Europejska oraz Narodowa Agencja Programu Erasmus+ nie ponoszą odpowiedzialności za jej zawartość merytoryczną. </p>
             </div>
             <div class="col-md-6 col-lg-3 footer-col"> 
                 <h5>MENU</h5>
                 <?php wp_nav_menu(array('theme_location_'=>'footer')); ?>
             </div>
             <div class="col-md-6 col-lg-3 footer-col">
-                <p>ADDRESS</p>
+                <p>ADRES</p>
                 <ul>
                     <li>
                         <img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/place.png"> 
@@ -119,13 +118,13 @@ endif;
                         81-704 Sopot<br />
                         ul. Tadeusza Kościuszki 22-24<br />
                     </li>
-                    <li><img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> phone: +48 58 550 33 65</li>
-                    <li><img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> phone: 791 983 610</li>
+                    <li><img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: +48 58 550 33 65</li>
+                    <li><img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: 791 983 610</li>
                     <li><img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/mail.png"> e-mail: <a href="mailto:cku-projekty@wp.pl">cku-projekty@wp.pl</a></li>
                 </ul> 
             </div>
             <div class="col-md-6 col-lg-3 footer-col">
-                <p>LINKS</p>
+                <p>PRZYDATNE LINKI</p>
                 <ul>
                     <li><a href="http://ckusopot.pl" target="_blank">CKU SOPOT</a></li>
                     <li><a href="http://kmaras.meb.gov.tr/" target="_blank">KMEM</a></li>
@@ -138,5 +137,5 @@ endif;
     </div>
 </footer>
 <?php wp_footer(); ?>
-</body>
+    </body>
 </html>

@@ -1,7 +1,7 @@
 <?php 
 
     /*
-    Template Name: Results EN
+    Template Name: Galleries EN
     */
 
 ?>
@@ -61,14 +61,14 @@
                 <div class="row">
                     <div class="col-lg-6 hero-text">
                         <div class="hero-text-content">
-                            <h1 class="hero-text-title">Results of our work</h1>
+                            <h1 class="hero-text-title">Results of the project</h1>
                             <a href="#main-content"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 header-social-icons">
-                        <p>Znajdź nas tutaj</p>
+                        <p>Find us here</p>
                         <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
                         <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon.png"></a></p>
                     </div>
