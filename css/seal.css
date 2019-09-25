@@ -69,8 +69,21 @@ header {
   background-position: 20% 20%; }
   .header-sub-page .hero-text {
     height: 70vh; }
-    .header-sub-page .hero-text .header-arrows-icon {
-      max-width: 50px; }
+    .header-sub-page .hero-text .hero-text-content {
+      max-width: 100%; }
+      .header-sub-page .hero-text .hero-text-content .header-arrows-icon {
+        max-width: 50px;
+        animation-name: header-arrow-animation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite; }
+
+@keyframes header-arrow-animation {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(10px); }
+  100% {
+    transform: translateY(0px); } }
 
 .hamburger {
   padding: 10px;

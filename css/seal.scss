@@ -83,11 +83,21 @@ header{
     background-position: 20% 20%;
     .hero-text{
         height: 70vh;
-        .header-arrows-icon{
-            max-width: 50px;
+        .hero-text-content{
+            max-width: 100%;
+            .header-arrows-icon{
+                max-width: 50px;
+                animation-name: header-arrow-animation;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+            }
         }
     }
-
+}
+@keyframes header-arrow-animation {
+    0%   {transform: translateY(0px)}
+    50%  {transform: translateY(10px)}
+    100% {transform: translateY(0px)}
 }
 // .main-menu{
 //     height: 100px;

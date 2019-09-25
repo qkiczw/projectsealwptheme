@@ -18,7 +18,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <header>
+        <header class="header-sub-page">
             <nav class="navbar navbar-expand-md navbar-light bg-faded">
                 <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,9 +52,9 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-6 hero-text">
-                        <div class="hero-text-content">
-                            <h1 class="hero-text-title">See what is happening in our project</h1>
-                            <!-- <a class="btn-grey" href="#about-us">Start Journey</a> -->
+                    <div class="hero-text-content">
+                            <h1 class="hero-text-title">Check what happened or will happen</h1>
+                            <a href="#"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
                 </div>
