@@ -110,7 +110,7 @@ endif;
                 <?php wp_nav_menu(array('theme_location_'=>'footer')); ?>
             </div>
             <div class="col-md-6 col-lg-3 footer-col">
-                <p>ADRES</p>
+                <p>ADDRESS</p>
                 <ul>
                     <li>
                         <img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/place.png"> 
@@ -125,7 +125,7 @@ endif;
                 </ul> 
             </div>
             <div class="col-md-6 col-lg-3 footer-col">
-                <p>PRZYDATNE LINKI</p>
+                <p>LINKS</p>
                 <ul>
                     <li><a href="http://ckusopot.pl" target="_blank">CKU SOPOT</a></li>
                     <li><a href="http://kmaras.meb.gov.tr/" target="_blank">KMEM</a></li>
