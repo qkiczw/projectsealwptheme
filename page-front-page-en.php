@@ -104,7 +104,7 @@ if( have_posts() ):
                     <div class="col-lg-7">
                         <div class="about-us-short-info">
                             <p>SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors. An international guide of education and activation of seniors is going to be created at the project end.</p>
-                            <a href="http://qki.cba.pl/seal/pl/o-nas/" class="btn-grey">More about Us</a>
+                            <a href="http://qki.cba.pl/seal/en/o-nas-en/" class="btn-grey">More about Us</a>
                         </div>
                     </div>
                 </div>
