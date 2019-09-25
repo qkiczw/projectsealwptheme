@@ -85,7 +85,7 @@ if( have_posts() ):
                         <p><?php the_excerpt() ?></p>
                     </div>
                     <div class="view-full-contnet">
-                        <a href="<?php the_permalink() ?>" class="AktuZobacz">More...</a>
+                        <a href="<?php the_permalink() ?>" class="AktuZobacz">Zobacz</a>
                     </div>
                 </div>
             </div>          
