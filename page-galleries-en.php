@@ -61,7 +61,7 @@
                 <div class="row">
                     <div class="col-lg-6 hero-text">
                         <div class="hero-text-content">
-                            <h1 class="hero-text-title">Results of the project</h1>
+                            <h1 class="hero-text-title">Project galleries</h1>
                             <a href="#main-content"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
