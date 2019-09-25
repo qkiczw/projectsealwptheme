@@ -191,7 +191,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners-partner">
                             <figure class="partners-partner-logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-erasmus.jpg" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-erasmus.png" class="img-fluid">
                             </figure>
                             <h3 class="partners-partner-name">erasmus+</h3>
                             <p class="partners-partner-description">
