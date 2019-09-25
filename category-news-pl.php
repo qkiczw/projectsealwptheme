@@ -54,7 +54,7 @@
                     <div class="col-lg-6 hero-text">
                     <div class="hero-text-content">
                             <h1 class="hero-text-title">Zobacz co się u nas ciekawego dzieje</h1>
-                            <a href="#"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
+                            <a href="#main-content"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
                 </div>
@@ -71,31 +71,33 @@
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
-    <div class="container posts-list">
-        <div class="row">
-            <div class="col-lg-12 post">
-                <div class="post-thumbnail">
-                    <?php the_post_thumbnail('thumbnail'); ?>
+    <main id="main-content">
+        <div class="container posts-list">
+            <div class="row">
+                <div class="col-lg-12 post">
+                    <div class="post-thumbnail">
+                        <?php the_post_thumbnail('thumbnail'); ?>
+                    </div>
+                    <div>
+                        <div class="post-title">
+                            <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                        </div>
+                        <div class="post-content-short">
+                            <p><?php the_excerpt() ?></p>
+                        </div>
+                        <div class="view-full-contnet">
+                            <a href="<?php the_permalink() ?>" class="AktuZobacz">Zobacz</a>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <?php next_posts_link( 'Older Entries »', 0 ); ?>
                 </div>
-                <div>
-                    <div class="post-title">
-                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                    </div>
-                    <div class="post-content-short">
-                        <p><?php the_excerpt() ?></p>
-                    </div>
-                    <div class="view-full-contnet">
-                        <a href="<?php the_permalink() ?>" class="AktuZobacz">Zobacz</a>
-                    </div>
-                </div>
-            </div>          
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <?php next_posts_link( 'Older Entries »', 0 ); ?>
             </div>
         </div>
-    </div>
+    </main>
     
     <?php endwhile;
 endif;
