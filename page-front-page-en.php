@@ -136,7 +136,7 @@ if( have_posts() ):
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-kmem.png" class="img-fluid">
                             </figure>
-                            <h3 class="partners-partner-name">KAHRAMANMARAS II MILLI EGITIM MUDURLUGU</h3>
+                            <h3 class="partners-partner-name">kmem</h3>
                             <p class="partners-partner-description">
                                 Public body which coordinates and supervises over 1084 schools. The employes from the research and development department are highly experienced in various types of projects (including Erasmus + projects). The institution is responsible for organizing the various courses for adults and for teachers in whole region. 
                             </p>
@@ -147,7 +147,7 @@ if( have_posts() ):
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-glafka.png" class="img-fluid">
                             </figure>
-                            <h3 class="partners-partner-name">galfka</h3>
+                            <h3 class="partners-partner-name">glafka</h3>
                             <p class="partners-partner-description">
                                 Educational and training organisation which provides education and consulting in the area of lifelong learning and development of innovative educational methods. Provides coursses and support for groups experiencing social exclusion. Support is mainly focused on development of vocational skills of beneficiaries. Provides IT courses for seniors (aged 60 +) .  
                             </p>
@@ -158,7 +158,7 @@ if( have_posts() ):
                             <figure class="partners-partner-logo">
                                 <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-istituto.png" class="img-fluid">
                             </figure>
-                            <h3 class="partners-partner-name">istituto</h3>
+                            <h3 class="partners-partner-name">ist</h3>
                             <p class="partners-partner-description">
                                 Non-governmental organisation founded in 1814 to provide support for people with sensory disabilities and to train their teacher. IST provides various types of support like: daily care, assisted housing, assisted learning, therapy workshops (painting, cooking, cinema, sport activities), VET education of disabled people and training for operator working in the sector. Highly experienced in Erasmus +projects.  
                             </p>
@@ -171,7 +171,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners-partner-name">prometeo</h3>
                             <p class="partners-partner-description">
-                            is an non govermental organisation which provides educational offer and support for members of institutions working in the field of education of adults. Is involved in projects and programmes connected with: development of  vocational skills of students; tourism and social inclusion, integration of imigrants with local societies, education of elderly people; development of innovative educational tools. Organisation highly experienced in activities against rasism and working for imigrants; cooperates with the local goverment of Calabria region; has a wide experience in transnational projects, sincluding Erasmus + projects. 
+                            Is an non govermental organisation which provides educational offer and support for members of institutions working in the field of education of adults. Is involved in projects and programmes connected with: development of  vocational skills of students; tourism and social inclusion, integration of imigrants with local societies, education of elderly people; development of innovative educational tools. Organisation highly experienced in activities against rasism and working for imigrants; cooperates with the local goverment of Calabria region; has a wide experience in transnational projects, sincluding Erasmus + projects. 
                             </p>
                         </div>
                     </div>
@@ -193,8 +193,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners-partner-name">erasmus+</h3>
                             <p class="partners-partner-description">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae viverra lorem, ut eleifend magna. Phasellus egestas nisi non accumsan tristique. Maecenas in varius tortor, non fringilla leo. Suspendisse potenti. Duis efficitur fringilla interdum.
+                                Erasmus+ is the EU's programme to support education, training, youth and sport in Europe. Its budget of €14.7 billion will provide opportunities for over 4 million Europeans to study, train, and gain experience abroad.Set to last until 2020, Erasmus+ doesn't just have opportunities for students. Merging seven prior programmes, it has opportunities for a wide variety of individuals and organisations.Detailed information on these opportunities, including eligibility criteria, is available in the Erasmus+ Programme Guide. An indicative funding guide for some centralised opportunities is also available.
                             </p>
                         </div>
                     </div>
