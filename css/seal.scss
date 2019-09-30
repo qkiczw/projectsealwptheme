@@ -449,7 +449,8 @@ section:last-child{
     border-top: 600px solid transparent;
     border-left: 750px solid #eadcc9;
     border-bottom: 600px solid transparent;
-    left: 0;
+    left: -1000px;
+    transition-duration: 1500ms;
 }
 .triangle-right-side{
     position: absolute;
@@ -459,15 +460,16 @@ section:last-child{
     border-right: 750px solid #eadcc9;
     border-bottom: 600px solid transparent;
     top: 50px;
+    right: -1000px;
+    transition-duration: 1500ms;
+}
+.traingle-left-visible{
+    left: 0;
+}
+.traingle-right-visible{
     right: 0;
 }
-.triangle-up{
-    width: 0;
-    height: 0;
-    border-left: 175px solid transparent;
-    border-right: 175px solid transparent;
-    border-bottom: 40px solid #89ce40;
-}
+
 
 // Extra small devices (portrait phones, less than 576px)
 @media (min-width: 320px) {  }
