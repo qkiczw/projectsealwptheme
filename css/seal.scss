@@ -226,6 +226,12 @@ main{
 }
 .partners{
     position: relative;
+    .partners-row{
+        opacity: 0;
+    }
+    .partners-row-2{
+        opacity: 0;
+    }
     .partners-partner{
         height: 750px;
         display: flex;

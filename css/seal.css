@@ -166,6 +166,10 @@ main {
 
 .partners {
   position: relative; }
+  .partners .partners-row {
+    opacity: 0; }
+  .partners .partners-row-2 {
+    opacity: 0; }
   .partners .partners-partner {
     height: 750px;
     display: flex;
@@ -347,13 +351,6 @@ section:last-child {
 
 .traingle-right-visible {
   right: 0; }
-
-.triangle-up {
-  width: 0;
-  height: 0;
-  border-left: 175px solid transparent;
-  border-right: 175px solid transparent;
-  border-bottom: 40px solid #89ce40; }
 
 @media (min-width: 1200px) and (max-width: 1599.98px) {
   header .hero-text .hero-text-content {

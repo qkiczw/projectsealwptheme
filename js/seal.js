@@ -46,3 +46,17 @@ const traingleRightAnimation = ()=> {
 }
 window.addEventListener('scroll', traingleLeftAnimation);
 window.addEventListener('scroll', traingleRightAnimation);
+
+jQuery(document).ready(function( $ ){
+    const $partnersRow = $('.partners-row');
+    const $window = $(window);
+ 
+    function partnersShow() {
+        if($window.scrollTop() > 1200) {
+            $partnersRow.animate({opacity: 1}, 1300);
+        } 
+    }
+    $window.on('scroll', partnersShow);
+
+
+})

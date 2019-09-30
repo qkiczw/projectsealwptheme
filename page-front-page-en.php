@@ -130,7 +130,7 @@ if( have_posts() ):
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row partners-row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners-partner">
                             <figure class="partners-partner-logo">
