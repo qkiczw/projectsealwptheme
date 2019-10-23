@@ -101,9 +101,9 @@ if( have_posts() ):
             
         </div>
     </div>
-    
+
     <?php endwhile;
-endif;
+ endif;
     
 ?>
 

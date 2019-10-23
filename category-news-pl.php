@@ -91,17 +91,23 @@ if( have_posts() ):
                     </div>
                 </div>          
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <?php next_posts_link( 'Older Entries »', 0 ); ?>
-                </div>
-            </div>
         </div>
     </main>
     
-    <?php endwhile;
+    <?php endwhile; ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 paggination text-left">
+                <?php next_posts_link('&#171; Starsze posty'); ?>
+            </div>
+            <div class="col-6 paggination text-right">
+                <?php previous_posts_link('Nowsze posty &#187;'); ?> 
+            </div>
+        </div>
+    </div>
+
+<?php
 endif;
-    
 ?>
 
 <footer>
