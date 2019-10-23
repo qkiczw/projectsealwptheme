@@ -57,6 +57,4 @@ jQuery(document).ready(function( $ ){
         } 
     }
     $window.on('scroll', partnersShow);
-
-
 })

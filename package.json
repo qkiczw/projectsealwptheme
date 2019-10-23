@@ -1,0 +1,23 @@
+{
+  "name": "projectsealwptheme",
+  "version": "1.0.0",
+  "description": "wp theme for seal project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qkiczw/projectsealwptheme.git"
+  },
+  "author": "Łukasz Szt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qkiczw/projectsealwptheme/issues"
+  },
+  "homepage": "https://github.com/qkiczw/projectsealwptheme#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
