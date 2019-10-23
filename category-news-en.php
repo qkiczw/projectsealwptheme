@@ -102,10 +102,10 @@ if( have_posts() ):
     <?php endwhile; ?>
     <div class="container">
         <div class="row">
-            <div class="col-6 paggination text-left">
+            <div class="col-6 pagination text-left">
                 <?php next_posts_link('&#171; Older posts'); ?>
             </div>
-            <div class="col-6 paggination text-right">
+            <div class="col-6 pagination text-right">
                 <?php previous_posts_link('Newer posts &#187;'); ?> 
             </div>
         </div>

@@ -476,6 +476,15 @@ section:last-child{
     right: 0;
 }
 
+.pagination{
+    margin-bottom: 30px;
+}
+.pagination__left{
+    text-align: left;
+}
+.pagination__right{
+    text-align: right;
+}
 
 // Extra small devices (portrait phones, less than 576px)
 @media (min-width: 320px) {  }
