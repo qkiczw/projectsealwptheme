@@ -483,10 +483,12 @@ section:last-child{
             align-items: flex-start;
     
             .site-footer__content_item_title{
+                position: relative;
                 font-weight: bold;
                 font-size: 1.2em;
                 margin-bottom: 10px;
             }
+            
             .site-footer__content_item_desc{
                 ul{
                     list-style: none;
