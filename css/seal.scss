@@ -1,6 +1,8 @@
 
 // Variables
-$footerBg: #424242; 
+$footerBg: #424242;
+$fontPrimaryColor: #424242;
+$fontSecondaryColor: #fffffF;
 
 /*remove margins and padding from left and right side of site*/
 .row{
@@ -20,7 +22,7 @@ html{
 body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
-    color: #424242;
+    color: $fontPrimaryColor;
 }
 a{
     color: #424242;
@@ -466,10 +468,10 @@ section:last-child{
 @media (min-width: 320px) {
     .site-footer{
         background-color: $footerBg;
-        color: #fffffF;
+        color: $fontSecondaryColor;
     
         a{
-            color: #fffffF;
+            color: $fontSecondaryColor;
             
         }
         a:hover{
