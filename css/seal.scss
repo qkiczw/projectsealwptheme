@@ -1,4 +1,7 @@
 
+// Variables
+$footerBg: #424242; 
+
 /*remove margins and padding from left and right side of site*/
 .row{
     margin-left: 0;
@@ -315,33 +318,6 @@ main{
     }   
 }
 
-footer{
-    padding: 50px 0;
-    background-color: #424242;
-    color: #fffffF;
-    a{
-        color: #ffffff;
-    }
-    a:hover{
-        color: lightgrey;
-        text-decoration: none;
-    }
-    .footer-logo{
-        width: 200px;
-    }
-    ul{
-        list-style: none;
-        padding-left: 0;
-    }
-    .footer-col{
-        display: flex;
-        flex-direction: column;
-    }
-    .footer-icon{
-        margin-top: 10px;
-        width: 18px;
-    }
-}
 .single-page{
     .single-page-content{
         padding-top: 100px;
@@ -487,7 +463,52 @@ section:last-child{
 }
 
 // Extra small devices (portrait phones, less than 576px)
-@media (min-width: 320px) {  }
+@media (min-width: 320px) {
+    .site-footer{
+        background-color: $footerBg;
+        color: #fffffF;
+    
+        a{
+            color: #fffffF;
+            
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    
+        .site__footer__content{
+            padding-top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+    
+            .site-footer__content_item_title{
+                font-weight: bold;
+                font-size: 1.2em;
+                margin-bottom: 10px;
+            }
+            .site-footer__content_item_desc{
+                ul{
+                    list-style: none;
+                    padding-left: 0;
+                }
+    
+                .site-footer__logo{
+                    max-width: 250px;
+                }
+                .site-footer__icon{
+                    max-width: 20px;
+                }
+            }
+        }
+        .site-footer__rights{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+    }
+  }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
