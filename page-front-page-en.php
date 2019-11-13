@@ -33,7 +33,7 @@
                     <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                     <button class="hamburger">
                         <span class="hamburger__box">
-                            <span class="hamburger__inner">x</span>
+                            <span class="hamburger__inner"></span>
                         </span>
                     </button>
                 </div>

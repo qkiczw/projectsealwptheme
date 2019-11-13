@@ -1,26 +1,21 @@
 console.log('JS Works!!!');
 const hamburger = document.querySelector('.hamburger');
-const mainMenu = document.querySelector('.menu');
-const polyLangBtn = document.querySelector('.pll-parent-menu-item');
-const polyLangSubMenu = document.querySelector('.sub-menu');
+const mainMenuItems = document.querySelector('.main-menu__items');
+const mainMenu = document.querySelector('.main-menu');
 
-// const handleHamburgerClick = () => {
-//     hamburger.classList.toggle('hamburger--active');
-//     mainMenu.classList.toggle('menu--hidden');
-//     console.log('Menu is Open');
-// }
+const handleHamburgerClick = () => {
+    console.log('Menu is Open');
+    mainMenuItems.classList.toggle('main-menu__items--hidden');
+    mainMenu.classList.toggle('main-menu--hidden');
+    
+}
+hamburger.addEventListener('click', handleHamburgerClick);
 
-// hamburger.addEventListener('click', handleHamburgerClick);
-// polyLangBtn.addEventListener('click', () => {
-//     polyLangSubMenu.classList.toggle('sub-menu-open');
-// })
-
-// triangle animations //
+// triangle animations
 const traingleLeft = document.querySelector('.triangle-left-side');
 const traingleRight = document.querySelector('.triangle-right-side');
 const scrollFromTop = window.scrollY;
 console.log('pozycja Y:', scrollFromTop);
-
 
 const traingleLeftAnimation = ()=> {
     const scrollFromTop = window.scrollY;
