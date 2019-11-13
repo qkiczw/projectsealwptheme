@@ -355,12 +355,18 @@ main{
 .post{
     display: flex;
     margin: 25px 0;
+    .post-title{
+        font-weight: bold;
+    }
     .post-thumbnail{
         border: 1px solid grey;
         border-radius: 2px;
         margin-right: 10px;
     }
 
+}
+.post-btn-more{
+    font-weight: bold;
 }
 
 .post-full{
