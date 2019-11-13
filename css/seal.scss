@@ -108,95 +108,67 @@ header{
     font-size: 1.2em;
     text-transform: uppercase;
 }
-// .main-menu{
-//     height: 100px;
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     text-transform: uppercase;
-//     font-size: 1.5em;
-//     .menu{
-//         display: flex;
-//         justify-content: flex-end;
-//         align-items: center;
-//         list-style: none;
 
-//         .menu-item{
-//             padding-right: 30px;
-//         }
-//     }
-//     .menu--hidden{
-//         display: none;
-//     }
-//     a{
-//         color: #424242;        
-//     }
-//     a:hover{
-//         text-decoration: none;
-//         color: #2c2c2c
-//     }
+// .hamburger{
+//     padding: 10px;
+//     display: none; // inline-block in standard
+//     cursor: pointer;
+//     background-color: transparent;
+//     border: 0;
+//     margin: 0;
+// }
+// .hamburger__box{
+//     width: 40px;
+//     height: 24px;
+//     display: inline-block;
+//     position: relative;
+//     background-color: transparent;
 // }
 
-.hamburger{
-    padding: 10px;
-    display: none; // inline-block in standard
-    cursor: pointer;
-    background-color: transparent;
-    border: 0;
-    margin: 0;
-}
-.hamburger__box{
-    width: 40px;
-    height: 24px;
-    display: inline-block;
-    position: relative;
-    background-color: transparent;
-}
+// @mixin hamburger-line { //mixin for hamburger line
+//     width: 100%;
+//     height: 3px;
+//     background-color: #2c2c2c;
+//     position: absolute;
+// }
 
-@mixin hamburger-line { //mixin for hamburger line
-    width: 100%;
-    height: 3px;
-    background-color: #2c2c2c;
-    position: absolute;
-}
-
-.hamburger__inner {
-    @include hamburger-line;
+// .hamburger__inner {
+//     @include hamburger-line;
     
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: background-color .1s .2s ease-in-out;
-  }
+//     left: 0;
+//     top: 50%;
+//     transform: translateY(-50%);
+//     transition: background-color .1s .2s ease-in-out;
+//   }
   
-  .hamburger__inner::before,
-  .hamburger__inner::after {
-    @include hamburger-line;
+//   .hamburger__inner::before,
+//   .hamburger__inner::after {
+//     @include hamburger-line;
     
-    content: '';
-    left: 0;
-    transition: transform .2s .2s ease-in-out;
-  } 
+//     content: '';
+//     left: 0;
+//     transition: transform .2s .2s ease-in-out;
+//   } 
   
-  .hamburger__inner::before {
-    top: -10px;
-  }
+//   .hamburger__inner::before {
+//     top: -10px;
+//   }
   
-  .hamburger__inner::after {
-    top: 10px;
-  }
+//   .hamburger__inner::after {
+//     top: 10px;
+//   }
   
-  .hamburger--active .hamburger__inner {
-    background-color: transparent;
-  }
+//   .hamburger--active .hamburger__inner {
+//     background-color: transparent;
+//   }
   
-  .hamburger--active .hamburger__inner:before {
-    transform: translateY(10px) rotate(45deg);
-  }
+//   .hamburger--active .hamburger__inner:before {
+//     transform: translateY(10px) rotate(45deg);
+//   }
   
-  .hamburger--active .hamburger__inner:after {
-    transform: translateY(-10px) rotate(-45deg);
-  }
+//   .hamburger--active .hamburger__inner:after {
+//     transform: translateY(-10px) rotate(-45deg);
+//   }
 
 main{
     overflow: hidden;
@@ -376,22 +348,6 @@ main{
     min-height: 500px;
 }
 
-// //Polylang custon styles
-// .pll-parent-menu-item{
-//     .sub-menu{
-//         list-style: none;
-//         padding-left: 0;
-//         display: none; // standard is block!
-//         .lang-item{
-//             padding-left: 0;
-//         }
-//     }
-//     .sub-menu-open{
-//         position: absolute;
-//         display: block;
-//     }
-// }
-
 // Generic section
 section{
     margin-bottom: 50px;
@@ -473,6 +429,40 @@ section:last-child{
 
 // Extra small devices (portrait phones, less than 576px)
 @media (min-width: 320px) {
+    .main-menu{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(215, 175, 105, 0.7);
+        text-transform: uppercase;
+        font-size: 1.5em;
+        .main-menu-brand{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            list-style: none;
+            .menu-item{
+                padding-right: 30px;
+            }
+            .pll-parent-menu-item{
+                .sub-menu{
+                    list-style: none;
+                    padding: 0;
+                }
+            }
+            
+        }
+    }
     .site-footer{
         background-color: $footerBg;
         color: $fontSecondaryColor;
