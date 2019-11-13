@@ -86,7 +86,7 @@ if( have_posts() ):
                             <p><?php the_excerpt() ?></p>
                         </div>
                         <div class="view-full-contnet">
-                            <a href="<?php the_permalink() ?>" class="AktuZobacz">Zobacz</a>
+                            <a href="<?php the_permalink() ?>" class="post-btn-more">Zobacz &raquo</a>
                         </div>
                     </div>
                 </div>          
@@ -109,46 +109,82 @@ if( have_posts() ):
 <?php
 endif;
 ?>
-
-<footer>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-3 footer-col">
-                            <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/img/erasmus_logo_white.png"></a>
-                            <p>SEAL project has been funded with support from the European Commission within Erasmus+ Programme. However European Commission cannot be held responsible for any use which may be made of the information contained therein. </p>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-3 site-footer__container"> 
+                        <div class="site__footer__content">
+                            <div class="site-footer__content__item">
+                                <div class="site-footer__content_item_title">
+                                    Erasmus+
+                                </div>
+                                <div class="site-footer__content_item_desc">
+                                    <p>Strona internetowa została zrealizowana przy wsparciu finansowym Komisji Europejskiej. Treść strony odzwierciedla jedynie stanowisko jej autorów i Komisja Europejska oraz Narodowa Agencja Programu Erasmus+ nie ponoszą odpowiedzialności za jej zawartość merytoryczną. </p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 footer-col"> 
-                            <h5>MENU</h5>
-                            <?php wp_nav_menu(array('theme_location_'=>'footer')); ?>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 site-footer__container">  
+                        <div class="site__footer__content">
+                            <div class="site-footer__content__item">
+                                <div class="site-footer__content__item">
+                                    <div class="site-footer__content_item_title">
+                                        Dane Kontaktowe
+                                    </div>
+                                    <div class="site-footer__content_item_desc">
+                                        <ul>
+                                            <li>Centrum Kształcenia Ustawicznego im. Bohaterów Wybrzeża w Sopocie</li>
+                                            <li>ul. Tadeusza Kościuszki 22-24</li>
+                                            <li>81-704 Sopot</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: +48 58 550 33 65</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: 791 983 610</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/email.png"> e-mail: <a href="mailto:cku-projekty@wp.pl">cku-projekty@wp.pl</a></li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png"> <a href="https://www.facebook.com/senioractiveliving/">Facebook</a></li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon-w.png"> <a href="#">Instagram</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 footer-col">
-                            <p>ADRESS</p>
-                                <ul>
-                                    <li>
-                                        <img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/place.png"> 
-                                        Centrum Kształcenia Ustawicznego
-                                        im. Bohaterów Wybrzeża w Sopocie <br />
-                                        81-704 Sopot<br />
-                                        ul. Tadeusza Kościuszki 22-24<br />
-                                    </li>
-                                    <li><img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: +48 58 550 33 65</li>
-                                    <li><img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: 791 983 610</li>
-                                    <li><img class="footer-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/mail.png"> e-mail: <a href="mailto:cku-projekty@wp.pl">cku-projekty@wp.pl</a></li>
-                                </ul> 
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 site-footer__container">  
+                        <div class="site__footer__content">
+                            <div class="site-footer__content__item">
+                                <div class="site-footer__content_item_title">
+                                    Partnerzy
+                                </div>
+                                <div class="site-footer__content_item_desc">
+                                    <ul>
+                                        <li>&#187; <a href="http://ckusopot.pl" target="_blank">CKU SOPOT</a></li>
+                                        <li>&#187; <a href="http://kmaras.meb.gov.tr/" target="_blank">KMEM</a></li>
+                                        <li>&#187; <a href="http://asprometeo.altervista.org/prometeo/Home.html" target="_blank">PROMETEO</li>
+                                        <li>&#187; <a href="http://www.istitutosorditorino.org/" target="_blank">ISTUTO</a></li>
+                                        <li>&#187; <a href="http://glafka.cz" target="_blank">GLAFKA</a></li>
+                                    </ul> 
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-6 col-lg-3 footer-col">
-                            <p>Links</p>
-                                <ul>
-                                    <li><a href="http://ckusopot.pl" target="_blank">CKU SOPOT</a></li>
-                                    <li><a href="http://kmaras.meb.gov.tr/" target="_blank">KMEM</a></li>
-                                    <li><a href="http://asprometeo.altervista.org/prometeo/Home.html" target="_blank">PROMETEO</li>
-                                    <li><a href="http://www.istitutosorditorino.org/" target="_blank">ISTUTO</a></li>
-                                    <li><a href="http://glafka.cz" target="_blank">GLAFKA</a></li>
-                                </ul>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3 site-footer__container">  
+                        <div class="site__footer__content">
+                            <div class="site-footer__content__item">
+                                <div class="site-footer__content_item_title">
+                                    
+                                </div>
+                                <div class="site-footer__content_item_desc">
+                                        <figure>
+                                            <img class="site-footer__logo" src="<?php echo get_template_directory_uri(); ?>/img/seal_logo_white.png" alt="Logo projektu Seal">
+                                        </figure>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </footer>
-             <?php wp_footer(); ?>
-         </body>
-     </html>
+            </div>
+            <div class="site-footer__rights">
+                <span>Copyright © 2018 Project Seal</span>
+            </div>
+        </footer>
+        <?php wp_footer(); ?>
+    </body>
+</html>

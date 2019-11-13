@@ -230,8 +230,7 @@ if( have_posts() ):
     </main>
     
     <?php endwhile;
-endif;
-    
+endif;   
 ?>
         <footer class="site-footer">
             <div class="container">
