@@ -29,7 +29,7 @@
         <header class="header">
             <!-- New menu -->
             <nav class="main-menu">
-                <div class="main-menu-brand">
+                <div class="main-menu__brand">
                     <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                     <button class="hamburger">
                         <span class="hamburger__box">
@@ -37,7 +37,7 @@
                         </span>
                     </button>
                 </div>
-                <div class="main-menu-items">
+                <div class="main-menu__items">
                     <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
                 </div>
             </nav> 
