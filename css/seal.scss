@@ -32,78 +32,6 @@ a:hover{
     color: #2c2c2c;
     text-decoration: none;
 }
-
-header{
-    position: relative;
-    background-image: url(../img/header04.jpg);
-    background-size: cover;
-    height: 100vh;
-    overflow: hidden;
-    .nav-logo{
-        max-width: 200px;
-        padding-left: 50px;
-    }
-    .hero-text{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .hero-text-content{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            max-width: 550px;
-            .hero-text-title{
-                font-weight: 700;
-                font-size: 2.8em;
-            }
-            .hero-text-slogan{
-                margin-top: 30px;
-                margin-bottom: 50px;
-                font-size: 1.3em;
-            }      
-        }    
-    }
-    .header-social-icons{
-        position: absolute;
-        display: flex;
-        justify-content: flex-start;
-        bottom: 10px;
-        left: 50px;
-        font-size: 1.3em;
-        .header-social-icon{
-            max-width: 50px;
-            padding-left: 20px;
-            transition-duration: 200ms;
-        }
-        .header-social-icon:hover{
-            transform: scale(1.1);
-
-        }
-    }
-}
-// header for any other sub pages
-.header-sub-page{
-    height: 70vh;
-    background-position: 20% 20%;
-    .hero-text{
-        height: 70vh;
-        .hero-text-content{
-            max-width: 100%;
-            .header-arrows-icon{
-                max-width: 50px;
-                animation-name: header-arrow-animation;
-                animation-duration: 2s;
-                animation-iteration-count: infinite;
-            }
-        }
-    }
-}
-@keyframes header-arrow-animation {
-    0%   {transform: translateY(0px)}
-    50%  {transform: translateY(10px)}
-    100% {transform: translateY(0px)}
-}
 .navbar{
     font-size: 1.2em;
     text-transform: uppercase;
@@ -429,6 +357,77 @@ section:last-child{
 
 // Extra small devices (portrait phones, less than 576px)
 @media (min-width: 320px) {
+    header{
+        position: relative;
+        background-image: url("../img/header04.jpg");
+        background-size: cover;
+        height: 100%;
+        overflow: hidden;
+        .nav__logo{
+            max-width: 200px;
+            padding-left: 50px;
+        }
+        .hero__text{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .hero__text__content{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                max-width: 550px;
+                .hero__text__title{
+                    font-weight: 700;
+                    font-size: 2.8em;
+                }
+                .hero__text__slogan{
+                    margin-top: 30px;
+                    margin-bottom: 50px;
+                    font-size: 1.3em;
+                }      
+            }    
+        }
+        .header-social-icons{
+            position: absolute;
+            display: flex;
+            justify-content: flex-start;
+            bottom: 10px;
+            left: 50px;
+            font-size: 1.3em;
+            .header-social-icon{
+                max-width: 50px;
+                padding-left: 20px;
+                transition-duration: 200ms;
+            }
+            .header-social-icon:hover{
+                transform: scale(1.1);
+    
+            }
+        }
+    }
+    // header for any other sub pages
+    .header-sub-page{
+        height: 70vh;
+        background-position: 20% 20%;
+        .hero-text{
+            height: 70vh;
+            .hero-text-content{
+                max-width: 100%;
+                .header-arrows-icon{
+                    max-width: 50px;
+                    animation-name: header-arrow-animation;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+            }
+        }
+    }
+    @keyframes header-arrow-animation {
+        0%   {transform: translateY(0px)}
+        50%  {transform: translateY(10px)}
+        100% {transform: translateY(0px)}
+    }
     
     .main-menu{
         position: absolute;

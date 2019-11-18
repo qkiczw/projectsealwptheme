@@ -30,7 +30,7 @@
             <!-- New menu -->
             <nav class="main-menu">
                 <div class="main-menu__brand">
-                    <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
+                    <a class="navbar-brand" href="#"><img class="nav__logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
                     <button class="hamburger">
                         <span class="hamburger__box">
                             <span class="hamburger__inner"></span>
@@ -42,11 +42,11 @@
                 </div>
             </nav> 
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 hero-text">
-                        <div class="hero-text-content">
-                            <h1 class="hero-text-title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
-                            <h5 class="hero-text-slogan">
+                <div class="row hero">
+                    <div class="col-lg-6 hero__text">
+                        <div class="hero__text__content">
+                            <h1 class="hero__text__title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
+                            <h5 class="hero__text__slogan">
                                 SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors.
                             </h5>
                             <a class="btn-grey" href="#about-us">Start Journey</a>
