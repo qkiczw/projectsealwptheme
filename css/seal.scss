@@ -395,12 +395,12 @@ section:last-child{
             bottom: 10px;
             left: 50px;
             font-size: 1.3em;
-            .header-social-icon{
+            .header-social-icons__icon{
                 max-width: 50px;
                 padding-left: 20px;
                 transition-duration: 200ms;
             }
-            .header-social-icon:hover{
+            .header-social-icons__icon:hover{
                 transform: scale(1.1);
     
             }
@@ -431,7 +431,6 @@ section:last-child{
     
     .main-menu{
         position: absolute;
-        z-index: 1000;
         height: 100px;
         display: flex;
         flex-direction: column;
@@ -450,9 +449,11 @@ section:last-child{
             margin-top: 15%;
             opacity: 0;
             transition-duration: 1s;
+            display: none;
         }
         .main-menu__items--showed{
             opacity: 1;
+            display: flex;
         }
         .menu{ //Polylang mobile menu
             display: flex;
@@ -475,8 +476,9 @@ section:last-child{
         }
     }
     .main-menu--showed{
+        position: absolute;
+        z-index: 1000;
         background-color: #eadcc9;
-        // Zrobić menu żeby pokazywało się i zamykało z opacity żeby jakaś animacja była 
     }
     .site-footer{
         background-color: $footerBg;
