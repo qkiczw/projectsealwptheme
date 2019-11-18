@@ -7,6 +7,7 @@ const handleHamburgerClick = () => {
     console.log('Menu is Open');
     mainMenuItems.classList.toggle('main-menu__items--showed');
     mainMenu.classList.toggle('main-menu--showed');
+    hamburger.classList.toggle('hamburger--active');
     
 }
 hamburger.addEventListener('click', handleHamburgerClick);
