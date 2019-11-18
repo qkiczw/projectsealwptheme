@@ -1,6 +1,6 @@
 
 // Variables
-$footerBg: #424242;
+$footerBg: #2e2e2e;
 $fontPrimaryColor: #424242;
 $fontSecondaryColor: #fffffF;
 
@@ -479,6 +479,8 @@ section:last-child{
     }
     .site-footer{
         background-color: $footerBg;
+        background-image: url("../img/footer_bg.png");
+        background-repeat: repeat;
         color: $fontSecondaryColor;
     
         a{
