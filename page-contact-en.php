@@ -22,62 +22,43 @@
     </head>
 
     <body>
-        <!--[if lt IE 7]>
+    
+         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
-        <header class="header-sub-page">
-            <nav class="navbar navbar-expand-md navbar-light bg-faded">
-                <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs4navbar" aria-controls="bs4navbar" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <?php
-                    wp_nav_menu([
-                    'menu'            => 'main',
-                    'theme_location'  => 'main',
-                    'container'       => 'div',
-                    'container_id'    => 'bs4navbar',
-                    'container_class' => 'collapse navbar-collapse justify-content-end',
-                    'menu_id'         => false,
-                    'menu_class'      => 'navbar-nav',
-                    'depth'           => 2,
-                    'fallback_cb'     => 'bs4navwalker::fallback',
-                    'walker'          => new bs4navwalker()
-                    ]);
-                ?>
-            </nav>
+        <header class="header header__sub-page">
             <!-- New menu -->
-            <!-- <nav class="main-menu">
-                <a class="navbar-brand" href="#"><img class="nav-logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
-                <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
-                <button class="hamburger">
-                    <span class="hamburger__box">
-                        <span class="hamburger__inner"></span>
-                    </span>
-                </button>
-            </nav>  -->
+            <nav class="main-menu">
+                <div class="main-menu__brand">
+                    <a class="navbar-brand" href="#"><img class="nav__logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
+                    <button class="hamburger">
+                        <span class="hamburger__box">
+                            <span class="hamburger__inner"></span>
+                        </span>
+                    </button>
+                </div>
+                <div class="main-menu__items">
+                    <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
+                </div>
+            </nav> 
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 hero-text">
-                        <div class="hero-text-content">
-                            <h1 class="hero-text-title">Contact us</h1>
-                            <a href="#main-content"><img class="header-arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
+                <div class="row hero">
+                    <div class="col-lg-6 hero__text">
+                        <div class="hero__text__content">
+                            <h1 class="hero__text__title">Contact Us</h1>
+                            <a href="#main-content"><img class="header__arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 header-social-icons">
+                    <div class="col-12 header__social-icons">
                         <p>Find us here</p>
-                        <p><a href="https://www.facebook.com/seal.erasmusproject"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
-                        <p><a href="#"><img class="header-social-icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon.png"></a></p>
+                        <p><a href="https://www.facebook.com/seal.erasmusproject"><img class="header-social-icons__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
+                        <p><a href="#"><img class="header-social-icons__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon.png"></a></p>
                     </div>
                 </div>
             </div>
         </header>
-          
-
-
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
