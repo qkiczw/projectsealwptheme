@@ -362,7 +362,7 @@ section:last-child{
                 }      
             }    
         }
-        .header-social-icons{
+        .header__social-icons{
             position: absolute;
             display: flex;
             justify-content: flex-start;
@@ -381,23 +381,23 @@ section:last-child{
         }
     }
     // header for any other sub pages
-    .header-sub-page{
-        height: 70vh;
+    .header__sub-page{
+        height: 100vh;
         background-position: 20% 20%;
-        .hero-text{
+        .hero__text{
             height: 70vh;
-            .hero-text-content{
+            .hero__text__content{
                 max-width: 100%;
-                .header-arrows-icon{
+                .header__arrows-icon{
                     max-width: 50px;
-                    animation-name: header-arrow-animation;
+                    animation-name: header__arrow-animation;
                     animation-duration: 2s;
                     animation-iteration-count: infinite;
                 }
             }
         }
     }
-    @keyframes header-arrow-animation {
+    @keyframes header__arrow-animation {
         0%   {transform: translateY(0px)}
         50%  {transform: translateY(10px)}
         100% {transform: translateY(0px)}
