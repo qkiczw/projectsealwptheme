@@ -5,8 +5,8 @@ const mainMenu = document.querySelector('.main-menu');
 
 const handleHamburgerClick = () => {
     console.log('Menu is Open');
-    mainMenuItems.classList.toggle('main-menu__items--hidden');
-    mainMenu.classList.toggle('main-menu--hidden');
+    mainMenuItems.classList.toggle('main-menu__items--showed');
+    mainMenu.classList.toggle('main-menu--showed');
     
 }
 hamburger.addEventListener('click', handleHamburgerClick);

@@ -439,9 +439,9 @@ section:last-child{
         align-items: center;
         width: 100%;
         height: 100%;
-        background-color: #eadcc9;
         text-transform: uppercase;
         font-size: 1.5em;
+        transition-duration: 1s;
         .main-menu__brand{
             width: 90%;
             display: flex;
@@ -449,11 +449,13 @@ section:last-child{
         }
         .main-menu__items{
             margin-top: 15%;
+            opacity: 0;
+            transition-duration: 1s;
         }
-        .main-menu__items--hidden{
-            display: none;
+        .main-menu__items--showed{
+            opacity: 1;
         }
-        .menu{
+        .menu{ //Polylang mobile menu
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -473,8 +475,8 @@ section:last-child{
             
         }
     }
-    .main-menu--hidden{
-        background: none;
+    .main-menu--showed{
+        background-color: #eadcc9;
         // Zrobić menu żeby pokazywało się i zamykało z opacity żeby jakaś animacja była 
     }
     .site-footer{
