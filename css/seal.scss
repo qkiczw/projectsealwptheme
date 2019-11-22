@@ -430,7 +430,7 @@ section:last-child{
             display: flex;
             opacity: 1;
         }
-        .menu{ //Polylang mobile menu
+        .menu{
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
@@ -439,7 +439,7 @@ section:last-child{
             .menu-item{
                 padding-right: 30px;
             }
-            .pll-parent-menu-item{
+            .pll-parent-menu-item{ //Polylang mobile menu
                 display: flex;
                 font-size: 17px;
                 .sub-menu{
