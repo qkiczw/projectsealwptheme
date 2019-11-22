@@ -350,18 +350,20 @@ section:last-child{
         }
         .hero__text{
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             margin-top: 100px;
+            .hero__text__title{
+                font-weight: 700;
+                font-size: 1.8em;
+            }
             .hero__text__content{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 max-width: 550px;
-                .hero__text__title{
-                    font-weight: 700;
-                    font-size: 1.8em;
-                }
+                
                 .hero__text__slogan{
                     margin-top: 30px;
                     margin-bottom: 50px;
@@ -540,7 +542,38 @@ section:last-child{
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
-    
+    .main-menu{
+        .main-menu__items--showed{
+            margin-top: 0px;
+        }
+    }
+    .header{
+        position: relative;
+        background-image: url("../img/header04.jpg");
+        background-size: 175%;
+        height: 100vh;
+        overflow: hidden;
+        .hero__text{
+            margin-top: 90px;
+            .hero__text__content{
+                padding-top: 25px;
+                flex-direction: row;
+                .hero__text__slogan{
+                    margin: 0;
+                }
+                .btn--grey{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .about-us{
+        .about-us-logo{
+            .project-logo{
+                max-width: 60%;
+            }
+        }
+    }
  }
 
 // Medium devices (tablets, 768px and up)

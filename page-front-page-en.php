@@ -44,8 +44,8 @@
             <div class="container-fluid">
                 <div class="row hero">
                     <div class="col-lg-6 hero__text">
-                        <div class="hero__text__content">
-                            <h1 class="hero__text__title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
+                        <h1 class="hero__text__title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
+                        <div class="hero__text__content">                           
                             <h5 class="hero__text__slogan">
                                 SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors.
                             </h5>
