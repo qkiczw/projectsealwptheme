@@ -174,7 +174,7 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        .btn-see-more-galleries{
+        .see-more-galleries__btn{
             width: auto;
             border: 1px solid #ffffff;
             border-radius: 10px;
@@ -183,12 +183,18 @@ main{
             padding: 15px 20px;
             margin: 20px 0;
             text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: .3em;
             transition-duration: 0.5s;
         }
-        .btn-see-more-galleries:hover{
+        .see-more-galleries__btn:hover{
             background-color: #ffffff;
             color: #424242;
             cursor: pointer;
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            
         }
     }   
 }
@@ -208,16 +214,19 @@ main{
     background-color: #424242;
     color: #fffffF;
     text-decoration: none;
-    padding: 15px 50px;
+    padding: 15px 30px;
     text-transform: uppercase;
     transition-duration: 400ms;
     border-radius: 10px;
+    letter-spacing: 0.2em;
 }
 .btn-grey:hover{
-     background-color: #2c2c2c;
-     transform: scale(1.1);
-     text-decoration: none;
-     color: #fffffF;
+    background-color: #2c2c2c;
+    text-decoration: none;
+    color: #fffffF;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 .btn-grey--about-us{
     margin-top: 25px;

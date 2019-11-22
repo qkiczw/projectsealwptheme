@@ -205,7 +205,7 @@ if( have_posts() ):
                 </div>
             </div>
             <div class="row see-more-galleries">
-                <a href="http://qki.cba.pl/seal/pl/galerie/" class="btn-see-more-galleries">See more galleries</a>
+                <a href="http://qki.cba.pl/seal/pl/galerie/" class="see-more-galleries__btn">See more galleries</a>
             </div> 
         </div> 
         </section> 
