@@ -467,7 +467,7 @@ section:last-child{
     
     .about-us{
         position: relative;
-        .about-us-logo{
+        .about-us__logo{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -479,7 +479,7 @@ section:last-child{
                 background-color: #ffffff;
             }
         }
-        .about-us-short-info{
+        .about-us__short-info{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -554,7 +554,7 @@ section:last-child{
             margin-top: 90px;
             .hero__text__content{
                 padding-top: 25px;
-                flex-direction: row;
+                flex-direction: column;
                 .hero__text__slogan{
                     margin: 0;
                 }
@@ -565,7 +565,7 @@ section:last-child{
         }
     }
     .about-us{
-        .about-us-logo{
+        .about-us__logo{
             .project-logo{
                 max-width: 60%;
             }
@@ -602,6 +602,16 @@ section:last-child{
         .header__social-icons{
             left: 0;
 
+        }
+    }
+    .about-us__content{
+        .about-us__logo{
+            .project-logo{
+                max-width: 100%;
+            }
+        }
+        .about-us__short-info{
+            justify-content: space-around;
         }
     }
  }

@@ -79,14 +79,14 @@ if( have_posts() ):
                         </div>
                     </div>
                 </div>
-                <div class="row"> <!-- Section content  -->
-                    <div class="col-lg-5">
-                        <figure class=" about-us-logo">
+                <div class="row about-us__content"> <!-- Section content  -->
+                    <div class="col-md-5">
+                        <figure class=" about-us__logo">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/seal_logo.png" class="img-fluid project-logo">
                         </figure>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="about-us-short-info">
+                    <div class="col-md-7">
+                        <div class="about-us__short-info">
                             <p>SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors. An international guide of education and activation of seniors is going to be created at the project end.</p>
                             <a href="http://qki.cba.pl/seal/en/o-nas-en/" class=" btn--grey">More about Us</a>
                         </div>
