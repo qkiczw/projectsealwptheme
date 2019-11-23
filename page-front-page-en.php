@@ -43,7 +43,7 @@
             </nav> 
             <div class="container-fluid">
                 <div class="row hero">
-                    <div class="col-lg-6 hero__text">
+                    <div class="col-md-6 hero__text">
                         <h1 class="hero__text__title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
                         <div class="hero__text__content">                           
                             <h5 class="hero__text__slogan">
