@@ -58,7 +58,7 @@
             <div class="row">
                 <div class="col-lg-12 post">
                     <div class="post-thumbnail">
-                        <?php the_post_thumbnail('thumbnail'); ?>
+                        <?php the_post_thumbnail('medium'); ?>
                     </div>
                     <div>
                         <div class="post-title">
