@@ -137,45 +137,6 @@ main{
     
 }
 
-.section-galleries{
-    background-image: url(../img/fp_gallery_bg2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 50% 50%;
-    min-height: 500px;
-
-    h1{
-        color: #ffffff;
-    }
-    .fp-galleries-content{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .section-gallery{
-        position: relative;
-        max-width: 300px;
-        border: 1px solid #ffffff; 
-        padding: 0;
-        margin-bottom: 20px;
-        overflow: hidden;
-        transition-duration: .5s;
-        img{
-            transition-duration: .5s;
-            transition-timing-function: ease-in-out;
-        }
-    }
-    .section-gallery:hover{
-        border: 1px solid #e0c8ae;
-        img{
-            transform: scale(1.1); 
-        }
-    }.see-more-galleries{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }   
-}
 
 .single-page{
     .single-page-content{
@@ -234,7 +195,7 @@ section{
             font-size: 2.1em;
         }
     }
-    .section-title-alternative{
+    .section-title--alternative{
         color: #fffffF;
     }
     
@@ -490,6 +451,46 @@ section:last-child{
             margin-top: 100px;
         }
     }
+    .section-galleries{
+        background-image: url(../img/fp_gallery_bg2.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 50% 50%;
+        min-height: 500px;
+    
+        h1{
+            color: #ffffff;
+        }
+        .fp-galleries-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .section-gallery{
+            position: relative;
+            max-width: 200px;
+            border: 1px solid #ffffff; 
+            padding: 0;
+            margin-bottom: 20px;
+            overflow: hidden;
+            transition-duration: .5s;
+            img{
+                transition-duration: .5s;
+                transition-timing-function: ease-in-out;
+            }
+        }
+        .section-gallery:hover{
+            border: 1px solid #e0c8ae;
+            img{
+                transform: scale(1.1); 
+            }
+        }.see-more-galleries{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }   
+    }
+    
     .site-footer{
         background-color: $footerBg;
         background-image: url("../img/footer_bg.png");

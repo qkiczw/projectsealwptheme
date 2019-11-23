@@ -188,7 +188,7 @@ if( have_posts() ):
         <div class="container">
              <div class="row"> <!-- Section title -->
                 <div class="col-12"> 
-                    <div class="section-title section-title-alternative"> 
+                    <div class="section-title section-title--alternative"> 
                         <h2>Galleries</h2>
                     </div>
                 </div>
