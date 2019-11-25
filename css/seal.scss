@@ -564,9 +564,9 @@ section:last-child{
         .hero__text{
             margin-top: 90px;
             .hero__text__content{
-                padding-top: 25px;
                 flex-direction: column;
                 .hero__text__slogan{
+                    padding: 25px 0;
                     margin: 0;
                 }
                 .btn--grey{
@@ -605,7 +605,7 @@ section:last-child{
                 .hero__text__content{
                     flex-direction: column;
                     .hero__text__slogan{
-                        padding: 50px 0;   
+                        padding: 25px 0;  
                     }
                 }
             }
@@ -628,33 +628,34 @@ section:last-child{
  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+    .header{
+        position: relative;
+        background-position: 60%;
+        background-size: auto;
+        .hero{
+            height: 100vh;
+            .hero__text{
+                margin-top: 0;
+                .hero__text__content{
+                    padding: 0;
+                    .hero__text__slogan{
+                        padding: 25px 0;
+                    }
+                }
+            }
+        }
+        .nav__logo{
+            max-width: 150px;
+            padding-left: 0;
+        }
+    }
+ }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) and (max-width: 1599.98px) { 
     header{
-        .hero-text{
-            .hero-text-content{
-                max-width: 450px;
-                
-                .hero-text-title{
-                    font-weight: 700;
-                    font-size: 2em;
-                }.hero-text-slogan{
-                    margin-top: 20px;
-                    margin-bottom: 20px;
-                    font-size: 1em;
-                }    
-            }
-        }
-        .header-social-icons{
-            font-size: 1em;
-            bottom: 5px;
-            .header-social-icon{
-                max-width: 40px;
-                padding-left: 15px;
-            }
-        }    
+       
     }
     // nav{
     //     font-size: 1.2em;
