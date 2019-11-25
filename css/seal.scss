@@ -600,6 +600,7 @@ section:last-child{
             .hero__text{
                 display: flex;
                 justify-content: center;
+                margin-left: 2.5%;
                 .hero__text__content{
                     flex-direction: column;
                     .hero__text__slogan{
@@ -633,6 +634,8 @@ section:last-child{
             .hero__text{
                 position: unset;
                 margin-top: 0;
+                max-width: 45%;
+                margin-left: 5%;
                 .hero__text__content{
                     padding: 0;
                     .hero__text__slogan{
@@ -659,6 +662,14 @@ section:last-child{
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
+    .header{
+        .hero{
+            .hero__text{
+                max-width: 35%;
+                margin-left: 10%;
+            }
+        }
+    }
     .main-menu{
         flex-direction: row;
         justify-content: space-between;
