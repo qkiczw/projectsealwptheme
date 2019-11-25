@@ -631,6 +631,7 @@ section:last-child{
         .hero{
             height: 100vh;
             .hero__text{
+                position: unset;
                 margin-top: 0;
                 .hero__text__content{
                     padding: 0;
@@ -652,11 +653,6 @@ section:last-child{
             .main-menu__items--showed{
                 margin-top: 20%;
             }
-            .menu{
-                .sub-menu{
-                    display: none;
-                }
-            }
         }
     }
 }
@@ -664,6 +660,13 @@ section:last-child{
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
     .main-menu{
+        flex-direction: row;
+        justify-content: space-between;
+        height: initial;
+        .main-menu__brand{
+            width: unset;
+            padding-left: 20px;
+        }
         .hamburger{
             display: none;
         }
@@ -675,6 +678,9 @@ section:last-child{
                 flex-direction: row;
                 .pll-parent-menu-item{
                     display: block;
+                    .sub-menu{
+                        display: none;
+                    }
                 }
             }
             
