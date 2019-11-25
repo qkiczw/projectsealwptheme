@@ -652,13 +652,34 @@ section:last-child{
             .main-menu__items--showed{
                 margin-top: 20%;
             }
+            .menu{
+                .sub-menu{
+                    display: none;
+                }
+            }
         }
     }
 }
 
 // Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) and (max-width: 1599.98px) { 
-    
+@media (min-width: 1200px) { 
+    .main-menu{
+        .hamburger{
+            display: none;
+        }
+        .main-menu__items{
+            display: flex;
+            margin-top: 0;
+            opacity: 1;
+            .menu{
+                flex-direction: row;
+                .pll-parent-menu-item{
+                    display: block;
+                }
+            }
+            
+        }
+    }
 }
  // FHD Monitor and up
 @media (min-width: 1600px) {  }
