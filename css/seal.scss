@@ -326,7 +326,7 @@ section:last-child{
     }
     // header for any other sub pages
     .header__sub-page{
-        height: 100vh;
+        height: 70vh;
         background-position: 20% 20%;
         .hero__text{
             height: 70vh;
@@ -632,7 +632,7 @@ section:last-child{
         .hero{
             height: 100vh;
             .hero__text{
-                position: unset;
+                // position: unset;
                 margin-top: 0;
                 max-width: 45%;
                 margin-left: 5%;
@@ -674,6 +674,7 @@ section:last-child{
         flex-direction: row;
         justify-content: space-between;
         height: initial;
+        z-index: 100;
         .main-menu__brand{
             width: unset;
             padding-left: 20px;
@@ -696,6 +697,10 @@ section:last-child{
             }
             
         }
+    }
+    .header__sub-page{
+        background-position: 70% 20%;
+        background-size: cover;
     }
 }
  // FHD Monitor and up
