@@ -588,15 +588,15 @@ section:last-child{
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
     .header{
+        position: relative;
+        background-position: 60%;
+        background-size: cover;
         .main-menu{
             padding-top: 15px;
             .main-menu__items--showed{
                 margin-top: 40%;
                 }
         }
-        position: relative;
-        background-position: 60%;
-        background-size: auto;
         .hero{
             height: 100vh;
             .hero__text{
