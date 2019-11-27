@@ -309,6 +309,8 @@ section:last-child{
         }
         .header__social-icons{
             position: absolute;
+            left: -75px;
+            opacity: 0;
             display: flex;
             justify-content: center;
             bottom: 10px;

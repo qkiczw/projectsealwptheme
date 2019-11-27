@@ -46,6 +46,7 @@ window.addEventListener('scroll', traingleRightAnimation);
 jQuery(document).ready(function( $ ){
     const $partnersRow = $('.partners-row');
     const $window = $(window);
+    const $socialIcons = $('.header__social-icons');
  
     function partnersShow() {
         if($window.scrollTop() > 1200) {
@@ -53,4 +54,5 @@ jQuery(document).ready(function( $ ){
         } 
     }
     $window.on('scroll', partnersShow);
+    $socialIcons.animate({left: '0', opacity: '1'}, 800);
 })
