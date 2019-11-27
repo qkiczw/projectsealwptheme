@@ -124,6 +124,10 @@ if( have_posts() ):
                             <p class="partners__row__partner__description">
                                 Public body which coordinates and supervises over 1084 schools. The employes from the research and development department are highly experienced in various types of projects (including Erasmus + projects). The institution is responsible for organizing the various courses for adults and for teachers in whole region. 
                             </p>
+                            <!-- testing visit area btn -->
+                            <div class="partner__row_partner__link-area">
+                                <button>VISIT</button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -135,6 +139,10 @@ if( have_posts() ):
                             <p class="partners__row__partner__description">
                                 Educational and training organisation which provides education and consulting in the area of lifelong learning and development of innovative educational methods. Provides coursses and support for groups experiencing social exclusion. Support is mainly focused on development of vocational skills of beneficiaries. Provides IT courses for seniors (aged 60 +) .  
                             </p>
+                            <!-- testing visit area btn -->
+                            <div class="partner__row_partner__link-area">
+                                <button>VISIT</button>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12">

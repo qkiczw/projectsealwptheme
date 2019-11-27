@@ -433,7 +433,7 @@ section:last-child{
                 height: 750px;
                 display: flex;
                 flex-direction: column;
-                justify-content: flex-start;
+                justify-content: space-between; //just for test, normally is center
                 align-items: center;
                 margin-bottom: 30px;
                 background-color: #ffffff;
@@ -460,6 +460,35 @@ section:last-child{
         }
         
     }
+    // test => visit area and btn for each partner
+    .partners__row__partner{
+        overflow: hidden;
+        justify-content: space-between;
+        .partner__row_partner__link-area{
+            position: relative;
+            bottom: 0;
+            background-color: $footerBg;
+            height: 100px;
+            width: 100%;
+            transition-duration: 700ms;
+            transform: translateY(300px);
+        }
+        .partner__row_partner__link-area::before {
+            content: '';
+            position: absolute;
+            background-color: $footerBg;
+            top: -50px;
+            left: 0;
+            right: 0;
+            height: 50px;
+            clip-path: polygon(50% 50%, 0 100%, 100% 100%);
+        }
+        
+    }
+    .partners__row__partner:hover .partner__row_partner__link-area{
+        transform: translateY(0);
+        }
+    
     .fp-galleries{
         background-image: url(../img/fp_gallery_bg2.jpg);
         background-size: cover;
