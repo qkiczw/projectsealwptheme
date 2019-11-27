@@ -663,6 +663,7 @@ section:last-child{
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
     .header{
+        background-size: cover;
         .hero{
             .hero__text{
                 max-width: 35%;
@@ -701,6 +702,18 @@ section:last-child{
     .header__sub-page{
         background-position: 70% 20%;
         background-size: cover;
+    }
+    .about-us{
+        .about-us__content{
+            .about-us__logo{
+                .project-logo{
+                    max-width: 80%;
+                }
+            }
+            .about-us__short-info{
+                justify-content: center;
+            }
+        }
     }
 }
  // FHD Monitor and up
