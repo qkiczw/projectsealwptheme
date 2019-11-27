@@ -44,7 +44,7 @@ window.addEventListener('scroll', traingleLeftAnimation);
 window.addEventListener('scroll', traingleRightAnimation);
 
 jQuery(document).ready(function( $ ){
-    const $partnersRow = $('.partners-row');
+    const $partnersRow = $('.partners__row');
     const $window = $(window);
     const $socialIcons = $('.header__social-icons');
  
