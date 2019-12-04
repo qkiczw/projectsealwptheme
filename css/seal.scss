@@ -200,26 +200,21 @@ section:last-child{
         padding-top: 25px;
     }
     .post{
-        display: flex;
-        flex-direction: column;
         margin: 25px 0;
-        .post-title{
-            font-weight: bold;
-        }
-        .post-thumbnail{
-            margin-bottom: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .post__thumbnail{
             img{
                 max-width: 100%;
                 height: auto;
                 border: 1px solid grey;
             }
         }
+        .post__title{
+            margin-top: 10px;
+            font-weight: bold;
+        }
     
     }
-    .post-btn-more{
+    .post__btn__more{
         font-weight: bold;
         text-transform: uppercase;
     }
@@ -692,6 +687,13 @@ section:last-child{
                 }
             }
         } 
+    }
+    .post{
+        .post__content{
+           .post__title{
+                margin-top: 0;
+           }
+        }
     }
     .fp-galleries{
         .fp-galleries__content{
