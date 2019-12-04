@@ -231,15 +231,17 @@ section:last-child{
         min-height: 500px;
     }
     .btn--grey{
-        border: none;
-        background-color: #424242;
-        color: #fffffF;
+        border: 2px solid #424242;
+        background-color: none;
+        // color: #fffffF;
         text-decoration: none;
-        padding: 15px 30px;
+        padding: 10px 15px;
         text-transform: uppercase;
         border-radius: 10px;
-        letter-spacing: 0.2em;
+        letter-spacing: 0.15em;
         transition-duration: 0.5s;
+        font-weight: bold;
+        font-size: 1.2em;
     }
     .btn--grey:hover{
         background-color: #2c2c2c;
@@ -270,6 +272,21 @@ section:last-child{
         -ms-transform: scale(1.1);
         transform: scale(1.1);
         
+    }
+    .btn--partner{
+        width: 100%;
+        height: 100%;
+        border: none;
+        color: #ffffff;
+        background-color: #747474;
+        font-size: 1.2em;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: .15em;
+        transition-duration: 500ms;
+    }
+    .btn--partner:hover{
+        font-size: 1.3em;
     }
     .header{
         position: relative;
@@ -456,7 +473,6 @@ section:last-child{
         
         .partners__row__partner:hover{
             background-color: #e0c8ae;
-            cursor: pointer;
         }
         
     }
@@ -465,6 +481,9 @@ section:last-child{
         overflow: hidden;
         justify-content: space-between;
         .partner__row_partner__link-area{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             position: relative;
             bottom: 0;
             background-color: #747474;
