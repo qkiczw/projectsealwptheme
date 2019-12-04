@@ -532,11 +532,16 @@ section:last-child{
             }
         }
         .fp-galleries__content__gallery:hover{
-            border: 1px solid #e0c8ae;
             img{
                 transform: scale(1.1); 
             }
-        }.see-more-galleries{
+        }
+        .fp-galleries__content__gallery:hover img{
+            -webkit-filter: blur(2px);
+	        filter: blur(2px);
+        }
+        
+        .see-more-galleries{
             display: flex;
             justify-content: center;
             align-items: center;
