@@ -4,6 +4,13 @@ $footerBg: #2e2e2e;
 $fontPrimaryColor: #424242;
 $fontSecondaryColor: #fffffF;
 
+// Mixines
+@mixin flex-centerXY {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*remove margins and padding from left and right side of site*/
 .row{
     margin-left: 0;
@@ -14,10 +21,8 @@ $fontSecondaryColor: #fffffF;
     padding-right: 0;
     margin: 0
 }
-
 html{
-    scroll-behavior: smooth;
-    
+    scroll-behavior: smooth;  
 }
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -36,7 +41,6 @@ a:hover{
     font-size: 1.2em;
     text-transform: uppercase;
 }
-
 .hamburger{
     padding: 10px;
     // display: none; // inline-block in standard
@@ -101,21 +105,11 @@ a:hover{
 main{
     overflow: hidden;
 }
-
-
-
-
 .single-page{
     .single-page-content{
         padding-top: 100px;
     }
 }
-
-
-// unsorted styles
-
-// Generic post
-
 
 // Generic section
 section{
@@ -137,8 +131,7 @@ section{
     }
     .section-title--alternative{
         color: #fffffF;
-    }
-    
+    }  
     .section-title::after{
         content: ' ';
         position: absolute;
@@ -153,7 +146,6 @@ section{
 section:last-child{
     margin-bottom: 0;
 }
-
 .triangle-left-side{
     position: absolute;
     width: 0;
@@ -181,7 +173,6 @@ section:last-child{
 .traingle-right-visible{
     right: 0;
 }
-
 .pagination{
     font-weight: bold;
     margin-bottom: 30px;
@@ -192,7 +183,6 @@ section:last-child{
 .pagination__right{
     text-align: right;
 }
-
 // Extra small devices (portrait phones, less than 576px)
 @media (min-width: 320px) {
     
@@ -212,7 +202,6 @@ section:last-child{
             margin-top: 10px;
             font-weight: bold;
         }
-    
     }
     .post__btn__more{
         font-weight: bold;
@@ -265,8 +254,7 @@ section:last-child{
         cursor: pointer;
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        
+        transform: scale(1.1);      
     }
     .btn--partner{
         width: 100%;
@@ -293,10 +281,8 @@ section:last-child{
             max-width: 150px;
         }
         .hero__text{
-            display: flex;
+            @include flex-centerXY;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
             margin-top: 100px;
             text-align: center;
             .hero__text__title{
@@ -320,8 +306,7 @@ section:last-child{
             position: absolute;
             left: -75px;
             opacity: 0;
-            display: flex;
-            justify-content: center;
+            @include flex-centerXY;
             bottom: 10px;
             font-size: 1.3em;
             .header-social-icons__icon{
@@ -331,7 +316,6 @@ section:last-child{
             }
             .header-social-icons__icon:hover{
                 transform: scale(1.1);
-    
             }
         }
     }
@@ -357,7 +341,6 @@ section:last-child{
         50%  {transform: translateY(10px)}
         100% {transform: translateY(0px)}
     }
-    
     .main-menu{
         position: absolute;
         padding-top: 15px;
@@ -400,10 +383,8 @@ section:last-child{
                 font-size: 17px;
                 .sub-menu{
                     list-style: none;
-                    
                 }
             }
-            
         }
     }
     .main-menu--showed{
@@ -411,13 +392,10 @@ section:last-child{
         z-index: 1000;
         background-color: #eadcc9;
     }
-    
     .about-us{
         position: relative;
         .about-us__logo{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex-centerXY;
             .project-logo{
                 max-width: 100%;
                 border: 10px solid #424242;
@@ -427,10 +405,8 @@ section:last-child{
             }
         }
         .about-us__short-info{
-            display: flex;
+            @include flex-centerXY;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
             height: 100%;
         }
         .disclaimer{
@@ -471,14 +447,11 @@ section:last-child{
         }
         
     }
-    // test => visit area and btn for each partner
     .partners__row__partner{
         overflow: hidden;
         justify-content: space-between;
         .partner__row_partner__link-area{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex-centerXY;
             position: relative;
             bottom: 0;
             background-color: #747474;
@@ -542,9 +515,7 @@ section:last-child{
         }
         
         .see-more-galleries{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex-centerXY;
         }   
     }
     
@@ -590,9 +561,7 @@ section:last-child{
             }
         }
         .site-footer__rights{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include flex-centerXY;
             padding: 20px;
         }
     }
