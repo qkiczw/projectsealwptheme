@@ -486,33 +486,35 @@ section:last-child{
         h1{
             color: #ffffff;
         }
-        .fp-galleries__content{
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .fp-galleries__content__gallery{
-            position: relative;
-            max-width: 200px;
-            border: 1px solid #ffffff; 
-            padding: 0;
-            margin-bottom: 20px;
-            overflow: hidden;
-            transition-duration: .5s;
-            img{
-                transition-duration: .5s;
-                transition-timing-function: ease-in-out;
-            }
-        }
-        .fp-galleries__content__gallery:hover{
-            img{
-                transform: scale(1.1); 
-            }
-        }
-        .fp-galleries__content__gallery:hover img{
-            -webkit-filter: blur(2px);
-	        filter: blur(2px);
-        }
+        // Test Code for new galleries
+        
+        // .fp-galleries__content{
+        //     display: flex;
+        //     justify-content: space-around;
+        //     align-items: center;
+        // }
+        // .fp-galleries__content__gallery{
+        //     position: relative;
+        //     max-width: 200px;
+        //     border: 1px solid #ffffff; 
+        //     padding: 0;
+        //     margin-bottom: 20px;
+        //     overflow: hidden;
+        //     transition-duration: .5s;
+        //     img{
+        //         transition-duration: .5s;
+        //         transition-timing-function: ease-in-out;
+        //     }
+        // }
+        // .fp-galleries__content__gallery:hover{
+        //     img{
+        //         transform: scale(1.1); 
+        //     }
+        // }
+        // .fp-galleries__content__gallery:hover img{
+        //     -webkit-filter: blur(2px);
+	    //     filter: blur(2px);
+        // }
         
         .see-more-galleries{
             @include flex-centerXY;

@@ -212,7 +212,46 @@ if( have_posts() ):
                 </div>
             </div>
             <div class="row section-content fp-galleries__content"> <!-- Section content  -->
-                <div class="col-12 col-md-4 fp-galleries__content__gallery">
+                <!-- Gallery Item -->
+                <div class="col-12 col-md-4 fp-galleries__content__gallery-items__item">
+                    <div class="fp-galleries__content__gallery-items__item__pic">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid">
+                    </div>
+                    <div class="fp-galleries__content__gallery-items__item__desc">
+                        <p>GALLERY No.1</p>
+                        <hr />
+                        <p>This is the description of the current image on the site fp gallery</p>
+                        <hr />
+                        <p>ENTER [icon]</p>
+                    </div>
+                </div>
+                <!-- Gallery Item -->
+                <div class="col-12 col-md-4 fp-galleries__content__gallery-items__item">
+                    <div class="fp-galleries__content__gallery-items__item__pic">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery02.jpg" class="img-fluid">
+                    </div>
+                    <div class="fp-galleries__content__gallery-items__item__desc">
+                        <p>GALLERY No.2</p>
+                        <hr />
+                        <p>This is the description of the current image on the site fp gallery</p>
+                        <hr />
+                        <p>ENTER GALLERY</p>
+                    </div>
+                </div>
+                <!-- Gallery Item -->
+                <div class="col-12 col-md-4 fp-galleries__content__gallery-items__item">
+                    <div class="fp-galleries__content__gallery-items__item__pic">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid">
+                    </div>
+                    <div class="fp-galleries__content__gallery-items__item__desc">
+                        <p>GALLERY No.3</p>
+                        <hr />
+                        <p>This is the description of the current image on the site fp gallery</p>
+                        <hr />
+                        <p>ENTER GALLERY</p>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-md-4 fp-galleries__content__gallery">
                     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid"></a>
                 </div>
                 <div class="col-12 col-md-4 fp-galleries__content__gallery">   
@@ -220,7 +259,7 @@ if( have_posts() ):
                 </div>
                 <div class="col-12 col-md-4 fp-galleries__content__gallery"> 
                     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery03.jpg" class="img-fluid"></a>
-                </div>
+                </div> -->
             </div>
             <div class="row see-more-galleries">
                 <a href="http://qki.cba.pl/seal/pl/galerie/" class="btn--white">See more galleries</a>
