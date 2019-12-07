@@ -124,8 +124,13 @@ if( have_posts() ):
                             <p class="partners__row__partner__description">
                                 Public body which coordinates and supervises over 1084 schools. The employes from the research and development department are highly experienced in various types of projects (including Erasmus + projects). The institution is responsible for organizing the various courses for adults and for teachers in whole region. 
                             </p>
-                            <div class="partner__row_partner__link-area">
-                                <button class="btn--partner">visit the site</button>
+                            <div class="partners__row_partner__link-area">
+                                <div class="partners__row_partner__link-area_title">Links</div>
+                                <div class="partners__row_partner__link-area__icons">
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-www.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-facebook.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-instagram.png" class="img-fluid"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -138,8 +143,13 @@ if( have_posts() ):
                             <p class="partners__row__partner__description">
                                 Educational and training organisation which provides education and consulting in the area of lifelong learning and development of innovative educational methods. Provides coursses and support for groups experiencing social exclusion. Support is mainly focused on development of vocational skills of beneficiaries. Provides IT courses for seniors (aged 60 +) .  
                             </p>
-                            <div class="partner__row_partner__link-area">
-                                <button class="btn--partner">visit the site</button>
+                            <div class="partners__row_partner__link-area">
+                                <div class="partners__row_partner__link-area_title">Links</div>
+                                <div class="partners__row_partner__link-area__icons">
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-www.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-facebook.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-instagram.png" class="img-fluid"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -152,8 +162,13 @@ if( have_posts() ):
                             <p class="partners__row__partner__description">
                                 Non-governmental organisation founded in 1814 to provide support for people with sensory disabilities and to train their teacher. IST provides various types of support like: daily care, assisted housing, assisted learning, therapy workshops (painting, cooking, cinema, sport activities), VET education of disabled people and training for operator working in the sector. Highly experienced in Erasmus +projects.  
                             </p>
-                            <div class="partner__row_partner__link-area">
-                                <button class="btn--partner">visit the site</button>
+                            <div class="partners__row_partner__link-area">
+                                <div class="partners__row_partner__link-area_title">Links</div>
+                                <div class="partners__row_partner__link-area__icons">
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-www.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-facebook.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-instagram.png" class="img-fluid"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -166,8 +181,13 @@ if( have_posts() ):
                             <p class="partners__row__partner__description">
                             Is an non govermental organisation which provides educational offer and support for members of institutions working in the field of education of adults. Is involved in projects and programmes connected with: development of  vocational skills of students; tourism and social inclusion, integration of imigrants with local societies, education of elderly people; development of innovative educational tools. Organisation highly experienced in activities against rasism and working for imigrants; cooperates with the local goverment of Calabria region; has a wide experience in transnational projects, sincluding Erasmus + projects. 
                             </p>
-                            <div class="partner__row_partner__link-area">
-                                <button class="btn--partner">visit the site</button>
+                            <div class="partners__row_partner__link-area">
+                                <div class="partners__row_partner__link-area_title">Links</div>
+                                <div class="partners__row_partner__link-area__icons">
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-www.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-facebook.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-instagram.png" class="img-fluid"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -180,8 +200,13 @@ if( have_posts() ):
                             <p class="partners__row__partner__description">
                                 Centre for Continuing Education in Sopot is a public school  providing formal and informal education for adults; at this moment CKU Sopot provides VET courses in profesions such as: photographer, informatician, acountant, grafic designer. CKU Sopot provides also education and various activities for elderly people at Third Age University ( with approximately 950 students). CKU Sopot is in a close cooperation with Municipality of Sopot. Within CKU Sopot institutions there is also teacher training centre. CKU Sopot is highly experienced in transnational cooperation including Erasmus + projects.
                             </p>
-                            <div class="partner__row_partner__link-area">
-                                <button class="btn--partner">visit the site</button>
+                            <div class="partners__row_partner__link-area">
+                                <div class="partners__row_partner__link-area_title">Links</div>
+                                <div class="partners__row_partner__link-area__icons">
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-www.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-facebook.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-instagram.png" class="img-fluid"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -194,8 +219,13 @@ if( have_posts() ):
                             <p class="partners__row__partner__description">
                                 Erasmus+ is the EU's programme to support education, training, youth and sport in Europe. Its budget of €14.7 billion will provide opportunities for over 4 million Europeans to study, train, and gain experience abroad.Set to last until 2020, Erasmus+ doesn't just have opportunities for students. Merging seven prior programmes, it has opportunities for a wide variety of individuals and organisations.Detailed information on these opportunities, including eligibility criteria, is available in the Erasmus+ Programme Guide. An indicative funding guide for some centralised opportunities is also available.
                             </p>
-                            <div class="partner__row_partner__link-area">
-                                <button class="btn--partner">visit the site</button>
+                            <div class="partners__row_partner__link-area">
+                                <div class="partners__row_partner__link-area_title">Links</div>
+                                <div class="partners__row_partner__link-area__icons">
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-www.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-facebook.png" class="img-fluid"></div>
+                                    <div class="partners__row_partner__link-area__icons__icon"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/partner-social-icon-instagram.png" class="img-fluid"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
