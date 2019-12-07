@@ -220,8 +220,10 @@ if( have_posts() ):
                         </div>
                         <div class="fp-galleries__contet__items_item_desc">
                             <div class="fp-galleries__contet__items_item_desc_title">title</div>
+                            <hr />
                             <div class="fp-galleries__contet__items_item_desc_short-info">short info</div>
-                            <div class="fp-galleries__contet__items_item_desc_link">link >></div>
+                            <hr />
+                            <div class="fp-galleries__contet__items_item_desc_link">link</div>
                         </div>
                     </div>
                 </div>
