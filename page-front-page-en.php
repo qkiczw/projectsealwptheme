@@ -213,44 +213,19 @@ if( have_posts() ):
             </div>
             <div class="row section-content fp-galleries__content"> <!-- Section content  -->
                 <!-- Gallery Item -->
-                <div class="col-12 col-md-4 fp-galleries__content__gallery-items__item">
-                    <div class="fp-galleries__content__gallery-items__item__pic">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid">
-                    </div>
-                    <div class="fp-galleries__content__gallery-items__item__desc">
-                        <p>GALLERY No.1</p>
-                        <hr />
-                        <p>This is the description of the current image on the site fp gallery</p>
-                        <hr />
-                        <p>ENTER [icon]</p>
-                    </div>
-                </div>
-                <!-- Gallery Item -->
-                <div class="col-12 col-md-4 fp-galleries__content__gallery-items__item">
-                    <div class="fp-galleries__content__gallery-items__item__pic">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery02.jpg" class="img-fluid">
-                    </div>
-                    <div class="fp-galleries__content__gallery-items__item__desc">
-                        <p>GALLERY No.2</p>
-                        <hr />
-                        <p>This is the description of the current image on the site fp gallery</p>
-                        <hr />
-                        <p>ENTER GALLERY</p>
+                <div class="col-12 col-md-4 fp-galleries__content_items">
+                    <div class="fp-galleries__contet__items_item">
+                        <div class="fp-galleries__contet__items_item_image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid">
+                        </div>
+                        <div class="fp-galleries__contet__items_item_desc">
+                            <div class="fp-galleries__contet__items_item_desc_title">title</div>
+                            <div class="fp-galleries__contet__items_item_desc_short-info">short info</div>
+                            <div class="fp-galleries__contet__items_item_desc_link">link >></div>
+                        </div>
                     </div>
                 </div>
-                <!-- Gallery Item -->
-                <div class="col-12 col-md-4 fp-galleries__content__gallery-items__item">
-                    <div class="fp-galleries__content__gallery-items__item__pic">
-                        <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid">
-                    </div>
-                    <div class="fp-galleries__content__gallery-items__item__desc">
-                        <p>GALLERY No.3</p>
-                        <hr />
-                        <p>This is the description of the current image on the site fp gallery</p>
-                        <hr />
-                        <p>ENTER GALLERY</p>
-                    </div>
-                </div>
+                
                 <!-- <div class="col-12 col-md-4 fp-galleries__content__gallery">
                     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid"></a>
                 </div>
