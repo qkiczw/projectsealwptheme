@@ -213,7 +213,7 @@ if( have_posts() ):
             </div>
             <div class="row section-content fp-galleries__content"> <!-- Section content  -->
                 <!-- Gallery Item -->
-                <div class="col-12 col-md-4 fp-galleries__content__items">
+                <div class="col-12 col-md-6 col-lg-4 fp-galleries__content__items">
                     <div class="fp-galleries__content__items__item">
                         <div class="fp-galleries__content__items__item__image">
                             <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid">
@@ -227,16 +227,36 @@ if( have_posts() ):
                         </div>
                     </div>
                 </div>
-                
-                <!-- <div class="col-12 col-md-4 fp-galleries__content__gallery">
-                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid"></a>
+                <!-- Gallery Item -->
+                <div class="col-12 col-md-6 col-lg-4 fp-galleries__content__items">
+                    <div class="fp-galleries__content__items__item">
+                        <div class="fp-galleries__content__items__item__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery02.jpg" class="img-fluid">
+                        </div>
+                        <div class="fp-galleries__content__items__item__desc">
+                            <div class="fp-galleries__content__items__item__desc__title">title</div>
+                            <hr />
+                            <div class="fp-galleries__content__items__item__desc__short-info">This is a hort info about one of the project galleries. The gallery is from the tour to Paris.</div>
+                            <hr />
+                            <div class="fp-galleries__content__items__item__desc__link">link</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 fp-galleries__content__gallery">   
-                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery02.jpg" class="img-fluid"></a>
+                <!-- Gallery Item -->
+                <div class="col-12 col-md-6 col-lg-4 fp-galleries__content__items">
+                    <div class="fp-galleries__content__items__item">
+                        <div class="fp-galleries__content__items__item__image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery03.jpg" class="img-fluid">
+                        </div>
+                        <div class="fp-galleries__content__items__item__desc">
+                            <div class="fp-galleries__content__items__item__desc__title">title</div>
+                            <hr />
+                            <div class="fp-galleries__content__items__item__desc__short-info">This is a hort info about one of the project galleries. The gallery is from the tour to Paris.</div>
+                            <hr />
+                            <div class="fp-galleries__content__items__item__desc__link">link</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4 fp-galleries__content__gallery"> 
-                    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery03.jpg" class="img-fluid"></a>
-                </div> -->
             </div>
             <div class="row see-more-galleries">
                 <a href="http://qki.cba.pl/seal/pl/galerie/" class="btn--white">See more galleries</a>

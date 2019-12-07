@@ -10,6 +10,17 @@ $fontSecondaryColor: #fffffF;
     justify-content: center;
     align-items: center;
 }
+@mixin  fp-galleries-size {
+    width: 275px;
+    height: 275px;
+}
+@mixin  fp-galleries-size-sm {
+    width: 300px;
+    height: 300px;
+}@mixin  fp-galleries-size-lg {
+    width: 275px;
+    height: 275px;
+}
 
 /*remove margins and padding from left and right side of site*/
 .row{
@@ -493,20 +504,20 @@ section:last-child{
         .fp-galleries__content__items{
             @include flex-centerXY;
             overflow: hidden;
+            @include fp-galleries-size;            
+            padding: 0;
+            margin-bottom: 50px;
         }
         .fp-galleries__content__items__item{
-            width: 300px;
-            height: 300px;
+            @include fp-galleries-size;           
             transition: all 0.5s ease-in-out;
             .fp-galleries__contet__items__item__image{
-                max-width: 100%;
-                height: 100%;
+                @include fp-galleries-size;              
             }
             .fp-galleries__content__items__item__desc{
                 @include flex-centerXY;
                 flex-direction: column;
-                max-width: 100%;
-                height: 100%;
+                @include fp-galleries-size;                
                 color: #ffffff;
                 background-color: $fontPrimaryColor;
                 hr{
@@ -612,6 +623,22 @@ section:last-child{
             }
         }
     }
+    .fp-galleries{
+        .fp-galleries__content{
+            .fp-galleries__content__items{
+                @include fp-galleries-size-sm;            
+            }
+            .fp-galleries__content__items__item{
+                @include fp-galleries-size-sm;           
+                .fp-galleries__contet__items__item__image{
+                    @include fp-galleries-size-sm;              
+                }
+                .fp-galleries__content__items__item__desc{
+                    @include fp-galleries-size-sm;              
+                }
+            }
+        }
+    }
  }
 
 // Medium devices (tablets, 768px and up)
@@ -652,6 +679,22 @@ section:last-child{
         }
         .about-us__short-info{
             justify-content: space-around;
+        }
+    }
+    .fp-galleries{
+        .fp-galleries__content{
+            .fp-galleries__content__items{
+                @include fp-galleries-size-lg;            
+            }
+            .fp-galleries__content__items__item{
+                @include fp-galleries-size-lg;           
+                .fp-galleries__contet__items__item__image{
+                    @include fp-galleries-size-lg;              
+                }
+                .fp-galleries__content__items__item__desc{
+                    @include fp-galleries-size-lg;              
+                }
+            }
         }
     }
  }
