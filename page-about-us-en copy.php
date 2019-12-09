@@ -1,7 +1,7 @@
 <?php 
 
     /*
-    Template Name: Results PL
+    Template Name: About Us EN
     */
 
 ?>
@@ -22,7 +22,7 @@
     </head>
 
     <body>
-         <!--[if lt IE 7]>
+        <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <header class="header header__sub-page">
@@ -44,7 +44,7 @@
                 <div class="row hero">
                     <div class="col-lg-6 hero__text">
                         <div class="hero__text__content">
-                            <h1 class="hero__text__title">Wyniki naszych działań</h1>
+                            <h1 class="hero__text__title">Read more about SEAL project</h1>
                             <a href="#main-content"><img class="header__arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
                         </div>
                     </div>
@@ -58,9 +58,6 @@
                 </div>
             </div>
         </header>
-          
-
-
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
@@ -77,10 +74,8 @@ if( have_posts() ):
     </main>
     
     <?php endwhile;
-endif;
-    
+endif; 
 ?>
-
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
@@ -91,7 +86,7 @@ endif;
                                     Erasmus+
                                 </div>
                                 <div class="site-footer__content_item_desc">
-                                    <p>Strona internetowa została zrealizowana przy wsparciu finansowym Komisji Europejskiej. Treść strony odzwierciedla jedynie stanowisko jej autorów i Komisja Europejska oraz Narodowa Agencja Programu Erasmus+ nie ponoszą odpowiedzialności za jej zawartość merytoryczną.</p>
+                                    <p>SEAL project has been funded with support from the European Commission within Erasmus+ Programme. However European Commission cannot be held responsible for any use which may be made of the information contained therein.</p>
                                 </div>
                             </div>
                         </div>
@@ -108,8 +103,8 @@ endif;
                                             <li>Centrum Kształcenia Ustawicznego im. Bohaterów Wybrzeża w Sopocie</li>
                                             <li>ul. Tadeusza Kościuszki 22-24</li>
                                             <li>81-704 Sopot</li>
-                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: +48 58 550 33 65</li>
-                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: 791 983 610</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> phone: +48 58 550 33 65</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> phone: 791 983 610</li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/email.png"> e-mail: <a href="mailto:cku-projekty@wp.pl">cku-projekty@wp.pl</a></li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png"> <a href="https://www.facebook.com/senioractiveliving/">Facebook</a></li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon-w.png"> <a href="#">Instagram</a></li>
