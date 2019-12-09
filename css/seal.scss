@@ -454,7 +454,7 @@ section:last-child{
                         @include flex-centerXY;
                         flex-direction: column;
                         bottom: 0;
-                        background-color: #747474;
+                        background-color: #424242;
                         width: 100%;
                         transition-duration: 700ms;
                         transform: translateY(300px);
@@ -483,7 +483,7 @@ section:last-child{
                     .partners__row_partner__link-area::before {
                         content: '';
                         position: absolute;
-                        background-color: #747474;
+                        background-color: #424242;
                         top: -50px;
                         left: 0;
                         right: 0;
@@ -501,7 +501,8 @@ section:last-child{
             opacity: 0;
         }
         .partners__row__partner:hover{
-             background-color: #e0c8ae;
+            background-color: #eadcc9;
+            // background-image: linear-gradient(#eadcc9 20%,#ffffff 80%);
         }
     }
     
