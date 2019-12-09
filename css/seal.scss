@@ -23,6 +23,12 @@ $fontSecondaryColor: #fffffF;
 }
 
 /*remove margins and padding from left and right side of site*/
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    color: $fontPrimaryColor;
+}
 .row{
     margin-left: 0;
     margin-right: 0;
@@ -34,11 +40,6 @@ $fontSecondaryColor: #fffffF;
 }
 html{
     scroll-behavior: smooth;  
-}
-body{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    color: $fontPrimaryColor;
 }
 a{
     color: #424242;
