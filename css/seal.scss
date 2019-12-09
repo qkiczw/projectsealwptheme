@@ -799,14 +799,22 @@ section:last-child{
             opacity: 1;
             .menu{
                 flex-direction: row;
-                .pll-parent-menu-item{
+                .pll-parent-menu-item{ //Polylang desktop menu
+                    position: relative;
                     display: block;
                     .sub-menu{
                         display: none;
+                        
+                    }
+                    .sub-menu--active-desktop{
+                        position: absolute;
+                        display: block;
+                        padding-left: 0;
                     }
                 }
             }           
         }
+        
     }
     .header__sub-page{
         background-position: 70% 20%;

@@ -2,6 +2,16 @@ console.log('JS Works!!!');
 const hamburger = document.querySelector('.hamburger');
 const mainMenuItems = document.querySelector('.main-menu__items');
 const mainMenu = document.querySelector('.main-menu');
+const polyLangMenu = document.querySelector('.sub-menu');
+const polyLangMenuSwitcher = document.querySelector('.pll-parent-menu-item');
+
+
+const handleLaguageSwitcher = () => {
+    console.log('Language Menu is Opened')
+    polyLangMenu.classList.toggle('sub-menu--active-desktop');
+    // polyLangMenu.style.display = 'block';
+}
+polyLangMenuSwitcher.addEventListener('click', handleLaguageSwitcher);
 
 const handleHamburgerClick = () => {
     console.log('Menu is Open');
