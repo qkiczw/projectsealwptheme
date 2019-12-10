@@ -26,23 +26,42 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- New test Header -->
         <header class="header">
-            <nav class="header__nav">
-                <div class="header__nav__logo">logo</div>
-                <div class="header__nav__items">
-                    <div class="header__nav__items__mobile">menu mobile</div>
-                    <div class="header__nav__items__desktop">menu desktop</div>
-                </div>                
-            </nav>
-            <div class="header__hero">
-                <div class="header__hero__text">
-                    <h1>SEAL</h1>
-                    <h3>Somethin about seal like a slogan</h3>
+            <!-- New menu -->
+            <nav class="main-menu">
+                <div class="main-menu__brand">
+                    <a class="navbar-brand" href="#"><img class="nav__logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
+                    <button class="hamburger">
+                        <span class="hamburger__box">
+                            <span class="hamburger__inner"></span>
+                        </span>
+                    </button>
+                </div>
+                <div class="main-menu__items">
+                    <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
+                </div>
+            </nav> 
+            <div class="container-fluid">
+                <div class="row hero">
+                    <div class="col-md-6 hero__text">
+                        <h1 class="hero__text__title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
+                        <div class="hero__text__content">                           
+                            <h5 class="hero__text__slogan">
+                                SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors.
+                            </h5>
+                            <a class="btn--grey" href="#about-us">Start Journey</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 header__social-icons">
+                        <p>Find us here <strong>&raquo</strong></p>
+                        <p><a href="https://www.facebook.com/seal.erasmusproject"><img class="header-social-icons__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
+                        <p><a href="#"><img class="header-social-icons__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon.png"></a></p>
+                    </div>
                 </div>
             </div>
         </header>
-        <!-- End of new test header -->
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>

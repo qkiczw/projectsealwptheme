@@ -283,71 +283,99 @@ section:last-child{
     .btn--partner:hover{
         font-size: 1.3em;
     }
+
     .header{
         position: relative;
-        background-image: url("../img/header04.jpg");
-        background-size: cover;
+        z-index: 1;
         height: 100vh;
-        overflow: hidden;
-        .nav__logo{
-            max-width: 150px;
-        }
-        .hero__text{
-            @include flex-centerXY;
-            flex-direction: column;
-            margin-top: 100px;
-            text-align: center;
-            .hero__text__title{
-                font-weight: 700;
-                font-size: 1.8em;
-            }
-            .hero__text__content{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                max-width: 550px;
-                
-                .hero__text__slogan{
-                    margin-top: 30px;
-                    margin-bottom: 50px;
-                    font-size: 1.1em;
-                }      
-            }    
-        }
-        .header__social-icons{
+        background-image: url("../img/seal-new-header.jpg");
+        color: #fffffF;
+        .header__nav{
             position: absolute;
-            left: -75px;
-            opacity: 0;
-            @include flex-centerXY;
-            bottom: 10px;
-            font-size: 1.3em;
-            .header-social-icons__icon{
-                max-width: 50px;
-                padding-left: 20px;
-                transition-duration: 200ms;
-            }
-            .header-social-icons__icon:hover{
-                transform: scale(1.1);
-            }
-        }
-    }
-    // header for any other sub pages
-    .header__sub-page{
-        height: 70vh;
-        background-position: 20% 20%;
-        .hero__text{
-            height: 70vh;
-            .hero__text__content{
-                max-width: 100%;
-                .header__arrows-icon{
-                    max-width: 50px;
-                    animation-name: header__arrow-animation;
-                    animation-duration: 2s;
-                    animation-iteration-count: infinite;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 1.4em;
+            .header__nav__items{
+                @include flex-centerXY;
+                margin-right: 20px;
+                .header__nav__items__mobile{
+
                 }
+                .header__nav__items__desktop{
+                    display: none;
+                }
+                
             }
         }
     }
+
+    // .header{
+    //     // position: relative;
+    //     background-image: url("../img/header04.jpg");
+    //     background-size: cover;
+    //     height: 100vh;
+    //     overflow: hidden;
+    //     .nav__logo{
+    //         max-width: 150px;
+    //     }
+    //     .hero__text{
+    //         @include flex-centerXY;
+    //         flex-direction: column;
+    //         margin-top: 100px;
+    //         text-align: center;
+    //         .hero__text__title{
+    //             font-weight: 700;
+    //             font-size: 1.8em;
+    //         }
+    //         .hero__text__content{
+    //             display: flex;
+    //             flex-direction: column;
+    //             align-items: center;
+    //             max-width: 550px;
+                
+    //             .hero__text__slogan{
+    //                 margin-top: 30px;
+    //                 margin-bottom: 50px;
+    //                 font-size: 1.1em;
+    //             }      
+    //         }    
+    //     }
+    //     .header__social-icons{
+    //         position: absolute;
+    //         left: -75px;
+    //         opacity: 0;
+    //         @include flex-centerXY;
+    //         bottom: 10px;
+    //         font-size: 1.3em;
+    //         .header-social-icons__icon{
+    //             max-width: 50px;
+    //             padding-left: 20px;
+    //             transition-duration: 200ms;
+    //         }
+    //         .header-social-icons__icon:hover{
+    //             transform: scale(1.1);
+    //         }
+    //     }
+    // }
+    // // header for any other sub pages
+    // .header__sub-page{
+    //     height: 70vh;
+    //     background-position: 20% 20%;
+    //     .hero__text{
+    //         height: 70vh;
+    //         .hero__text__content{
+    //             max-width: 100%;
+    //             .header__arrows-icon{
+    //                 max-width: 50px;
+    //                 animation-name: header__arrow-animation;
+    //                 animation-duration: 2s;
+    //                 animation-iteration-count: infinite;
+    //             }
+    //         }
+    //     }
+    // }
     @keyframes header__arrow-animation {
         0%   {transform: translateY(0px)}
         50%  {transform: translateY(10px)}
@@ -618,23 +646,23 @@ section:last-child{
             margin-top: 0px;
         }
     }
-    .header{
-        background-image: url("../img/header04.jpg");
-        background-size: 175%;
-        .hero__text{
-            margin-top: 90px;
-            .hero__text__content{
-                flex-direction: column;
-                .hero__text__slogan{
-                    padding: 25px 0;
-                    margin: 0;
-                }
-                .btn--grey{
-                    text-align: center;
-                }
-            }
-        }
-    }
+    // .header{
+    //     background-image: url("../img/header04.jpg");
+    //     background-size: 175%;
+    //     .hero__text{
+    //         margin-top: 90px;
+    //         .hero__text__content{
+    //             flex-direction: column;
+    //             .hero__text__slogan{
+    //                 padding: 25px 0;
+    //                 margin: 0;
+    //             }
+    //             .btn--grey{
+    //                 text-align: center;
+    //             }
+    //         }
+    //     }
+    // }
     .about-us{
         .about-us__logo{
             .project-logo{
@@ -662,34 +690,34 @@ section:last-child{
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-    .header{
-        position: relative;
-        background-position: 60%;
-        background-size: cover;
-        .main-menu{
-            padding-top: 15px;
-            .main-menu__items--showed{
-                margin-top: 40%;
-                }
-        }
-        .hero{
-            height: 100vh;
-            .hero__text{
-                display: flex;
-                justify-content: center;
-                margin-left: 2.5%;
-                .hero__text__content{
-                    flex-direction: column;
-                    .hero__text__slogan{
-                        padding: 25px 0;  
-                    }
-                }
-            }
-        }
-        .header__social-icons{
-            justify-content: flex-start;
-        }
-    }
+    // .header{
+    //     position: relative;
+    //     background-position: 60%;
+    //     background-size: cover;
+    //     .main-menu{
+    //         padding-top: 15px;
+    //         .main-menu__items--showed{
+    //             margin-top: 40%;
+    //             }
+    //     }
+    //     .hero{
+    //         height: 100vh;
+    //         .hero__text{
+    //             display: flex;
+    //             justify-content: center;
+    //             margin-left: 2.5%;
+    //             .hero__text__content{
+    //                 flex-direction: column;
+    //                 .hero__text__slogan{
+    //                     padding: 25px 0;  
+    //                 }
+    //             }
+    //         }
+    //     }
+    //     .header__social-icons{
+    //         justify-content: flex-start;
+    //     }
+    // }
     .about-us__content{
         .about-us__logo{
             .project-logo{
@@ -720,24 +748,24 @@ section:last-child{
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-    .header{
-        background-position: 60%;
-        .hero{
-            height: 100vh;
-            .hero__text{
-                // position: unset;
-                margin-top: 0;
-                max-width: 45%;
-                margin-left: 5%;
-                .hero__text__content{
-                    padding: 0;
-                    .hero__text__slogan{
-                        padding: 25px 0;
-                    }
-                }
-            }
-        } 
-    }
+    // .header{
+    //     background-position: 60%;
+    //     .hero{
+    //         height: 100vh;
+    //         .hero__text{
+    //             // position: unset;
+    //             margin-top: 0;
+    //             max-width: 45%;
+    //             margin-left: 5%;
+    //             .hero__text__content{
+    //                 padding: 0;
+    //                 .hero__text__slogan{
+    //                     padding: 25px 0;
+    //                 }
+    //             }
+    //         }
+    //     } 
+    // }
     .post{
         .post__content{
            .post__title{
@@ -756,27 +784,27 @@ section:last-child{
 
  // iPad landscape
  @media (min-width: 1024px) { 
-    .header{
-        .main-menu{
-            padding-top: 15px;
-            .main-menu__items--showed{
-                margin-top: 20%;
-            }
-        }
-    }
+    // .header{
+    //     .main-menu{
+    //         padding-top: 15px;
+    //         .main-menu__items--showed{
+    //             margin-top: 20%;
+    //         }
+    //     }
+    // }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
-    .header{
-        background-size: cover;
-        .hero{
-            .hero__text{
-                max-width: 35%;
-                margin-left: 10%;
-            }
-        }
-    }
+    // .header{
+    //     background-size: cover;
+    //     .hero{
+    //         .hero__text{
+    //             max-width: 35%;
+    //             margin-left: 10%;
+    //         }
+    //     }
+    // }
     .main-menu{
         flex-direction: row;
         justify-content: space-between;
@@ -812,10 +840,10 @@ section:last-child{
         }
         
     }
-    .header__sub-page{
-        background-position: 70% 20%;
-        background-size: cover;
-    }
+    // .header__sub-page{
+    //     background-position: 70% 20%;
+    //     background-size: cover;
+    // }
     .about-us{
         .about-us__content{
             .about-us__logo{
