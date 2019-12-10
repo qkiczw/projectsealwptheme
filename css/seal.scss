@@ -293,10 +293,16 @@ section:last-child{
         .header__nav{
             position: absolute;
             z-index: 2;
+            padding: 5px 10px;
             display: flex;
             justify-content: space-between;
             width: 100%;
             font-size: 1.4em;
+            .header__nav__logo{
+                .header__nav__logo__image{
+                    max-width: 100px;
+                }
+            }
             .header__nav__items{
                 @include flex-centerXY;
                 margin-right: 20px;
@@ -321,6 +327,18 @@ section:last-child{
                     padding: 0 10px;
                     font-size: 1.2em;
                     text-align: center;
+                }
+                .header__hero__content__btn-area{
+                    margin-top: 30px;
+                    @include flex-centerXY;
+                    .header__hero__content__btn-area__btn{
+                        color: #fffffF;
+                        background: none;
+                        border: 1px solid #fffffF;
+                        text-transform: uppercase;
+                        padding: 10px 30px;
+                        letter-spacing: 0.5em;
+                    }
                 }
             }
         }

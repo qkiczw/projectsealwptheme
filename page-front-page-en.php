@@ -29,7 +29,7 @@
         <!-- New test Header -->
         <header class="header">
             <nav class="header__nav">
-                <div class="header__nav__logo">logo</div>
+                <div class="header__nav__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/nav-logo.png" class="img-fluid header__nav__logo__image"></div>
                 <div class="header__nav__items">
                     <div class="header__nav__items__mobile">menu mobile</div>
                     <div class="header__nav__items__desktop">menu desktop</div>
@@ -39,10 +39,11 @@
                 <div class="header__hero__content">
                     <h1 class="header__hero__content__title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
                     <h3 class="header__hero__content__slogan">SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors.</h3>
+                    <div class="header__hero__content__btn-area">
+                        <a href="#about-us"><button class="header__hero__content__btn-area__btn">read more</button></a>
+                    </div>
                 </div>
-                <div class="header__hero__content__btn-area">
-                    <button class="header__hero__content__btn-area__btn">Start</button>
-                </div>
+                
             </div>
         </header>
         <!-- End of new test header -->
