@@ -25,7 +25,7 @@ $fontSecondaryColor: #fffffF;
 /*remove margins and padding from left and right side of site*/
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     letter-spacing: 0.1em;
     color: $fontPrimaryColor;
 }
@@ -305,8 +305,23 @@ section:last-child{
                 }
                 .header__nav__items__desktop{
                     display: none;
+                }  
+            }
+        }
+        .header__hero{
+            position: relative;
+            top: 100px;
+            .header__hero__content{
+                .header__hero__content__title{
+                    font-weight: bold;
+                    font-size: 1.6em;
+                    text-align: center;
                 }
-                
+                .header__hero__content__slogan{
+                    padding: 0 10px;
+                    font-size: 1.2em;
+                    text-align: center;
+                }
             }
         }
     }

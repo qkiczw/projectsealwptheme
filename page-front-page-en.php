@@ -36,9 +36,12 @@
                 </div>                
             </nav>
             <div class="header__hero">
-                <div class="header__hero__text">
-                    <h1>SEAL</h1>
-                    <h3>Somethin about seal like a slogan</h3>
+                <div class="header__hero__content">
+                    <h1 class="header__hero__content__title">SENIOR EDUCATION FOR ACTIVE LIVING</h1>
+                    <h3 class="header__hero__content__slogan">SEAL Project SEAL is international initiative aimed to develop innovative educational tools used for education and activation of seniors.</h3>
+                </div>
+                <div class="header__hero__content__btn-area">
+                    <button class="header__hero__content__btn-area__btn">Start</button>
                 </div>
             </div>
         </header>
