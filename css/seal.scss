@@ -22,6 +22,13 @@ $fontSecondaryColor: #fffffF;
     height: 275px;
 }
 
+//animations
+@keyframes header__arrow-animation {
+    0%   {transform: translateY(0px)}
+    50%  {transform: translateY(10px)}
+    100% {transform: translateY(0px)}
+}
+
 /*remove margins and padding from left and right side of site*/
 body{
     font-family: 'Source Sans Pro', sans-serif;
@@ -306,9 +313,6 @@ section:last-child{
             .header__nav__items{
                 @include flex-centerXY;
                 margin-right: 20px;
-                .header__nav__items__mobile{
-
-                }
                 .header__nav__items__desktop{
                     display: none;
                 }  
@@ -325,7 +329,7 @@ section:last-child{
                 }
                 .header__hero__content__slogan{
                     padding: 0 10px;
-                    font-size: 1.2em;
+                    font-size: 1.1em;
                     text-align: center;
                 }
                 .header__hero__content__btn-area{
@@ -339,6 +343,14 @@ section:last-child{
                         padding: 10px 30px;
                         letter-spacing: 0.5em;
                     }
+                }
+                .header__hero__content__arrow{
+                display: none;
+                margin-top: 40px;
+                img{
+                    max-width: 50px;
+                    animation: header__arrow-animation 1s linear infinite;
+                }
                 }
             }
         }
@@ -358,11 +370,6 @@ section:last-child{
                 }
             }
         }
-    }
-    @keyframes header__arrow-animation {
-        0%   {transform: translateY(0px)}
-        50%  {transform: translateY(10px)}
-        100% {transform: translateY(0px)}
     }
     .main-menu{
         position: absolute;
@@ -624,6 +631,14 @@ section:last-child{
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
+    .header{
+        .header__nav{
+            padding: 10px 10px;
+        }
+        .header__hero{
+            top: 70px;
+        }
+    }
     .main-menu{
         .main-menu__items--showed{
             margin-top: 0px;
@@ -656,7 +671,25 @@ section:last-child{
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
-
+    .header{
+        .header__nav{
+            padding: 30px 20px;
+        }
+        .header__hero{
+            top: 35%;
+            padding: 0 40px;
+            .header__hero__content{
+                .header__hero__content__btn-area{
+                    .header__hero__content__btn-area__btn{
+                        border-width: 2px;
+                    }
+                }
+                .header__hero__content__arrow{
+                    @include flex-centerXY;
+                }
+            }
+        }
+    }
     .about-us__content{
         .about-us__logo{
             .project-logo{
@@ -687,7 +720,29 @@ section:last-child{
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
-    
+    .header{
+        background-position: 70% 0%;
+        .header__hero{
+            display: flex;
+            justify-content: flex-start;
+            width: 530px;
+            left: 70px;
+            padding: 0;
+            .header__hero__content{
+                .header__hero__content__title, 
+                .header__hero__content__slogan{
+                    padding: 0;
+                    text-align: left;
+                }
+            }
+        }
+        .header__social-icons{
+            justify-content: flex-start;
+            max-width: 33% ;
+            left: 20px;
+            bottom:20px;
+        }
+    }
     .post{
         .post__content{
            .post__title{

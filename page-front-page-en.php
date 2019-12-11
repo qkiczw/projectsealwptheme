@@ -42,6 +42,9 @@
                     <div class="header__hero__content__btn-area">
                         <a href="#about-us"><button class="header__hero__content__btn-area__btn">read more</button></a>
                     </div>
+                    <div class="header__hero__content__arrow">
+                        <img src="<?php echo get_template_directory_uri(); ?>/img/arrows-down-w.png" class="img-fluid">
+                    </div>
                 </div>  
             </div>
             <div class="header__social-icons">
