@@ -58,6 +58,8 @@ jQuery(document).ready(function( $ ){
     const $partnersRow = $('.partners__row');
     const $window = $(window);
     const $socialIcons = $('.header__social-icons');
+    const $windowWitdth = $window.width();
+    const $minWindowWidth = 1200;
  
     function partnersShow() {
         if($window.scrollTop() > 1200) {
@@ -67,4 +69,12 @@ jQuery(document).ready(function( $ ){
     $window.on('scroll', partnersShow);
 
     $socialIcons.animate( {bottom: '15px', opacity: '1'}, 600);
+
+    //test
+    if($windowWitdth > $minWindowWidth ){
+        $socialIcons.animate( {bottom: '20px', opacity: '1'}, 600);
+    }
+    else{
+        $socialIcons.animate( {bottom: '15px', opacity: '1'}, 600);
+    }
 });
