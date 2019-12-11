@@ -342,6 +342,16 @@ section:last-child{
                 }
             }
         }
+        .header__social-icons{
+            @include flex-centerXY;
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            .header__social-icons__icon{
+                max-width: 25px;
+                margin-left: 10px;
+            }
+        }
     }
 
     // .header{

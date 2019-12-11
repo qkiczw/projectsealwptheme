@@ -31,7 +31,7 @@
             <nav class="header__nav">
                 <div class="header__nav__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/nav-logo.png" class="img-fluid header__nav__logo__image"></div>
                 <div class="header__nav__items">
-                    <div class="header__nav__items__mobile">menu mobile</div>
+                    <div class="header__nav__items__mobile">X</div>
                     <div class="header__nav__items__desktop">menu desktop</div>
                 </div>                
             </nav>
@@ -42,8 +42,16 @@
                     <div class="header__hero__content__btn-area">
                         <a href="#about-us"><button class="header__hero__content__btn-area__btn">read more</button></a>
                     </div>
+                </div>  
+            </div>
+            <div class="header__social-icons">
+                <div class="header__social-icons__title">Find us here <strong>&raquo</strong></div>
+                <div class="header__social-icons__icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png" class="img-fluid header__social-icons__icon_image">
                 </div>
-                
+                <div class="header__social-icons__icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon-w.png" class="img-fluid header__social-icons__icon_image">
+                </div>
             </div>
         </header>
         <!-- End of new test header -->
