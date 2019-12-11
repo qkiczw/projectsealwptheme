@@ -342,6 +342,10 @@ section:last-child{
                         text-transform: uppercase;
                         padding: 10px 30px;
                         letter-spacing: 0.5em;
+                        transition-duration: 0.3s;
+                    }
+                    .header__hero__content__btn-area__btn:hover{
+                        transform: scale(1.1);
                     }
                 }
                 .header__hero__content__arrow{
@@ -832,4 +836,13 @@ section:last-child{
     }
 }
  // FHD Monitor and up
-@media (min-width: 1600px) {  }
+@media (min-width: 1600px) {
+    body{
+        font-size: 18px;
+    }
+    .header{
+        .header__hero{
+            left: 175px;
+        }
+    }
+}
