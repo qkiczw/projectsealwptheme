@@ -65,6 +65,6 @@ jQuery(document).ready(function( $ ){
         } 
     }
     $window.on('scroll', partnersShow);
-    
+
     $socialIcons.animate( {bottom: '15px', opacity: '1'}, 600);
-})
+});
