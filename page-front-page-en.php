@@ -47,10 +47,10 @@
             <div class="header__social-icons">
                 <div class="header__social-icons__title">Find us here <strong>&raquo</strong></div>
                 <div class="header__social-icons__icon">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png" class="img-fluid header__social-icons__icon_image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png" class="img-fluid header__social-icons__icon__image">
                 </div>
                 <div class="header__social-icons__icon">
-                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon-w.png" class="img-fluid header__social-icons__icon_image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon-w.png" class="img-fluid header__social-icons__icon__image">
                 </div>
             </div>
         </header>

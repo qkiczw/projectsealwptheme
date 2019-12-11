@@ -11,7 +11,7 @@ const handleLaguageSwitcher = () => {
     polyLangMenu.classList.toggle('sub-menu--active-desktop');
     // polyLangMenu.style.display = 'block';
 }
-polyLangMenuSwitcher.addEventListener('click', handleLaguageSwitcher);
+// polyLangMenuSwitcher.addEventListener('click', handleLaguageSwitcher); // Disable for now
 
 const handleHamburgerClick = () => {
     console.log('Menu is Open');
@@ -20,7 +20,8 @@ const handleHamburgerClick = () => {
     hamburger.classList.toggle('hamburger--active');
     
 }
-hamburger.addEventListener('click', handleHamburgerClick);
+// hamburger.addEventListener('click', handleHamburgerClick);  // Disable for now
+
 
 // triangle animations
 const traingleLeft = document.querySelector('.triangle-left-side');
@@ -64,5 +65,6 @@ jQuery(document).ready(function( $ ){
         } 
     }
     $window.on('scroll', partnersShow);
-    $socialIcons.animate({left: '0', opacity: '1'}, 600);
+    
+    $socialIcons.animate( {bottom: '15px', opacity: '1'}, 600);
 })
