@@ -41,6 +41,9 @@ body{
     letter-spacing: 0.1em;
     color: $fontPrimaryColor;
 }
+.wrapper{
+    overflow: hidden;
+}
 /*remove margins and padding from left and right side of site*/s
 .row{
     margin-left: 0;
@@ -68,7 +71,6 @@ a:hover{
 }
 .hamburger{
     padding: 10px;
-    // display: none; // inline-block in standard
     cursor: pointer;
     background-color: transparent;
     border: 0;
@@ -298,7 +300,6 @@ section:last-child{
         position: relative;
         z-index: 1;
         height: 100vh;
-        overflow: hidden;
         background-image: url("../img/seal-new-header.jpg");
         color: #fffffF;
         .header__nav{
@@ -399,7 +400,7 @@ section:last-child{
             bottom: -50px;
             width: 100%;
             opacity: 0;
-            // transition-duration: 0.5s;
+            transition-duration: 0.5s;
             .header__social-icons__icon{
                 max-width: 25px;
                 margin-left: 10px; 
@@ -410,57 +411,6 @@ section:last-child{
             }
         }
     }
-    // .main-menu{
-    //     position: absolute;
-    //     padding-top: 15px;
-    //     height: 100px;
-    //     display: flex;
-    //     flex-direction: column;
-    //     align-items: center;
-    //     width: 100%;
-    //     height: 100%;
-    //     text-transform: uppercase;
-    //     font-size: 1.5em;
-    //     transition-duration: 0.7s;
-    //     .main-menu__brand{
-    //         width: 90%;
-    //         display: flex;
-    //         justify-content: space-between;
-    //     }
-    //     .main-menu__items{
-    //         position: relative;
-    //         display: none;
-    //         margin-top: 15%;
-    //         opacity: 0;
-    //         transition-duration: 0.7s;
-    //     }
-    //     .main-menu__items--showed{
-    //         display: flex;
-    //         opacity: 1;
-    //     }
-    //     .menu{
-    //         display: flex;
-    //         flex-direction: column;
-    //         justify-content: flex-end;
-    //         align-items: center;
-    //         list-style: none;
-    //         .menu-item{
-    //             padding-right: 30px;
-    //         }
-    //         .pll-parent-menu-item{ //Polylang mobile menu
-    //             display: flex;
-    //             font-size: 17px;
-    //             .sub-menu{
-    //                 list-style: none;
-    //             }
-    //         }
-    //     }
-    // }
-    // .main-menu--showed{
-    //     position: absolute;
-    //     z-index: 1000;
-    //     background-color: #eadcc9;
-    // }
     .about-us{
         position: relative;
         .about-us__logo{
@@ -559,7 +509,6 @@ section:last-child{
         }
         .partners__row__partner:hover{
             background-color: #eadcc9;
-            // background-image: linear-gradient(#eadcc9 20%,#ffffff 80%);
         }
     }
     
@@ -857,6 +806,7 @@ section:last-child{
                             justify-content: flex-end;
                             align-items: center;
                             list-style: none;
+                            margin-bottom: 0;
                             .menu-item>a{
                                 text-transform: uppercase;
                                 margin-right: 20px;
