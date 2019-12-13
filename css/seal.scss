@@ -298,6 +298,7 @@ section:last-child{
         position: relative;
         z-index: 1;
         height: 100vh;
+        overflow: hidden;
         background-image: url("../img/seal-new-header.jpg");
         color: #fffffF;
         .header__nav{
