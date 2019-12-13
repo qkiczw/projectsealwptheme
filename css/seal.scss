@@ -804,6 +804,39 @@ section:last-child{
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
     .header{
+        .header__nav{
+            .header__nav__logo{
+                .header__nav__logo__image{
+                    max-width: 150px;
+                }
+            }
+            .header__nav__items{
+                .header__nav__items__mobile{
+                    display: none;
+                }
+                .header__nav__items__desktop{
+                    display: block;
+                    .menu-main-menu-en-container{
+                        .menu{
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            list-style: none;
+                            .menu-item>a{
+                                text-transform: uppercase;
+                                margin-right: 20px;
+                                color: white;
+                            }
+                            .pll-parent-menu-item{ // Poly lang menu ==> lang swticher
+                                .sub-menu{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
         .header__hero{
             left: 100px;
             width: 650px;

@@ -32,7 +32,9 @@
                 <div class="header__nav__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/nav-logo.png" class="img-fluid header__nav__logo__image"></div>
                 <div class="header__nav__items">
                     <div class="header__nav__items__mobile">X</div>
-                    <div class="header__nav__items__desktop">menu desktop</div>
+                    <div class="header__nav__items__desktop">
+                        <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
+                    </div>
                 </div>                
             </nav>
             <div class="header__hero">
