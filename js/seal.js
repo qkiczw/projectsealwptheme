@@ -1,7 +1,6 @@
 console.log('JS Works!!!');
 const hamburger = document.querySelector('.hamburger');
-const mainMenuItems = document.querySelector('.main-menu__items');
-const mainMenu = document.querySelector('.main-menu');
+const mainMenu = document.querySelector('.header__nav__items__mobile__item');
 const polyLangMenu = document.querySelector('.sub-menu');
 const polyLangMenuSwitcher = document.querySelector('.pll-parent-menu-item');
 
@@ -15,12 +14,10 @@ const handleLaguageSwitcher = () => {
 
 const handleHamburgerClick = () => {
     console.log('Menu is Open');
-    mainMenuItems.classList.toggle('main-menu__items--showed');
-    mainMenu.classList.toggle('main-menu--showed');
     hamburger.classList.toggle('hamburger--active');
-    
+    mainMenu.classList.toggle('header__nav__items__mobile__item--active');
 }
-// hamburger.addEventListener('click', handleHamburgerClick);  // Disable for now
+hamburger.addEventListener('click', handleHamburgerClick);  // Disable for now
 
 
 // triangle animations

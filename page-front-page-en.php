@@ -31,7 +31,17 @@
             <nav class="header__nav">
                 <div class="header__nav__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/nav-logo.png" class="img-fluid header__nav__logo__image"></div>
                 <div class="header__nav__items">
-                    <div class="header__nav__items__mobile">X</div>
+                    
+                    <div class="header__nav__items__mobile">
+                        <button class="hamburger">
+                            <span class="hamburger__box">
+                                <span class="hamburger__inner"></span>
+                            </span>
+                        </button>
+                        <div class="header__nav__items__mobile__item">
+                            <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
+                        </div>
+                    </div>
                     <div class="header__nav__items__desktop">
                         <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
                     </div>
