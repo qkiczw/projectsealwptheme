@@ -631,7 +631,38 @@ section:last-child{
             padding: 20px;
         }
     }
-  }
+  } 
+  @media (max-height: 320px) {
+      .header{
+            .header__hero{
+                font-size: 1em;
+                .header__hero__content{
+                    position: relative;
+                    top: -40px;  
+                    .header__hero__content__btn-area{
+                        margin-top: 10px;
+                    }
+                    .header__hero__content__arrow{
+                        visibility: hidden;
+                    }
+                }
+          }
+      }
+  } 
+
+@media (min-width: 360px) { 
+    .header{
+        .header__hero{
+            .header__hero__content{
+                .header__hero__content__arrow{
+                    margin-top: 20px;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
