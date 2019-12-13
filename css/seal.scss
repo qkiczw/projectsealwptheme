@@ -273,9 +273,10 @@ section:last-child{
         letter-spacing: .15em;
         transition-duration: 0.5s;
     }
+    .btn--white:visited{
+        color: $fontSecondaryColor;
+    }
     .btn--white:hover{
-        background-color: #ffffff;
-        color: #424242;
         cursor: pointer;
         -webkit-transform: scale(1.1);
         -ms-transform: scale(1.1);
@@ -416,6 +417,17 @@ section:last-child{
             }
         }
     }
+    .header-subpage{
+        height: 60vh;
+        background-position: center;
+        .header__hero{
+            .header__hero__content{
+                .header__hero__content__arrow{
+                    @include flex-centerXY;
+                }
+            }
+        }
+    }
     .about-us{
         position: relative;
         .about-us__logo{
@@ -439,6 +451,7 @@ section:last-child{
     }
     .partners{
         position: relative;
+        margin-bottom: 0;
         background-color: #EEEEEE;
         .partners__row{
             opacity: 0;
@@ -877,6 +890,9 @@ section:last-child{
             }           
         }
         
+    }
+    .header-subpage{
+        background-position: 10%;
     }
     .about-us{
         .about-us__content{
