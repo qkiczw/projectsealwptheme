@@ -1,21 +1,26 @@
 console.log('JS Works!!!');
 const hamburger = document.querySelector('.hamburger');
+const navLogo = document.querySelector('.header__nav__logo__image');
 const mainMenu = document.querySelector('.header__nav__items__mobile__item');
 const polyLangMenu = document.querySelector('.sub-menu');
 const polyLangMenuSwitcher = document.querySelector('.pll-parent-menu-item');
+const screenWidth = screen.width;
+const screenWidthMax = 500;
 
 
 const handleLaguageSwitcher = () => {
     console.log('Language Menu is Opened')
     polyLangMenu.classList.toggle('sub-menu--active-desktop');
-    // polyLangMenu.style.display = 'block';
 }
 // polyLangMenuSwitcher.addEventListener('click', handleLaguageSwitcher); // Disable for now
 
 const handleHamburgerClick = () => {
-    console.log('Menu is Open');
     hamburger.classList.toggle('hamburger--active');
     mainMenu.classList.toggle('header__nav__items__mobile__item--active');
+
+    if(screenWidth < screenWidthMax){
+        navLogo.classList.toggle('header__nav__logo__image--hidden');
+    }
 }
 hamburger.addEventListener('click', handleHamburgerClick);  // Disable for now
 

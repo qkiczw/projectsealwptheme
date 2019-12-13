@@ -78,7 +78,7 @@ a:hover{
     transition: all 0.5s ease-in-out;
 }
 .hamburger--active{
-    transform: translateX(-250px);
+    transform: translateX(-240px);
 }
 .hamburger__box{
     width: 40px;
@@ -313,7 +313,11 @@ section:last-child{
             .header__nav__logo{
                 .header__nav__logo__image{
                     max-width: 100px;
+                    transition: all 0.5s ease-in-out;
                 }
+                .header__nav__logo__image--hidden{
+                    visibility: hidden;
+                }    
             }
             .header__nav__items{
                 @include flex-centerXY;
@@ -792,6 +796,7 @@ section:last-child{
             .header__nav__logo{
                 .header__nav__logo__image{
                     max-width: 150px;
+                    transition: all 0.5s ease-in-out;
                 }
             }
             .header__nav__items{
