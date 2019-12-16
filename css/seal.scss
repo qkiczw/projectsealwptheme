@@ -5,6 +5,7 @@ $fontPrimaryColor: #424242;
 $fontSecondaryColor: #fffffF;
 $linkColor: #2d5294;
 $linkColor--hover: #134191;
+$bgPartnersLinkColor: #6ac04d;
 
 // Mixines
 @mixin flex-centerXY {
@@ -443,11 +444,18 @@ section:last-child{
             }
         }
         .about-us__short-info{
+            position: relative;
             @include flex-centerXY;
             flex-direction: column;
             height: 100%;
+            left: 1000px;
+            opacity: 0;
+            // transition: all 0.7s ease-in;
         }
         .disclaimer{
+            position: relative;
+            left: -1000px;
+            opacity: 0;
             margin-top: 100px;
         }
     }
@@ -482,7 +490,7 @@ section:last-child{
                         @include flex-centerXY;
                         flex-direction: column;
                         bottom: 0;
-                        background-color: #6ac04d;
+                        background-color: $bgPartnersLinkColor;
                         width: 100%;
                         transition-duration: 700ms;
                         transform: translateY(300px);
@@ -565,7 +573,7 @@ section:last-child{
                 flex-direction: column;
                 @include fp-galleries-size;                
                 color: #ffffff;
-                background-color: $fontPrimaryColor;
+                background-color: $bgPartnersLinkColor;
                 hr{
                     border: 1px solid #ffffff;
                     width: 75%;

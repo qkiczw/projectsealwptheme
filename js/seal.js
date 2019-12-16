@@ -57,16 +57,35 @@ hamburger.addEventListener('click', handleHamburgerClick);  // Disable for now
 // window.addEventListener('scroll', traingleRightAnimation);
 
 jQuery(document).ready(function( $ ){
+    const $aboutUsShortInfo = $('.about-us__short-info');
+    const $disclaimer = $('.disclaimer');
     const $partnersRow = $('.partners__row');
     const $window = $(window);
     const $socialIcons = $('.header__social-icons');
     const $windowWitdth = $window.width();
     const $minWindowWidth = 1200;
+    
+
+    function aboutUsShow() {
+        if($window.scrollTop() >= 300) {
+            $aboutUsShortInfo.animate({left: 0, opacity: 1}, 1000);
+        }
+    }
+    $window.on('scroll', aboutUsShow);
+
+    
+    function disclaimerShow() {
+        if($window.scrollTop() >= 750) {
+            $disclaimer.animate({left: 0, opacity: 1}, 1000);
+        }
+    }
+    $window.on('scroll', disclaimerShow);
  
     function partnersShow() {
         if($window.scrollTop() > 1200) {
-            $partnersRow.animate({opacity: 1}, 1300);
+            $partnersRow.animate({opacity: 1}, 700);
         } 
+        console.log($window.scrollTop()); // only for test to show sroll height
     }
     $window.on('scroll', partnersShow);
 
