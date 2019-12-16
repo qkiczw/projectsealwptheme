@@ -78,9 +78,6 @@ if( have_posts() ):
 <main>
         <section id="about-us" class="about-us"> 
             <div class="container">
-                <div class="triangle-left-side">
-                    <!-- just for triangle -->
-                </div>
                 <div class="row"> <!-- Section title -->
                     <div class="col-12"> 
                         <div class="section-title"> 
@@ -113,9 +110,6 @@ if( have_posts() ):
         </section>
         <section id="partners" class="partners"> <!-- Partners -->
             <div class="container">
-                <div class="triangle-right-side">
-                    <!-- just for triangle -->
-                </div> 
                 <div class="row"> <!-- Section title -->
                     <div class="col-12"> 
                         <div class="section-title"> 

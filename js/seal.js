@@ -25,36 +25,7 @@ const handleHamburgerClick = () => {
 hamburger.addEventListener('click', handleHamburgerClick);  // Disable for now
 
 
-// triangle animations
-// const traingleLeft = document.querySelector('.triangle-left-side');
-// const traingleRight = document.querySelector('.triangle-right-side');
-// const scrollFromTop = window.scrollY;
-// console.log('pozycja Y:', scrollFromTop);
 
-// const traingleLeftAnimation = ()=> {
-//     const scrollFromTop = window.scrollY;
-//     console.log('pozycja Y:', scrollFromTop);
-//     if( scrollFromTop > 400 && scrollFromTop < 2500) {
-
-//         traingleLeft.classList.add('traingle-left-visible');
-//     }
-//     else{
-//         traingleLeft.classList.remove('traingle-left-visible');
-//     }
-// }
-
-// const traingleRightAnimation = ()=> {
-//     const scrollFromTop = window.scrollY;
-//     console.log('pozycja Y:', scrollFromTop);
-//     if( scrollFromTop > 1200 && scrollFromTop < 3000) {
-//         traingleRight.classList.add('traingle-right-visible');
-//     }
-//     else{
-//         traingleRight.classList.remove('traingle-right-visible');
-//     }
-// }
-// window.addEventListener('scroll', traingleLeftAnimation);
-// window.addEventListener('scroll', traingleRightAnimation);
 
 jQuery(document).ready(function( $ ){
     const $aboutUsShortInfo = $('.about-us__short-info');
