@@ -335,7 +335,7 @@ section:last-child{
                         padding: 25px 0;
                         width:250px;
                         min-height: 100vh;
-                        background-color: yellowgreen;
+                        background-color: $bgPartnersLinkColor;
                         transform: translateX(250px); // default is hidden
                         transition: all 0.5s ease-in-out;
                         .menu{display: flex;
@@ -351,6 +351,10 @@ section:last-child{
                                 // border-bottom: 1px solid $fontSecondaryColor;
                                 margin-bottom: 10px;
                                 
+                            }
+                            .menu-item a {
+                                text-transform: uppercase;
+                                color: white;
                             }
                         }
                     }
