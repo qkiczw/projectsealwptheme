@@ -31,6 +31,7 @@ jQuery(document).ready(function( $ ){
     const $aboutUsShortInfo = $('.about-us__short-info');
     const $disclaimer = $('.disclaimer');
     const $partnersRow = $('.partners__row');
+    const $fpGalleries = $('.fp-galleries__content');
     const $window = $(window);
     const $socialIcons = $('.header__social-icons');
     const $windowWitdth = $window.width();
@@ -44,7 +45,6 @@ jQuery(document).ready(function( $ ){
     }
     $window.on('scroll', aboutUsShow);
 
-    
     function disclaimerShow() {
         if($window.scrollTop() >= 750) {
             $disclaimer.animate({left: 0, opacity: 1}, 1000);
@@ -54,11 +54,18 @@ jQuery(document).ready(function( $ ){
  
     function partnersShow() {
         if($window.scrollTop() > 1200) {
-            $partnersRow.animate({opacity: 1}, 700);
+            $partnersRow.animate({opacity: 1}, 750);
         } 
         console.log($window.scrollTop()); // only for test to show sroll height
     }
     $window.on('scroll', partnersShow);
+
+    function $fpGalleriesShow() {
+        if($window.scrollTop() >= 2800) {
+            $fpGalleries.animate({top:0, opacity: 1}, 1000);
+        }
+    }
+    $window.on('scroll', $fpGalleriesShow);
 
     $socialIcons.animate( {bottom: '15px', opacity: '1'}, 600);
 

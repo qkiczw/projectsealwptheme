@@ -520,7 +520,7 @@ section:last-child{
                         content: '';
                         position: absolute;
                         background-color: #6ac04d;
-                        top: -50px;
+                        top: -51px;
                         left: 0;
                         right: 0;
                         height: 51px;
@@ -553,8 +553,14 @@ section:last-child{
         }
         .see-more-galleries{
             @include flex-centerXY;
-        }   
+        }
         // Test Code for new galleries
+        .fp-galleries__content{
+            position: relative;
+            top: 500px;
+            opacity: 0;
+        }
+
         .fp-galleries__content__items{
             @include flex-centerXY;
             overflow: hidden;
