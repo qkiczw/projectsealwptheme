@@ -557,7 +557,7 @@ section:last-child{
         // Test Code for new galleries
         .fp-galleries__content{
             position: relative;
-            top: 500px;
+            top: 100px;
             opacity: 0;
         }
 
@@ -724,7 +724,12 @@ section:last-child{
  }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
+    .post-full{
+        .attachment-medium{
+            float: right;
+        }
+    }
     .header{
         .header__nav{
             padding: 30px 20px;
@@ -773,7 +778,13 @@ section:last-child{
  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { 
+@media (min-width: 992px) {
+    .post__content{
+        padding: 0;
+        p{
+            margin-bottom: 0;   
+            } 
+        }
     .header{
         background-position: 70% 0%;
         .header__hero{

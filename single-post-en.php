@@ -78,7 +78,8 @@ if( have_posts() ):
                     <div class="col-lg-12 post-full">
                         <article>
                             <h2><?php the_title(); ?></h2>
-                            <?php the_content(); ?>
+                                <?php the_post_thumbnail('medium');?>
+                                <?php the_content(); ?>
                             <p>
                                 <a href="#"><strong>&laquo Back</strong></a>
                             </p>
