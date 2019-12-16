@@ -72,7 +72,7 @@
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
-        
+        <main id="main-content">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 post-full">
@@ -86,7 +86,7 @@ if( have_posts() ):
                     </div>
                 </div>
             </div>
-        
+        </main>
     
     <?php endwhile;
 endif;  

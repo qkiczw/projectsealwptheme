@@ -3,6 +3,8 @@
 $footerBg: #2e2e2e;
 $fontPrimaryColor: #424242;
 $fontSecondaryColor: #fffffF;
+$linkColor: #2d5294;
+$linkColor--hover: #134191;
 
 // Mixines
 @mixin flex-centerXY {
@@ -58,14 +60,14 @@ html{
     scroll-behavior: smooth;  
 }
 a{
-    color: #2d5294;
+    color: $linkColor;
     text-decoration: none;
 }
 a:hover{
-    color: #134191;
+    color: $linkColor--hover;
     text-decoration: none;
 }a:visited{
-    color: #2d5294;
+    color: $linkColor;
     text-decoration: none;
 }
 .navbar{
@@ -433,7 +435,7 @@ section:last-child{
         .about-us__logo{
             @include flex-centerXY;
             .project-logo{
-                max-width: 100%;
+                max-width: 80%;
                 border: 10px solid #424242;
                 border-radius: 50%;
                 padding: 20px;    
