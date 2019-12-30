@@ -870,6 +870,25 @@ section:last-child{
                             }
                         }
                     }
+                    .menu-main-menu-pl-container{
+                        .menu{
+                            display: flex;
+                            justify-content: flex-end;
+                            align-items: center;
+                            list-style: none;
+                            margin-bottom: 0;
+                            .menu-item>a{
+                                text-transform: uppercase;
+                                margin-right: 20px;
+                                color: white;
+                            }
+                            .pll-parent-menu-item{ // Poly lang menu ==> lang swticher
+                                .sub-menu{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
