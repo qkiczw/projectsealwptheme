@@ -292,7 +292,7 @@ if( have_posts() ):
                 </div>
             </div>
             <div class="row see-more-galleries">
-                <a href="http://qki.cba.pl/seal/pl/galerie/" class="btn--white">See more galleries</a>
+                <a href="https://sealproject.eu/galleries-en/" class="btn--white">See more galleries</a>
             </div> 
         </div> 
         </section> 
