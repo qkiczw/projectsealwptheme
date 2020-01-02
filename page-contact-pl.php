@@ -20,45 +20,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); ?>
     </head>
-
     <body>
-    
          <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <header class="header header__sub-page">
-            <!-- New menu -->
-            <nav class="main-menu">
-                <div class="main-menu__brand">
-                    <a class="navbar-brand" href="#"><img class="nav__logo" src="<?php echo get_template_directory_uri(); ?>/img/logo_min.png"></a>
-                    <button class="hamburger">
-                        <span class="hamburger__box">
-                            <span class="hamburger__inner"></span>
-                        </span>
-                    </button>
-                </div>
-                <div class="main-menu__items">
-                    <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
-                </div>
-            </nav> 
-            <div class="container-fluid">
-                <div class="row hero">
-                    <div class="col-lg-6 hero__text">
-                        <div class="hero__text__content">
-                            <h1 class="hero__text__title">Skontaktuj się z nami</h1>
-                            <a href="#main-content"><img class="header__arrows-icon" src="<?php echo get_template_directory_uri(); ?>/img/arrows-down.png"></a></a>
+        <div class="wrapper">
+        <header class="header header-subpage">
+            <nav class="header__nav">
+                <div class="header__nav__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/nav-logo.png" class="img-fluid header__nav__logo__image"></div>
+                <div class="header__nav__items">
+                    
+                    <div class="header__nav__items__mobile">
+                        <button class="hamburger">
+                            <span class="hamburger__box">
+                                <span class="hamburger__inner"></span>
+                            </span>
+                        </button>
+                        <div class="header__nav__items__mobile__item">
+                            <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 header__social-icons">
-                        <p>Find us here <strong>&raquo</strong></p>
-                        <p><a href="https://www.facebook.com/seal.erasmusproject"><img class="header-social-icons__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon.png"></a></p>
-                        <p><a href="#"><img class="header-social-icons__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon.png"></a></p>
+                    <div class="header__nav__items__desktop">
+                        <?php wp_nav_menu(array('theme_location_'=>'main')); ?>
                     </div>
+                </div>                
+            </nav>
+            <div class="header__hero">
+                <div class="header__hero__content">
+                    <h1 class="header__hero__content__title">Skontaktuj się z nami</h1>
+                    <div class="header__hero__content__arrow">
+                        <a href="#main-content"><img src="<?php echo get_template_directory_uri(); ?>/img/arrows-down-w.png" class="img-fluid"></a>
+                    </div>
+                </div>  
+            </div>
+            <div class="header__social-icons">
+                <div class="header__social-icons__title">Znajdź nas tutaj <strong>&raquo</strong></div>
+                <div class="header__social-icons__icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png" class="img-fluid header__social-icons__icon__image">
+                </div>
+                <div class="header__social-icons__icon">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon-w.png" class="img-fluid header__social-icons__icon__image">
                 </div>
             </div>
         </header>
+        <!-- End of new test header -->
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
@@ -151,9 +156,10 @@ endif;
                 </div>
             </div>
             <div class="site-footer__rights">
-                <span>Copyright © 2018 Project Seal</span>
+                <span>Copyright © 2020 Project Seal</span>
             </div>
         </footer>
         <?php wp_footer(); ?>
+        </div>
     </body>
 </html>

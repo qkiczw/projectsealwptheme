@@ -11,7 +11,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
-<html class="no-js" lang="pl"> <!--<![endif]-->
+<html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -158,7 +158,7 @@ endif;
                 </div>
             </div>
             <div class="site-footer__rights">
-                <span>Copyright © 2018 Project Seal</span>
+                <span>Copyright © 2020 Project Seal</span>
             </div>
         </footer>
         <?php wp_footer(); ?>

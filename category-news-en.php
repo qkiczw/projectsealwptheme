@@ -173,7 +173,7 @@ endif;
                 </div>
             </div>
             <div class="site-footer__rights">
-                <span>Copyright © 2018 Project Seal</span>
+                <span>Copyright © 2020 Project Seal</span>
             </div>
         </footer>
         <?php wp_footer(); ?>
