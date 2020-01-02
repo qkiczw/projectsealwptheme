@@ -28,7 +28,7 @@
         <div class="wrapper">
         <header class="header header-subpage">
             <nav class="header__nav">
-                <div class="header__nav__logo"><img src="<?php echo get_template_directory_uri(); ?>/img/nav-logo.png" class="img-fluid header__nav__logo__image"></div>
+                <div class="header__nav__logo"><a href="https://sealproject.eu"><img src="<?php echo get_template_directory_uri(); ?>/img/nav-logo-color.png" class="img-fluid header__nav__logo__image"></a></div>
                 <div class="header__nav__items">
                     
                     <div class="header__nav__items__mobile">
