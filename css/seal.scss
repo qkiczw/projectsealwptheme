@@ -30,6 +30,31 @@ $bgPartnersLinkColor: #6ac04d;
     background-color: $fontSecondaryColor;
     position: absolute;
 }
+@mixin polyLang-style{ // mixin for polyLang menu
+    .menu{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 0;
+        .menu-item>a{
+            text-transform: uppercase;
+            margin-right: 20px;
+            color: white;
+        }
+        .pll-parent-menu-item{ // Poly lang menu ==> lang swticher
+            .sub-menu{
+                position: absolute;
+                display: none;
+                list-style: none;
+                padding-left: 0;
+            }
+            .sub-menu--active-desktop{
+                display: block;
+            }
+        }
+    }
+}
 
 //animations
 @keyframes header__arrow-animation {
@@ -852,42 +877,10 @@ section:last-child{
                 .header__nav__items__desktop{
                     display: block;
                     .menu-main-menu-en-container{
-                        .menu{
-                            display: flex;
-                            justify-content: flex-end;
-                            align-items: center;
-                            list-style: none;
-                            margin-bottom: 0;
-                            .menu-item>a{
-                                text-transform: uppercase;
-                                margin-right: 20px;
-                                color: white;
-                            }
-                            .pll-parent-menu-item{ // Poly lang menu ==> lang swticher
-                                .sub-menu{
-                                    display: none;
-                                }
-                            }
-                        }
+                        @include polyLang-style
                     }
                     .menu-main-menu-pl-container{
-                        .menu{
-                            display: flex;
-                            justify-content: flex-end;
-                            align-items: center;
-                            list-style: none;
-                            margin-bottom: 0;
-                            .menu-item>a{
-                                text-transform: uppercase;
-                                margin-right: 20px;
-                                color: white;
-                            }
-                            .pll-parent-menu-item{ // Poly lang menu ==> lang swticher
-                                .sub-menu{
-                                    display: none;
-                                }
-                            }
-                        }
+                        @include polyLang-style
                     }
                 }
             }

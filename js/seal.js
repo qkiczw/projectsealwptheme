@@ -2,17 +2,8 @@ console.log('JS Works!!!');
 const hamburger = document.querySelector('.hamburger');
 const navLogo = document.querySelector('.header__nav__logo__image');
 const mainMenu = document.querySelector('.header__nav__items__mobile__item');
-const polyLangMenu = document.querySelector('.sub-menu');
-const polyLangMenuSwitcher = document.querySelector('.pll-parent-menu-item');
 const screenWidth = screen.width;
 const screenWidthMax = 500;
-
-
-const handleLaguageSwitcher = () => {
-    console.log('Language Menu is Opened')
-    polyLangMenu.classList.toggle('sub-menu--active-desktop');
-}
-// polyLangMenuSwitcher.addEventListener('click', handleLaguageSwitcher); // Disable for now
 
 const handleHamburgerClick = () => {
     hamburger.classList.toggle('hamburger--active');
@@ -22,9 +13,7 @@ const handleHamburgerClick = () => {
         navLogo.classList.toggle('header__nav__logo__image--hidden');
     }
 }
-hamburger.addEventListener('click', handleHamburgerClick);  // Disable for now
-
-
+hamburger.addEventListener('click', handleHamburgerClick);
 
 
 jQuery(document).ready(function( $ ){
@@ -36,7 +25,11 @@ jQuery(document).ready(function( $ ){
     const $socialIcons = $('.header__social-icons');
     const $windowWitdth = $window.width();
     const $minWindowWidth = 1200;
-    
+    const $polyLangSwitcher = $('.pll-parent-menu-item');
+    const $polyLangSubMenu = $('.sub-menu');
+
+    $polyLangSwitcher.on('click', function() {$polyLangSubMenu.toggleClass('sub-menu--active-desktop')})
+
 
     function aboutUsShow() {
         if($window.scrollTop() >= 300) {
