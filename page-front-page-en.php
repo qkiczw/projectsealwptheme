@@ -125,7 +125,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">kmem</h3>
                             <p class="partners__row__partner__description">
-                                Public body which coordinates and supervises over 1084 schools. The employes from the research and development department are highly experienced in various types of projects (including Erasmus + projects). The institution is responsible for organizing the various courses for adults and for teachers in whole region. 
+                                KMEM is a public body which coordinates and supervises over 1084 schools. The employes from the research and development department are highly experienced in various types of projects (including Erasmus + projects). The institution is responsible for organizing the various courses for adults and for teachers in whole region. It supports the acquisition and development of competences required in the labour market; obtaining qualifications to supplement education.
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -144,7 +144,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">glafka</h3>
                             <p class="partners__row__partner__description">
-                                Educational and training organisation which provides education and consulting in the area of lifelong learning and development of innovative educational methods. Provides coursses and support for groups experiencing social exclusion. Support is mainly focused on development of vocational skills of beneficiaries. Provides IT courses for seniors (aged 60 +) .  
+                                GLAFKA is an educational and training organisation providing education and consulting in the area of lifelong learning and development of innovative educational methods, vocational skills of beneficiaries. Provides coursses and support for groups experiencing social exclusion. Provides IT courses for seniors (aged 60 +) .  GLAFKA has a  various experience in transnational projects including Erasmus +.  
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -163,7 +163,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">ist</h3>
                             <p class="partners__row__partner__description">
-                                Non-governmental organisation founded in 1814 to provide support for people with sensory disabilities and to train their teacher. IST provides various types of support like: daily care, assisted housing, assisted learning, therapy workshops (painting, cooking, cinema, sport activities), VET education of disabled people and training for operator working in the sector. Highly experienced in Erasmus +projects.  
+                                IST is a non-governmental organisation founded in 1814 to provide support for people with sensory disabilities and to train their teacher. IST provides various types of support like: daily care, assisted housing, assisted learning, therapy workshops (painting, cooking, cinema, sport activities), VET education of disabled people and training for operator working in the sector. Highly experienced in Erasmus +projects.  
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -182,7 +182,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">prometeo</h3>
                             <p class="partners__row__partner__description">
-                            Is an non govermental organisation which provides educational offer and support for members of institutions working in the field of education of adults. Is involved in projects and programmes connected with: development of  vocational skills of students; tourism and social inclusion, integration of imigrants with local societies, education of elderly people; development of innovative educational tools. Organisation highly experienced in activities against rasism and working for imigrants; cooperates with the local goverment of Calabria region; has a wide experience in transnational projects, sincluding Erasmus + projects. 
+                                PROMETEO is an non govermental organisation providing educational offer and support for members of institutions working in the field of education of adults. Is involved in projects and programmes connected with: development of  vocational skills of students; tourism; social inclusion of imigrants and activities against rasism; education of elderly people; development of innovative educational tools. PROMETEO has a wide experience in transnational cooperation including Erasmus + projects. 
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -201,7 +201,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">cku sopot</h3>
                             <p class="partners__row__partner__description">
-                                Centre for Continuing Education in Sopot is a public school  providing formal and informal education for adults; at this moment CKU Sopot provides VET courses in profesions such as: photographer, informatician, acountant, grafic designer. CKU Sopot provides also education and various activities for elderly people at Third Age University ( with approximately 950 students). CKU Sopot is in a close cooperation with Municipality of Sopot. Within CKU Sopot institutions there is also teacher training centre. CKU Sopot is highly experienced in transnational cooperation including Erasmus + projects.
+                                CKU Sopot is a public school  providing formal and informal education for adults; at this moment provides VET courses in profesions such as: photographer, informatician, acountant, grafic designer. CKU Sopot provides various workshops for elderly people at Third Age University ( with approximately 950 students). Within CKU Sopot  there is also teacher training centre. CKU Sopot is highly experienced in transnational cooperation including Erasmus + projects.
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>

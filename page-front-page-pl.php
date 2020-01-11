@@ -125,7 +125,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">kmem</h3>
                             <p class="partners__row__partner__description">
-                                Public body which coordinates and supervises over 1084 schools. The employes from the research and development department are highly experienced in various types of projects (including Erasmus + projects). The institution is responsible for organizing the various courses for adults and for teachers in whole region. 
+                            KMEM jest instytucją publiczną, która koordynuje i nadzoruje ponad 1084 szkoły. Pracownicy działu badań i rozwoju mają duże doświadczenie w realizacji różnego rodzaju projektów, w tym projektów we współpracy międzynarodowej (m.in. w ramach programu Erasmus +). Instytucja ta jest odpowiedzialna za organizację różnych kursów dla osób dorosłych i dla nauczycieli w całym regionie. Wspiera nabywanie i rozwój kompetencji wymaganych na rynku pracy; pozyskanie kwalifikacji celem uzupełnienia wykształcenia.   
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -144,7 +144,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">glafka</h3>
                             <p class="partners__row__partner__description">
-                                Educational and training organisation which provides education and consulting in the area of lifelong learning and development of innovative educational methods. Provides coursses and support for groups experiencing social exclusion. Support is mainly focused on development of vocational skills of beneficiaries. Provides IT courses for seniors (aged 60 +) .  
+                            GLAFKA jest organizacją edukacyjno-szkoleniową świadczącą usługi edukacyjne i doradcze w zakresie kształcenia ustawicznego ( w tym zawodowego) oraz rozwoju innowacyjnych metod edukacyjnych. Podejmuje działania w obszarze wspierania grup doświadczających wykluczenia społecznego. Prowadzi kursy informatyczne dla seniorów (w wieku 60+).  GLAFKA posiada znaczne doświadczenie w realizacji projektów międzynarodowych, w tym w ramach programu Erasmus +.  
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -163,7 +163,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">ist</h3>
                             <p class="partners__row__partner__description">
-                                Non-governmental organisation founded in 1814 to provide support for people with sensory disabilities and to train their teacher. IST provides various types of support like: daily care, assisted housing, assisted learning, therapy workshops (painting, cooking, cinema, sport activities), VET education of disabled people and training for operator working in the sector. Highly experienced in Erasmus +projects.  
+                                IST jest organizacją pozarządową założoną w celu udzielania wsparcia osobom z niepełnosprawnością sensoryczną oraz prowadzenia szkoleń dla osób z nimi pracujących. Oferta IST obejmuje:  opiekę dzienną, mieszkalnictwo chronione, naukę wspomaganą, warsztaty terapeutyczne (malowanie, gotowani, zajęcia sportowe), edukację zawodową osób niepełnosprawnych oraz szkolenia dla terapeutów/opiekunów. Posiada duże doświadczenie w realizacji projektów w ramach programu Erasmus +.  
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -182,7 +182,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">prometeo</h3>
                             <p class="partners__row__partner__description">
-                            Is an non govermental organisation which provides educational offer and support for members of institutions working in the field of education of adults. Is involved in projects and programmes connected with: development of  vocational skills of students; tourism and social inclusion, integration of imigrants with local societies, education of elderly people; development of innovative educational tools. Organisation highly experienced in activities against rasism and working for imigrants; cooperates with the local goverment of Calabria region; has a wide experience in transnational projects, sincluding Erasmus + projects. 
+                                PROMETEO jest organizacją pozarządową oferującą wsparcie edukacyjne dla przedstawicieli instytucji działających w obszarze edukacji dorosłych. Organizacja zaangażowana w projekty i programy związane z: rozwojem umiejętności zawodowych uczniów; turystyką; włączeniem społecznym imigrantów i przeciwdziałanie rasizmowi; edukacją osób starszych; rozwojem innowacyjnych narzędzi edukacyjnych. PROMETEO posiada wieloletnie doświadczenie we współpracy międzynarodowej, w tym w projektach programu Erasmus +. 
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -201,7 +201,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">cku sopot</h3>
                             <p class="partners__row__partner__description">
-                                Centre for Continuing Education in Sopot is a public school  providing formal and informal education for adults; at this moment CKU Sopot provides VET courses in profesions such as: photographer, informatician, acountant, grafic designer. CKU Sopot provides also education and various activities for elderly people at Third Age University ( with approximately 950 students). CKU Sopot is in a close cooperation with Municipality of Sopot. Within CKU Sopot institutions there is also teacher training centre. CKU Sopot is highly experienced in transnational cooperation including Erasmus + projects.
+                                CKU Sopot jest szkołą publiczną prowadzącą edukację formalną i nieformalną dla dorosłych; obecnie prowadzi kursy zawodowe z zakresu: fotografii, technik informatyk, , grafiki komputerowej, kadry i płace. CKU Sopot prowadzi różnorodne warsztaty dla osób starszych w ramach Uniwersytetu Trzeciego Wieku (około 950 studentów).W strukturach CKU Sopot znajduje się również centrum kształcenia nauczycieli. CKU Sopot posiada wieloletnie doświadczenie w realizacji projektów międzynarodowych, w tym w ramach programu Erasmus +.
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -220,7 +220,7 @@ if( have_posts() ):
                             </figure>
                             <h3 class="partners__row__partner__name">erasmus+</h3>
                             <p class="partners__row__partner__description">
-                                Erasmus+ is the EU's programme to support education, training, youth and sport in Europe. Its budget of €14.7 billion will provide opportunities for over 4 million Europeans to study, train, and gain experience abroad.Set to last until 2020, Erasmus+ doesn't just have opportunities for students. Merging seven prior programmes, it has opportunities for a wide variety of individuals and organisations.Detailed information on these opportunities, including eligibility criteria, is available in the Erasmus+ Programme Guide. An indicative funding guide for some centralised opportunities is also available.
+                                Erasmus+ to program Unii Europejskiej w dziedzinie edukacji, szkoleń, młodzieży i sportu na lata 2014-2020. Jego całkowity budżet wynosi 14,7 mld euro. Erasmus+ opiera się na osiągnięciach europejskich programów edukacyjnych, które funkcjonowały przez 25 lat, i jest wynikiem połączenia następujących europejskich inicjatyw realizowanych przez Komisję Europejską w latach 2007-2013: programu „Uczenie się przez całe życie”, programu „Młodzież w działaniu”, Erasmus Mundus, Tempus, Alfa, Edulink, oraz programów współpracy z krajami uprzemysłowionymi w dziedzinie szkolnictwa wyższego.
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
