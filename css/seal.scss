@@ -30,7 +30,7 @@ $bgPartnersLinkColor: #6ac04d;
     background-color: $fontSecondaryColor;
     position: absolute;
 }
-@mixin polyLang-style{ // mixin for polyLang menu
+@mixin polyLang-style{ // mixin for polyLang desktop menu
     .menu{
         display: flex;
         justify-content: flex-end;
@@ -363,11 +363,11 @@ section:last-child{
                         background-color: $bgPartnersLinkColor;
                         transform: translateX(250px); // default is hidden
                         transition: all 0.5s ease-in-out;
-                        .menu{display: flex;
+                        .menu{
+                            display: flex;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            top:20px;
                             list-style: none;
                             padding: 0;
                             .menu-item{
@@ -380,6 +380,24 @@ section:last-child{
                             .menu-item a {
                                 text-transform: uppercase;
                                 color: white;
+                            }
+                            .pll-parent-menu-item{
+                                a{
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: 0;
+                                }
+                                .sub-menu{
+                                    a{
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        margin: 0;
+                                    }
+                                }
                             }
                         }
                     }
