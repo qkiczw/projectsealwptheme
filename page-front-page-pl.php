@@ -252,11 +252,13 @@ if( have_posts() ):
                             <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery01.jpg" class="img-fluid">
                         </div>
                         <div class="fp-galleries__content__items__item__desc">
-                            <div class="fp-galleries__content__items__item__desc__title">title</div>
+                            <div class="fp-galleries__content__items__item__desc__title text-center">Spotkanie w Sopocie</div>
                             <hr />
-                            <div class="fp-galleries__content__items__item__desc__short-info">This is a hort info about one of the project galleries. The gallery is from the tour to Paris.</div>
+                            <div class="fp-galleries__content__items__item__desc__short-info">W dniach 28-29 stycznia 2019 r. odbyło się spotkanie w Sopocie.</div>
                             <hr />
-                            <div class="fp-galleries__content__items__item__desc__link">link</div>
+                            <div class="fp-galleries__content__items__item__desc__link">
+                                <a href="https://sealproject.eu/2020/02/22/spotkanie-nr-01/">Zobacz</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -267,11 +269,11 @@ if( have_posts() ):
                             <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery02.jpg" class="img-fluid">
                         </div>
                         <div class="fp-galleries__content__items__item__desc">
-                            <div class="fp-galleries__content__items__item__desc__title">title</div>
+                            <div class="fp-galleries__content__items__item__desc__title  text-center">Spotkanie w Turynie</div>
                             <hr />
-                            <div class="fp-galleries__content__items__item__desc__short-info">This is a hort info about one of the project galleries. The gallery is from the tour to Paris.</div>
+                            <div class="fp-galleries__content__items__item__desc__short-info">W dniach 18-19 lipca 2019 r. odbyło się drugie spotkanie partnerów projektu SEAL.</div>
                             <hr />
-                            <div class="fp-galleries__content__items__item__desc__link">link</div>
+                            <div class="fp-galleries__content__items__item__desc__link"><a href="https://sealproject.eu/2020/02/22/spotkanie-nr-02/">Zobacz</a></div>
                         </div>
                     </div>
                 </div>
@@ -282,17 +284,17 @@ if( have_posts() ):
                             <img src="<?php echo get_template_directory_uri(); ?>/img/fp_gallery03.jpg" class="img-fluid">
                         </div>
                         <div class="fp-galleries__content__items__item__desc">
-                            <div class="fp-galleries__content__items__item__desc__title">title</div>
+                            <div class="fp-galleries__content__items__item__desc__title text-center">Spotkanie w Kahramanmaras</div>
                             <hr />
-                            <div class="fp-galleries__content__items__item__desc__short-info">This is a hort info about one of the project galleries. The gallery is from the tour to Paris.</div>
+                            <div class="fp-galleries__content__items__item__desc__short-info">W dniach 26-27 września 2019 w tureckiej miejscowości Kahramanmaras odbyło się trzecie spotkanie.</div>
                             <hr />
-                            <div class="fp-galleries__content__items__item__desc__link">link</div>
+                            <div class="fp-galleries__content__items__item__desc__link"><a href="https://sealproject.eu/2020/02/22/spotkanie-nr-03/">Zobacz</a></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row see-more-galleries">
-                <a href="https://sealproject.eu/galleries-pl/" class="btn--white">Więcej galerii</a>
+                <a href="https://sealproject.eu/category/galleries-pl/" class="btn--white">Więcej galerii</a>
             </div> 
         </div> 
         </section> 
