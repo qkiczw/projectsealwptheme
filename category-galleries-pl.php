@@ -47,7 +47,7 @@
                 </div>  
             </div>
             <div class="header__social-icons">
-                <div class="header__social-icons__title">Znajdź nas tutaj <strong>&raquo</strong></div>
+                <div class="header__social-icons__title">Znajdź nas tutaj: <strong>&raquo</strong></div>
                 <div class="header__social-icons__icon">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png" class="img-fluid header__social-icons__icon__image">
                 </div>
@@ -57,45 +57,45 @@
             </div>
         </header>
         <!-- End of new test header -->
-    <?php 
-    if( have_posts() ):
-    while( have_posts() ): the_post(); ?>
     <main id="main-content">
-        <div class="container posts__list">
-            <div class="row post">
-                <div class="col-sm-12 col-lg-3 post__thumbnail">
-                    <?php the_post_thumbnail('medium'); ?>
-                </div>
-                <div class="col-sm-12 col-lg-9 post__content">
-                    <div class="post__title">
-                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
-                    </div>
-                    <div class="post__content__short">
-                        <p><?php the_excerpt() ?></p>
-                    </div>
-                    <div class="post__content_full-view">
-                        <a href="<?php the_permalink() ?>" class="post__btn__more">Więcej  &raquo</a>
-                    </div>
+    <div class="container posts-gallery__list">
+            <div class="row post-gallery__row">
+                <?php 
+                if( have_posts() ):
+                while( have_posts() ): the_post(); ?>
+                    <article class="col-sm-12 col-md-6 col-lg-3 post-gallery__item">
+                        <div class="post-gallery__item__thumbnail">
+                            <a href="<?php the_permalink() ?>"> 
+                                <?php the_post_thumbnail('medium_large', array('class' => 'img-fluid post-gallery__item__thumbnail')); ?>
+                            </a>
+                        </div>
+                        <div class="post-gallery__item__link text-center">
+                            <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+                        </div>
+                    </article>
+                <?php endwhile; ?>             
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <?php next_posts_link( 'Older Entries »', 0 ); ?>
                 </div>
             </div>
         </div>
-    </main>
-    
-    <?php endwhile; ?>
     <div class="container">
         <div class="row">
             <div class="col-6 pagination text-left">
-                <?php next_posts_link('&#171; Starsze posty'); ?>
+                <?php next_posts_link('&#171; Older posts'); ?>
             </div>
             <div class="col-6 pagination text-right">
-                <?php previous_posts_link('Nowsze posty &#187;'); ?> 
+                <?php previous_posts_link('Newer posts &#187;'); ?> 
             </div>
         </div>
     </div>
 <?php
 endif;    
 ?>
-        <footer class="site-footer">
+    </main>
+    <footer class="site-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3 site-footer__container"> 
