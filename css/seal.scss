@@ -677,6 +677,9 @@ section:last-child{
                     font-size: 1.1em;
                     font-weight: bold;
                     letter-spacing: 0.1em;
+                    a, a:visited{
+                        color: #fffffF
+                    }
                 }
                 .fp-galleries__content__items__item__desc__short-info{
                    text-align: center;
