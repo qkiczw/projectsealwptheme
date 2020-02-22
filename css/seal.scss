@@ -269,6 +269,10 @@ section:last-child{
         margin-top: 50px;
         min-height: 500px;
     }
+
+    .posts-gallery__list{ // gallery posts
+        background-color: $bgPartnersLinkColor;
+    }
     .btn--blue{
         color: #2d5294;
         border: 2px solid #2d5294;
