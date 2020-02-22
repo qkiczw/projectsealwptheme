@@ -279,7 +279,7 @@ section:last-child{
             
             .post-gallery__item{
                 position: relative;
-                padding: 0;
+                padding: 5px;
                 margin-bottom: 10px;
                 overflow: hidden;
     
@@ -300,6 +300,7 @@ section:last-child{
                     position: absolute;
                     width: 100%;
                     bottom: 0;
+                    left: 0;
                     background-color: #fffffF;
                     padding: 10px 5px;
                     text-transform: uppercase;
