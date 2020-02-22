@@ -271,7 +271,45 @@ section:last-child{
     }
 
     .posts-gallery__list{ // gallery posts
-        background-color: $bgPartnersLinkColor;
+        
+        .post-gallery__row{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            
+            .post-gallery__item{
+                position: relative;
+                background-color: lightgrey;
+                padding: 0;
+                margin-bottom: 10px;
+                overflow: hidden;
+    
+                .post-gallery__item__thumbnail:hover{
+                    transition: all 0.3s ease-in-out;
+                    
+                    .post-gallery__item__thumbnail {
+                        transform: scale(1.1);
+                    }
+                }
+                .post-gallery__item__link > a, a:visited{
+                    color: $fontPrimaryColor;
+                    font-weight: bold;
+                    
+                }
+         
+                .post-gallery__item__link{
+                    position: absolute;
+                    width: 100%;
+                    bottom: 0;
+                    background-color: #fffffF;
+                    padding: 10px 5px;
+                    text-transform: uppercase;
+                    
+                }
+            }
+
+        }
+        
     }
     .btn--blue{
         color: #2d5294;
