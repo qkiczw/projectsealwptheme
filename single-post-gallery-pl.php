@@ -80,7 +80,7 @@ if( have_posts() ):
                             <h2 class="post-gallery-title"><?php the_title(); ?></h2>
                             <?php the_content(); ?>
                             <p>
-                                <a href="https://sealproject.eu/en/category/galleries-pl/"><strong>&laquo Powrót</strong></a>
+                                <a href="https://sealproject.eu/category/galleries-pl/"><strong>&laquo Powrót</strong></a>
                             </p>
                         </article>
                     </div>
