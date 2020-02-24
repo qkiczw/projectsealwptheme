@@ -201,33 +201,7 @@ section{
 section:last-child{
     margin-bottom: 0;
 }
-.triangle-left-side{
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 600px solid transparent;
-    border-left: 750px solid #eadcc9;
-    border-bottom: 600px solid transparent;
-    left: -1000px;
-    transition-duration: 1500ms;
-}
-.triangle-right-side{
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 600px solid transparent;
-    border-right: 750px solid #eadcc9;
-    border-bottom: 600px solid transparent;
-    top: 50px;
-    right: -1000px;
-    transition-duration: 1500ms;
-}
-.traingle-left-visible{
-    left: 0;
-}
-.traingle-right-visible{
-    right: 0;
-}
+
 .pagination{
     font-weight: bold;
     margin-bottom: 30px;
@@ -556,7 +530,9 @@ section:last-child{
     .partners{
         position: relative;
         margin-bottom: 0;
-        background-color: #EEEEEE;
+        // background-color: #EEEEEE;
+        background: rgb(210,210,210);
+        background: linear-gradient(225deg, rgba(210,210,210,1) 0%, rgba(121,121,121,1) 80%);
         .partners__row{
             opacity: 0;
             .partners__row__partner{
