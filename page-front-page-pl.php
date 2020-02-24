@@ -94,7 +94,7 @@ if( have_posts() ):
                     <div class="col-md-7">
                         <div class="about-us__short-info">
                             <p>SEAL to międzynarodowy projekt, który ma na celu wypracowanie innowacyjnych narzędzi edukacyjnych, mających zastosowanie w kształceniu i aktywizacji seniorów. W efekcie ma powstać międzynarodowy poradnik aktywizacji i edukacji seniorów.</p>
-                            <a href="#" class=" btn--blue">Więcej o nas</a>
+                            <a href="https://sealproject.eu/about-us-pl/" class=" btn--blue">Więcej o nas</a>
                         </div>
                     </div>
                 </div>
