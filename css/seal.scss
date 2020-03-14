@@ -242,7 +242,12 @@ section:last-child{
         flex-direction: column;
         margin-top: 50px;
         min-height: 500px;
+
+        .post-full-backBtn{
+            margin: 50px 0;
+        }
     }
+    
     .post-gallery-full{
         .post-gallery-title{
             margin: 25px 0;

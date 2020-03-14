@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Post PL
+ * Template Name: Post Gallery CS
  * Template Post Type: post, page, product
  */
 ?>
@@ -10,7 +10,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
-<html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="cs"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,14 +51,14 @@
             </nav>
             <div class="header__hero">
                 <div class="header__hero__content">
-                    <h1 class="header__hero__content__title">Zobacz co się u nas dzieje</h1>
+                    <h1 class="header__hero__content__title">Fotografie z našich setkání a výletůs</h1>
                     <div class="header__hero__content__arrow">
                         <a href="#main-content"><img src="<?php echo get_template_directory_uri(); ?>/img/arrows-down-w.png" class="img-fluid"></a>
                     </div>
                 </div>  
             </div>
             <div class="header__social-icons">
-                <div class="header__social-icons__title">Znajdź nas tutaj <strong>&raquo</strong></div>
+                <div class="header__social-icons__title">Najdete nás zde <strong>&raquo</strong></div>
                 <div class="header__social-icons__icon">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png" class="img-fluid header__social-icons__icon__image">
                 </div>
@@ -75,13 +75,12 @@ if( have_posts() ):
         <main id="main-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 post-full">
+                    <div class="col-lg-12 post-gallery-full">
                         <article>
-                            <h2><?php the_title(); ?></h2>
-                                <?php the_post_thumbnail('medium');?>
-                                <?php the_content(); ?>
-                            <p class="post-full-backBtn">
-                                <a href="https://sealproject.eu/category/news-pl/"><strong>&laquo Wróć</strong></a>
+                            <h2 class="post-gallery-title"><?php the_title(); ?></h2>
+                            <?php the_content(); ?>
+                            <p>
+                                <a href="https://sealproject.eu/cs/category/galleries-cs/"><strong>&laquo Zadní</strong></a>
                             </p>
                         </article>
                     </div>
@@ -92,7 +91,7 @@ if( have_posts() ):
     <?php endwhile;
 endif;  
 ?>
-<footer class="site-footer">
+        <footer class="site-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3 site-footer__container"> 
@@ -102,7 +101,7 @@ endif;
                                     Erasmus+
                                 </div>
                                 <div class="site-footer__content_item_desc">
-                                    <p>Strona internetowa została zrealizowana przy wsparciu finansowym Komisji Europejskiej. Treść strony odzwierciedla jedynie stanowisko jej autorów i Komisja Europejska oraz Narodowa Agencja Programu Erasmus+ nie ponoszą odpowiedzialności za jej zawartość merytoryczną.</p>
+                                    <p>Projekt SEAL je financován s podporou Evropské komise v rámci programu Erasmus+. Evropská komise však nenese odpovědnost za jakékoli použití informací v něm obsažených.</p>
                                 </div>
                             </div>
                         </div>
@@ -112,15 +111,15 @@ endif;
                             <div class="site-footer__content__item">
                                 <div class="site-footer__content__item">
                                     <div class="site-footer__content_item_title">
-                                        Contact
+                                        Kontakt
                                     </div>
                                     <div class="site-footer__content_item_desc">
                                         <ul>
                                             <li>Centrum Kształcenia Ustawicznego im. Bohaterów Wybrzeża w Sopocie</li>
                                             <li>ul. Tadeusza Kościuszki 22-24</li>
                                             <li>81-704 Sopot</li>
-                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: +48 58 550 33 65</li>
-                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> tel: 791 983 610</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> telefon: +48 58 550 33 65</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> telefon: 791 983 610</li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/email.png"> e-mail: <a href="mailto:cku-projekty@wp.pl">cku-projekty@wp.pl</a></li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png"> <a href="https://www.facebook.com/senioractiveliving/">Facebook</a></li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon-w.png"> <a href="#">Instagram</a></li>
@@ -134,7 +133,7 @@ endif;
                         <div class="site__footer__content">
                             <div class="site-footer__content__item">
                                 <div class="site-footer__content_item_title">
-                                    Partners
+                                    Partneři
                                 </div>
                                 <div class="site-footer__content_item_desc">
                                     <ul>
@@ -165,7 +164,7 @@ endif;
                 </div>
             </div>
             <div class="site-footer__rights">
-                <span>Copyright © 2020 Project Seal</span>
+                <span>Autorská práva © 2020 Project Seal</span>
             </div>
         </footer>
         <?php wp_footer(); ?>

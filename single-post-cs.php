@@ -81,7 +81,7 @@ if( have_posts() ):
                                 <?php the_post_thumbnail('medium');?>
                                 <?php the_content(); ?>
                             <p>
-                                <a href="https://sealproject.eu/category/news-cs/"><strong>&laquo Zadní</strong></a>
+                                <a href="https://sealproject.eu/cs/category/news-cs/"><strong>&laquo Zadní</strong></a>
                             </p>
                         </article>
                     </div>
