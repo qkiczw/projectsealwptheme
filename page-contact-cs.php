@@ -1,7 +1,7 @@
 <?php 
 
     /*
-    Template Name: Results CS
+    Template Name: Contact CS
     */
 
 ?>
@@ -20,7 +20,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); ?>
     </head>
-
     <body>
          <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
@@ -48,7 +47,7 @@
             </nav>
             <div class="header__hero">
                 <div class="header__hero__content">
-                    <h1 class="header__hero__content__title">Výsledky naší práce</h1>
+                    <h1 class="header__hero__content__title">Kontaktujte nás</h1>
                     <div class="header__hero__content__arrow">
                         <a href="#main-content"><img src="<?php echo get_template_directory_uri(); ?>/img/arrows-down-w.png" class="img-fluid"></a>
                     </div>
@@ -84,9 +83,8 @@ if( have_posts() ):
 endif;
     
 ?>
-
         <footer class="site-footer">
-            <div class="container">
+        <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3 site-footer__container"> 
                         <div class="site__footer__content">

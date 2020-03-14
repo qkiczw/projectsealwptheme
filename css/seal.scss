@@ -920,10 +920,13 @@ section:last-child{
                 .header__nav__items__desktop{
                     display: block;
                     .menu-main-menu-en-container{
-                        @include polyLang-style
+                        @include polyLang-style;
                     }
                     .menu-main-menu-pl-container{
-                        @include polyLang-style
+                        @include polyLang-style;
+                    }
+                    .menu-main-menu-cs-container{
+                        @include polyLang-style;
                     }
                 }
             }
@@ -977,6 +980,7 @@ section:last-child{
         }
         
     }
+      
     .header-subpage{
         background-position: 10%;
     }
