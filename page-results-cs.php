@@ -1,7 +1,7 @@
 <?php 
 
     /*
-    Template Name: About Us CS
+    Template Name: Results CS
     */
 
 ?>
@@ -11,7 +11,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
-<html class="no-js" lang="cs"> <!--<![endif]-->
+<html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,10 +22,10 @@
     </head>
 
     <body>
-        <div class="wrapper">
-        <!--[if lt IE 7]>
+         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div class="wrapper">
         <header class="header header-subpage">
             <nav class="header__nav">
                 <div class="header__nav__logo"><a href="https://sealproject.eu"><img src="<?php echo get_template_directory_uri(); ?>/img/nav-logo-color.png" class="img-fluid header__nav__logo__image"></a></div>
@@ -48,7 +48,7 @@
             </nav>
             <div class="header__hero">
                 <div class="header__hero__content">
-                    <h1 class="header__hero__content__title">Přečtěte si více o SEAL</h1>
+                    <h1 class="header__hero__content__title">Výsledky naší práce</h1>
                     <div class="header__hero__content__arrow">
                         <a href="#main-content"><img src="<?php echo get_template_directory_uri(); ?>/img/arrows-down-w.png" class="img-fluid"></a>
                     </div>
@@ -81,8 +81,10 @@ if( have_posts() ):
     </main>
     
     <?php endwhile;
-endif; 
+endif;
+    
 ?>
+
         <footer class="site-footer">
             <div class="container">
                 <div class="row">
