@@ -561,7 +561,7 @@ section:last-child{
                         bottom: 0;
                         background-color: $bgPartnersLinkColor;
                         width: 100%;
-                        transition-duration: 700ms;
+                        transition-duration: 500ms;
                         transform: translateY(60px);
                         .partners__row_partner__link-area_title{
                             text-transform: uppercase;
@@ -577,7 +577,7 @@ section:last-child{
                             padding: 15px 0;
                             .partners__row_partner__link-area__icons__icon{
                                 max-width: 15%;
-                                transition: all 400ms ease-in-out;
+                                transition: all 200ms ease-in-out;
                                 cursor: pointer;
                             }
                             .partners__row_partner__link-area__icons__icon:hover{
