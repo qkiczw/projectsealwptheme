@@ -523,7 +523,6 @@ section:last-child{
             height: 100%;
             left: 1000px;
             opacity: 0;
-            // transition: all 0.7s ease-in;
         }
         .disclaimer{
             position: relative;
@@ -535,9 +534,9 @@ section:last-child{
     .partners{
         position: relative;
         margin-bottom: 0;
-        // background-color: #EEEEEE;
-        background: rgb(210,210,210);
-        background: linear-gradient(225deg, rgba(210,210,210,1) 0%, rgba(121,121,121,1) 80%);
+        background: #c3c3c3;
+        background-image: url("../img/partners_bg.jpg");
+        background-repeat: no-repeat;
         .partners__row{
             opacity: 0;
             .partners__row__partner{
