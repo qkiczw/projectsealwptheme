@@ -931,6 +931,8 @@ section:last-child{
                     }
                     .menu-main-menu-cs-container{
                         @include polyLang-style;
+                    }.menu-main-menu-it-container{
+                        @include polyLang-style;
                     }
                 }
             }
