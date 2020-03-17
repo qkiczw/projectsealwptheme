@@ -57,46 +57,42 @@
             </div>
         </header>
         <!-- End of new test header -->
-    <?php 
-    if( have_posts() ):
-    while( have_posts() ): the_post(); ?>
-    <main id="main-content">
-        <div class="container posts__list">
-            <div class="row post">
-                <div class="col-sm-12 col-lg-3 post__thumbnail">
-                    <?php the_post_thumbnail('medium'); ?>
+        <main id="main-content">
+            <div class="container posts__list">
+                <div class="row">
+                <?php 
+                if( have_posts() ):
+                while( have_posts() ): the_post(); ?>
+                    <article class="post">
+                        <div class="col-sm-12 col-lg-3 post__thumbnail">
+                            <?php the_post_thumbnail('medium'); ?>
+                        </div>
+                        <div class="col-sm-12 col-lg-9 post__content">
+                            <div>
+                                <h3 class="post__title"><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                            </div>
+                            <div class="post__content__short">
+                                <?php the_excerpt() ?>
+                            </div>
+                            <div class="post__content_full-view">
+                                <a href="<?php the_permalink() ?>" class="post__btn__more">VÍCE  &raquo</a>
+                            </div>
+                        </div>
+                    </article>
+                <?php endwhile; ?>     
                 </div>
-                <div class="col-sm-12 col-lg-9 post__content">
-                    <div class="post__title">
-                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 pagination text-left">
+                        <?php next_posts_link('&#171; Starší příspěvky'); ?>
                     </div>
-                    <div class="post__content__short">
-                        <p><?php the_excerpt() ?></p>
-                    </div>
-                    <div class="post__content_full-view">
-                        <a href="<?php the_permalink() ?>" class="post__btn__more">Více  &raquo</a>
+                    <div class="col-6 pagination text-right">
+                        <?php previous_posts_link('Novější příspěvky &#187;'); ?> 
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <?php next_posts_link( 'Older Entries »', 0 ); ?>
-                </div>
-            </div>
-        </div>
-    </main>
-    
-    <?php endwhile; ?>
-    <div class="container">
-        <div class="row">
-            <div class="col-6 pagination text-left">
-                <?php next_posts_link('&#171; Starší příspěvky'); ?>
-            </div>
-            <div class="col-6 pagination text-right">
-                <?php previous_posts_link('Novější příspěvky &#187;'); ?> 
-            </div>
-        </div>
-    </div>
+        </main>
 <?php
 endif;    
 ?>

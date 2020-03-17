@@ -75,11 +75,6 @@
                     </article>
                 <?php endwhile; ?>             
             </div>
-            <div class="row">
-                <div class="col-6">
-                    <?php next_posts_link( 'Older Entries »', 0 ); ?>
-                </div>
-            </div>
         </div>
     <div class="container">
         <div class="row">

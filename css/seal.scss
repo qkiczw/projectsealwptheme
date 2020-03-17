@@ -229,6 +229,7 @@ section:last-child{
         }
         .post__title{
             margin-top: 10px;
+            font-size: 1.3125em;
             font-weight: bold;
         }
     }
@@ -855,12 +856,7 @@ section:last-child{
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    .post__content{
-        padding: 0;
-        p{
-            margin-bottom: 0;   
-            } 
-        }
+    
     .header{
         background-position: 70% 0%;
         .header__hero{
@@ -885,9 +881,13 @@ section:last-child{
         }
     }
     .post{
+        display: flex;
         .post__content{
            .post__title{
                 margin-top: 0;
+           }
+           .post__content__short > p{
+               margin-bottom: 0;
            }
         }
     }
