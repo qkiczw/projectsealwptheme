@@ -121,7 +121,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/kmem.jpg" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-kmem.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">kmem</h3>
                             <p class="partners__row__partner__description">
@@ -140,7 +140,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/glafka.jpg" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-glafka.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">glafka</h3>
                             <p class="partners__row__partner__description">
@@ -159,7 +159,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/ist.jpg" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-ist.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">ist</h3>
                             <p class="partners__row__partner__description">
@@ -178,7 +178,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-prometeo.png" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-prometeo.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">prometeo</h3>
                             <p class="partners__row__partner__description">
@@ -197,7 +197,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/cku.jpg" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-cku.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">cku sopot</h3>
                             <p class="partners__row__partner__description">
@@ -216,7 +216,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/erasmus.jpg" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-erasmus.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">erasmus+</h3>
                             <p class="partners__row__partner__description">

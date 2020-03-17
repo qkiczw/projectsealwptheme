@@ -121,7 +121,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-kmem.png" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-kmem.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">kmem</h3>
                             <p class="partners__row__partner__description">
@@ -140,11 +140,11 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-glafka.png" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-glafka.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">glafka</h3>
                             <p class="partners__row__partner__description">
-                            GLAFKA jest organizacją edukacyjno-szkoleniową świadczącą usługi edukacyjne i doradcze w zakresie kształcenia ustawicznego ( w tym zawodowego) oraz rozwoju innowacyjnych metod edukacyjnych. Podejmuje działania w obszarze wspierania grup doświadczających wykluczenia społecznego. Prowadzi kursy informatyczne dla seniorów (w wieku 60+).  GLAFKA posiada znaczne doświadczenie w realizacji projektów międzynarodowych, w tym w ramach programu Erasmus +.  
+                            GLAFKA jest organizacją edukacyjno-szkoleniową świadczącą usługi edukacyjne i doradcze w zakresie kształcenia ustawicznego ( w tym zawodowego) oraz rozwoju innowacyjnych metod edukacyjnych. Podejmuje działania w obszarze wspierania grup doświadczających wykluczenia społecznego. Prowadzi kursy informatyczne dla seniorów (w wieku 60+).  GLAFKA posiada znaczne doświadczenie w realizacji projektów międzynarodowych, w tym w ramach programu Erasmus+.  
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -159,11 +159,11 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-istituto.png" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-ist.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">ist</h3>
                             <p class="partners__row__partner__description">
-                                IST jest organizacją pozarządową założoną w celu udzielania wsparcia osobom z niepełnosprawnością sensoryczną oraz prowadzenia szkoleń dla osób z nimi pracujących. Oferta IST obejmuje:  opiekę dzienną, mieszkalnictwo chronione, naukę wspomaganą, warsztaty terapeutyczne (malowanie, gotowani, zajęcia sportowe), edukację zawodową osób niepełnosprawnych oraz szkolenia dla terapeutów/opiekunów. Posiada duże doświadczenie w realizacji projektów w ramach programu Erasmus +.  
+                                IST jest organizacją pozarządową założoną w celu udzielania wsparcia osobom z niepełnosprawnością sensoryczną oraz prowadzenia szkoleń dla osób z nimi pracujących. Oferta IST obejmuje:  opiekę dzienną, mieszkalnictwo chronione, naukę wspomaganą, warsztaty terapeutyczne (malowanie, gotowani, zajęcia sportowe), edukację zawodową osób niepełnosprawnych oraz szkolenia dla terapeutów/opiekunów. Posiada duże doświadczenie w realizacji projektów w ramach programu Erasmus+.  
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -178,11 +178,11 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-prometeo.png" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-prometeo.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">prometeo</h3>
                             <p class="partners__row__partner__description">
-                                PROMETEO jest organizacją pozarządową oferującą wsparcie edukacyjne dla przedstawicieli instytucji działających w obszarze edukacji dorosłych. Organizacja zaangażowana w projekty i programy związane z: rozwojem umiejętności zawodowych uczniów; turystyką; włączeniem społecznym imigrantów i przeciwdziałanie rasizmowi; edukacją osób starszych; rozwojem innowacyjnych narzędzi edukacyjnych. PROMETEO posiada wieloletnie doświadczenie we współpracy międzynarodowej, w tym w projektach programu Erasmus +. 
+                                PROMETEO jest organizacją pozarządową oferującą wsparcie edukacyjne dla przedstawicieli instytucji działających w obszarze edukacji dorosłych. Organizacja zaangażowana w projekty i programy związane z: rozwojem umiejętności zawodowych uczniów; turystyką; włączeniem społecznym imigrantów i przeciwdziałanie rasizmowi; edukacją osób starszych; rozwojem innowacyjnych narzędzi edukacyjnych. PROMETEO posiada wieloletnie doświadczenie we współpracy międzynarodowej, w tym w projektach programu Erasmus+. 
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -197,11 +197,11 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-ckusopot.png" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-cku.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">cku sopot</h3>
                             <p class="partners__row__partner__description">
-                                CKU Sopot jest szkołą publiczną prowadzącą edukację formalną i nieformalną dla dorosłych; obecnie prowadzi kursy zawodowe z zakresu: fotografii, technik informatyk, , grafiki komputerowej, kadry i płace. CKU Sopot prowadzi różnorodne warsztaty dla osób starszych w ramach Uniwersytetu Trzeciego Wieku (około 950 studentów).W strukturach CKU Sopot znajduje się również centrum kształcenia nauczycieli. CKU Sopot posiada wieloletnie doświadczenie w realizacji projektów międzynarodowych, w tym w ramach programu Erasmus +.
+                                CKU Sopot jest szkołą publiczną prowadzącą edukację formalną i nieformalną dla dorosłych; obecnie prowadzi kursy zawodowe z zakresu: fotografii, technik informatyk, , grafiki komputerowej, kadry i płace. CKU Sopot prowadzi różnorodne warsztaty dla osób starszych w ramach Uniwersytetu Trzeciego Wieku (około 950 studentów).W strukturach CKU Sopot znajduje się również centrum kształcenia nauczycieli. CKU Sopot posiada wieloletnie doświadczenie w realizacji projektów międzynarodowych, w tym w ramach programu Erasmus+.
                             </p>
                             <div class="partners__row_partner__link-area">
                                 <div class="partners__row_partner__link-area_title">Links</div>
@@ -216,7 +216,7 @@ if( have_posts() ):
                     <div class="col-lg-4 col-md-6 col-sm-12">
                         <div class="partners__row__partner">
                             <figure class="partners__row__partner_logo">
-                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-erasmus.png" class="img-fluid">
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/partners/partner-logo-erasmus.jpg" class="img-fluid">
                             </figure>
                             <h3 class="partners__row__partner__name">erasmus+</h3>
                             <p class="partners__row__partner__description">
