@@ -94,7 +94,7 @@ if( have_posts() ):
                     <div class="col-md-7">
                         <div class="about-us__short-info">
                             <p>Il progetto SEAL è un'iniziativa internazionale volta a sviluppare strumenti educativi innovativi usati per l'educazione e l'attivazione degli anziani. Alla fine del progetto verrà creata una guida internazionale per l'educazione e l'attivazione degli anziani.</p>
-                            <a href="https://sealproject.eu/about-us-en/" class=" btn--blue">Maggiori informazioni su di noi</a>
+                            <a href="https://sealproject.eu/it/about-us-it/" class=" btn--blue">Maggiori informazioni su di noi</a>
                         </div>
                     </div>
                 </div>
@@ -294,7 +294,7 @@ if( have_posts() ):
                 </div>
             </div>
             <div class="row see-more-galleries">
-                <a href="https://sealproject.eu/en/category/galleries-en/" class="btn--white">Vedi più gallerie</a>
+                <a href="https://sealproject.eu/it/category/galleries-it/" class="btn--white">Vedi più gallerie</a>
             </div> 
         </div> 
         </section> 
