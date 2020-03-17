@@ -1,11 +1,3 @@
-<?php 
-
-    /*
-    Template Name: Contact IT
-    */
-
-?>
-
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -20,8 +12,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); ?>
     </head>
+
     <body>
-         <!--[if lt IE 7]>
+        <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="wrapper">
@@ -47,7 +40,7 @@
             </nav>
             <div class="header__hero">
                 <div class="header__hero__content">
-                    <h1 class="header__hero__content__title">Contattaci</h1>
+                    <h1 class="header__hero__content__title">Controlla cosa è successo o accadrà</h1>
                     <div class="header__hero__content__arrow">
                         <a href="#main-content"><img src="<?php echo get_template_directory_uri(); ?>/img/arrows-down-w.png" class="img-fluid"></a>
                     </div>
@@ -64,24 +57,48 @@
             </div>
         </header>
         <!-- End of new test header -->
-<?php 
-if( have_posts() ):
+    <?php 
+    if( have_posts() ):
     while( have_posts() ): the_post(); ?>
-
     <main id="main-content">
-        <section id="single-page" class="single-page"> 
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 single-page-content"> 
-                        <?php the_content(); ?>
+        <div class="container posts__list">
+            <div class="row post">
+                <div class="col-sm-12 col-lg-3 post__thumbnail">
+                    <?php the_post_thumbnail('medium'); ?>
+                </div>
+                <div class="col-sm-12 col-lg-9 post__content">
+                    <div class="post__title">
+                        <h3><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h3>
+                    </div>
+                    <div class="post__content__short">
+                        <p><?php the_excerpt() ?></p>
+                    </div>
+                    <div class="post__content_full-view">
+                        <a href="<?php the_permalink() ?>" class="post__btn__more">Di Più  &raquo</a>
                     </div>
                 </div>
-        </section>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <?php next_posts_link( 'Older Entries »', 0 ); ?>
+                </div>
+            </div>
+        </div>
     </main>
     
-    <?php endwhile;
-endif;
-    
+    <?php endwhile; ?>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 pagination text-left">
+                <?php next_posts_link('&#171; Post precedenti'); ?>
+            </div>
+            <div class="col-6 pagination text-right">
+                <?php previous_posts_link('Post più recenti &#187;'); ?> 
+            </div>
+        </div>
+    </div>
+<?php
+endif;    
 ?>
         <footer class="site-footer">
             <div class="container">

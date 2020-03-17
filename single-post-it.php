@@ -1,9 +1,8 @@
-<?php 
-
-    /*
-    Template Name: Contact IT
-    */
-
+<?php
+/*
+ * Template Name: Post IT
+ * Template Post Type: post, page, product
+ */
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +19,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); ?>
     </head>
+
     <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
          <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -47,7 +51,7 @@
             </nav>
             <div class="header__hero">
                 <div class="header__hero__content">
-                    <h1 class="header__hero__content__title">Contattaci</h1>
+                    <h1 class="header__hero__content__title">Controlla cosa è successo o accadrà</h1>
                     <div class="header__hero__content__arrow">
                         <a href="#main-content"><img src="<?php echo get_template_directory_uri(); ?>/img/arrows-down-w.png" class="img-fluid"></a>
                     </div>
@@ -64,24 +68,29 @@
             </div>
         </header>
         <!-- End of new test header -->
+
 <?php 
 if( have_posts() ):
     while( have_posts() ): the_post(); ?>
-
-    <main id="main-content">
-        <section id="single-page" class="single-page"> 
+        <main id="main-content">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 single-page-content"> 
-                        <?php the_content(); ?>
+                    <div class="col-lg-12 post-full">
+                        <article>
+                            <h2><?php the_title(); ?></h2>
+                                <?php the_post_thumbnail('medium');?>
+                                <?php the_content(); ?>
+                            <p>
+                                <a href="https://sealproject.eu/cs/category/news-cs/"><strong>&laquo Indietro</strong></a>
+                            </p>
+                        </article>
                     </div>
                 </div>
-        </section>
-    </main>
+            </div>
+        </main>
     
     <?php endwhile;
-endif;
-    
+endif;  
 ?>
         <footer class="site-footer">
             <div class="container">
