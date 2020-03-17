@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Post Gallery EN
+ * Template Name: Post Gallery IT
  * Template Post Type: post, page, product
  */
 ?>
@@ -10,7 +10,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> 
-<html class="no-js" lang="en"> <!--<![endif]-->
+<html class="no-js" lang="it"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,14 +51,14 @@
             </nav>
             <div class="header__hero">
                 <div class="header__hero__content">
-                    <h1 class="header__hero__content__title">Check what happened or will happens</h1>
+                    <h1 class="header__hero__content__title">Foto dei nostri incontri e viaggi</h1>
                     <div class="header__hero__content__arrow">
                         <a href="#main-content"><img src="<?php echo get_template_directory_uri(); ?>/img/arrows-down-w.png" class="img-fluid"></a>
                     </div>
                 </div>  
             </div>
             <div class="header__social-icons">
-                <div class="header__social-icons__title">Find us here <strong>&raquo</strong></div>
+                <div class="header__social-icons__title">Trovaci qui <strong>&raquo</strong></div>
                 <div class="header__social-icons__icon">
                     <img src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png" class="img-fluid header__social-icons__icon__image">
                 </div>
@@ -80,7 +80,7 @@ if( have_posts() ):
                             <h2 class="post-gallery-title"><?php the_title(); ?></h2>
                             <?php the_content(); ?>
                             <p>
-                                <a href="https://sealproject.eu/en/category/galleries-en/"><strong>&laquo Back</strong></a>
+                                <a href="https://sealproject.eu/en/category/galleries-en/"><strong>&laquo Indietro</strong></a>
                             </p>
                         </article>
                     </div>
@@ -91,7 +91,7 @@ if( have_posts() ):
     <?php endwhile;
 endif;  
 ?>
-<footer class="site-footer">
+        <footer class="site-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 col-lg-3 site-footer__container"> 
@@ -101,7 +101,7 @@ endif;
                                     Erasmus+
                                 </div>
                                 <div class="site-footer__content_item_desc">
-                                    <p>SEAL project has been funded with support from the European Commission within Erasmus+ Programme. However European Commission cannot be held responsible for any use which may be made of the information contained therein.</p>
+                                    <p>Il progetto SEAL è stato finanziato con il sostegno della Commissione europea nell'ambito del programma Erasmus +. Tuttavia, la Commissione europea non può essere ritenuta responsabile per qualsiasi uso che possa essere fatto delle informazioni in essa contenute.</p>
                                 </div>
                             </div>
                         </div>
@@ -111,15 +111,15 @@ endif;
                             <div class="site-footer__content__item">
                                 <div class="site-footer__content__item">
                                     <div class="site-footer__content_item_title">
-                                        Contact
+                                        Contatto
                                     </div>
                                     <div class="site-footer__content_item_desc">
                                         <ul>
                                             <li>Centrum Kształcenia Ustawicznego im. Bohaterów Wybrzeża w Sopocie</li>
                                             <li>ul. Tadeusza Kościuszki 22-24</li>
                                             <li>81-704 Sopot</li>
-                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> phone: +48 58 550 33 65</li>
-                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> phone: 791 983 610</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> telefono: +48 58 550 33 65</li>
+                                            <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/phone.png"> telefono: 791 983 610</li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/email.png"> e-mail: <a href="mailto:cku-projekty@wp.pl">cku-projekty@wp.pl</a></li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/fb-icon-w.png"> <a href="https://www.facebook.com/senioractiveliving/">Facebook</a></li>
                                             <li><img class="site-footer__icon" src="<?php echo get_template_directory_uri(); ?>/img/icons/insta-icon-w.png"> <a href="#">Instagram</a></li>
@@ -133,7 +133,7 @@ endif;
                         <div class="site__footer__content">
                             <div class="site-footer__content__item">
                                 <div class="site-footer__content_item_title">
-                                    Partners
+                                    Partner
                                 </div>
                                 <div class="site-footer__content_item_desc">
                                     <ul>
