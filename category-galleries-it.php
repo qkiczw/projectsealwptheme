@@ -59,28 +59,28 @@
         <!-- End of new test header -->
     <main id="main-content">
     <div class="container posts-gallery__list">
-            <div class="row post-gallery__row">
-                <?php 
-                if( have_posts() ):
-                while( have_posts() ): the_post(); ?>
-                    <article class="col-sm-12 col-md-6 col-lg-3 post-gallery__item">
-                        <div class="post-gallery__item__thumbnail">
-                            <a href="<?php the_permalink() ?>"> 
-                                <?php the_post_thumbnail('medium_large', array('class' => 'img-fluid post-gallery__item__thumbnail')); ?>
-                            </a>
-                        </div>
-                        <div class="post-gallery__item__link text-center">
-                            <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
-                        </div>
-                    </article>
-                <?php endwhile; ?>             
-            </div>
-            <div class="row">
-                <div class="col-6">
-                    <?php next_posts_link( 'Older Entries »', 0 ); ?>
-                </div>
+        <div class="row post-gallery__row">
+            <?php 
+            if( have_posts() ):
+            while( have_posts() ): the_post(); ?>
+                <article class="col-sm-12 col-md-6 col-lg-3 post-gallery__item">
+                    <div class="post-gallery__item__thumbnail">
+                        <a href="<?php the_permalink() ?>"> 
+                            <?php the_post_thumbnail('medium_large', array('class' => 'img-fluid post-gallery__item__thumbnail')); ?>
+                        </a>
+                    </div>
+                    <div class="post-gallery__item__link text-center">
+                        <a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+                    </div>
+                </article>
+            <?php endwhile; ?>             
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <?php next_posts_link( 'Older Entries »', 0 ); ?>
             </div>
         </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-6 pagination text-left">
