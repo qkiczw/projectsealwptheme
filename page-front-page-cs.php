@@ -94,7 +94,7 @@ if( have_posts() ):
                     <div class="col-md-7">
                         <div class="about-us__short-info">
                             <p>Projekt SEAL je mezinárodní iniciativou zaměřenou na vývoj inovativních vzdělávacích nástrojů pro vzdělávání a aktivaci seniorů. Cílem tohoto projektu se vytvořit mezinárodního průvodce vzděláváním a aktivací seniorů.</p>
-                            <a href="https://sealproject.eu/about-us-en/" class=" btn--blue">Více o nás</a>
+                            <a href="https://sealproject.eu/cs/about-us-cs/" class=" btn--blue">Více o nás</a>
                         </div>
                     </div>
                 </div>
@@ -300,7 +300,7 @@ if( have_posts() ):
                 </div>
             </div>
             <div class="row see-more-galleries">
-                <a href="https://sealproject.eu/en/category/galleries-en/" class="btn--white">Zobrazit více galerií</a>
+                <a href="https://sealproject.eu/cs/category/galleries-cs/" class="btn--white">Zobrazit více galerií</a>
             </div> 
         </div> 
         </section> 

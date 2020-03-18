@@ -94,7 +94,7 @@ if( have_posts() ):
                     <div class="col-md-7">
                         <div class="about-us__short-info">
                             <p>SEAL Projesi, yaşlıların eğitimi ve etkinleştirilmesi için kullanılan yenilikçi eğitim araçları geliştirmeyi amaçlayan uluslararası bir girişimdir. Proje sonunda yaşlılar için uluslararası bir eğitim ve etkinleştirme kılavuzu oluşturulacak.</p>
-                            <a href="https://sealproject.eu/about-us-en/" class=" btn--blue">Hakkımızda daha fazlası</a>
+                            <a href="https://sealproject.eu/tr/about-us-tr/" class=" btn--blue">Hakkımızda daha fazlası</a>
                         </div>
                     </div>
                 </div>
@@ -294,7 +294,7 @@ if( have_posts() ):
                 </div>
             </div>
             <div class="row see-more-galleries">
-                <a href="https://sealproject.eu/en/category/galleries-en/" class="btn--white">Daha fazla galeri görün</a>
+                <a href="https://sealproject.eu/tr/category/galleries-tr/" class="btn--white">Daha fazla galeri görün</a>
             </div> 
         </div> 
         </section> 
