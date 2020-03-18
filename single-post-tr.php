@@ -80,7 +80,7 @@ if( have_posts() ):
                             <h2><?php the_title(); ?></h2>
                                 <?php the_post_thumbnail('medium');?>
                                 <?php the_content(); ?>
-                            <p>
+                            <p class="post-full-backBtn">
                                 <a href="https://sealproject.eu/tr/category/news-tr/"><strong>&laquo Back</strong></a>
                             </p>
                         </article>
