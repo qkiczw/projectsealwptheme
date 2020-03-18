@@ -79,7 +79,7 @@ if( have_posts() ):
                         <article>
                             <h2 class="post-gallery-title"><?php the_title(); ?></h2>
                             <?php the_content(); ?>
-                            <p>
+                            <p class="post-gallery-backBtn">
                                 <a href="https://sealproject.eu/cs/category/galleries-cs/"><strong>&laquo Zadní</strong></a>
                             </p>
                         </article>
