@@ -5,7 +5,7 @@ $fontPrimaryColor: #424242;
 $fontSecondaryColor: #fffffF;
 $linkColor: #2d5294;
 $linkColor--hover: #134191;
-$bgPartnersLinkColor: #6ac04d;
+$bgPartnersLinkColor: #4CAF50;
 
 // Mixines
 @mixin flex-centerXY {
@@ -189,7 +189,7 @@ section{
     .section-title::after{
         content: ' ';
         position: absolute;
-        background: #6ac04d;
+        background: $bgPartnersLinkColor;
         bottom: -10px;
         left: calc(50% - 75px);
         width: 150px;
@@ -595,7 +595,7 @@ section:last-child{
                     .partners__row_partner__link-area::before {
                         content: '';
                         position: absolute;
-                        background-color: #6ac04d;
+                        background-color: $bgPartnersLinkColor;
                         top: -51px;
                         left: 0;
                         right: 0;
