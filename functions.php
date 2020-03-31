@@ -28,3 +28,11 @@ add_theme_support( 'post-formats' );
 
 // Include custom navwalker
 // require_once('bs4navwalker.php');
+
+// Test for disable script and style type in these tags
+add_action(
+    'after_setup_theme',
+    function() {
+        add_theme_support( 'html5', [ 'script', 'style' ] );
+    }
+);
